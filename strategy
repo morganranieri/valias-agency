@@ -1,11 +1,15 @@
 tutable(
-  run
+  capture payment before student is registered
 )
 gravity(
-  "slow down and try again" message is displaying for new users who have no data 
-  turn it into a variable 
-  if the status code was 429, show the message
+  email new user so they know who to contact if any issues
+  v2( 
+    reset password
+    block from editing future days total 
+    if future account value is null, handle this appropriately
+  )
 )
 coming-up(
-
+  record
+  mix
 )
