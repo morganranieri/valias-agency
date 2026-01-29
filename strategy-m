@@ -2,9 +2,8 @@ tutable(
   capture payment before student is registered
 )
 gravity(
-  welcome email to new user with a monitored reply inbox
-  v2( 
-    reset password
+  reset password or welcome email to new user
+  v2(     
     block from editing future days total 
     if future account value is null, handle this appropriately
   )
@@ -16,3 +15,7 @@ coming-up(
   listing: month +3
   listening: month +3
 )
+chess(
+  9-11am help
+)
+monaco()
