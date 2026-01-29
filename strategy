@@ -2,7 +2,7 @@ tutable(
   capture payment before student is registered
 )
 gravity(
-  email new user so they know who to contact if any issues
+  welcome email to new user with a monitored reply inbox
   v2( 
     reset password
     block from editing future days total 
@@ -10,6 +10,9 @@ gravity(
   )
 )
 coming-up(
-  record
-  mix
+  month: Jan
+  mix: month +1 
+  record: month +2
+  listing: month +3
+  listening: month +3
 )
