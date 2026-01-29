@@ -9,8 +9,9 @@ gravity(
   )
 )
 coming-up(
-  print words
-  push apple app 
+  get .radio domain
+  update site
+  push apple app?
   wipe old database records 
   marketing?
   month: Jan
