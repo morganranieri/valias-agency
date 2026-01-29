@@ -9,9 +9,10 @@ gravity(
   )
 )
 coming-up(
-  disable selector 
   print words
   push apple app 
+  wipe old database records 
+  marketing?
   month: Jan
   mix: month +1 
   record: month +2
