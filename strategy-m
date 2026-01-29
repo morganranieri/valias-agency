@@ -9,6 +9,9 @@ gravity(
   )
 )
 coming-up(
+  disable selector 
+  print words
+  push apple app 
   month: Jan
   mix: month +1 
   record: month +2
