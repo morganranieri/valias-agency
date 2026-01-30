@@ -9,16 +9,18 @@ gravity(
   )
 )
 coming-up(
-  get .radio domain
-  update site
-  push apple app?
-  wipe old database records 
-  marketing?
-  month: Jan
-  mix: month +1 
-  record: month +2
-  listing: month +3
-  listening: month +3
+  month: Feb
+  mix: month +1 = Mar
+  record: month +2 = Apr
+  listing: month +3 = May
+  listening: month +3 = May
+  clean: wipe old database records month -2 = Jan
+  backup: program 
+  perhaps build a db and program for running the show
+  marketing(
+    get .radio domain
+    push apple app
+  )
 )
 chess(
   9-11am help
