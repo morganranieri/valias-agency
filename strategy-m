@@ -1,8 +1,13 @@
 tutable(
-  capture payment before student is registered
+  capture payment before student is registered by Mar 1
 )
 gravity(
   reset password or welcome email to new user
+  future(
+    recurring bills
+    debts
+    
+  )
   v2(     
     block from editing future days total 
     if future account value is null, handle this appropriately
@@ -10,7 +15,7 @@ gravity(
 )
 coming-up(
   month: Feb
-  mix: month +1 = Mar
+  mix: >= month +1 = Mar+
   record: month +2 = Apr
   listing: month +3 = May
   listening: month +3 = May
