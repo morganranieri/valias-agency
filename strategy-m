@@ -5,37 +5,34 @@ tutable(
   objective: "capture payment before student is registered by Mar 1",
 
   jobs: (
-    - accept payments
-		- integrate stripe into Chess system 
-		- add payment info/status to reports/registrations
-		- once payment is successful, student is enrolled 
-	- admin management
-		- limit access to /admin 
-	- post registration UI
-	- populate data
-		- schools
-		- programs for term 2 2026
-	- usability
-		- Postgres full text search for autocomplete
-		- error handling 
-			- for validation errors
-	- testing
-	- security code review
-	- serve app
-		- where
-			- heroku ? $$$$$$ ongoing retainer information
-		- update config.action_mailer.smtp_setting
-	- refactoring
-		- signup/students 
-			- remove (Guardian) from "logged in as..." header 
-		- decouple signup layout from where it doesn't make sense
-		- URL/routes for chess ideas 
-		- ask user are you sure? if year in admin program registration form is not in either start or end date of program (nice to have)
+    - enrolment UI
+      - block enrolment until payment is captured 
+      - accept payments
+      - add payment info/status to reports/registrations
+      - once payment is successful, student is enrolled 
+    - post registration UI
+    - populate data
+      - schools
+      - programs for term 2 2026
+    - usability
+      - error handling 
+        - for validation errors
+    - testing
+    - security code review
+    - serve app
+      - where
+        - heroku ? $$$$$$ ongoing retainer information
+      - update config.action_mailer.smtp_setting
+    - refactoring
+      - URL/routes for chess ideas 
+      - ask user are you sure? if year in admin program registration form is not in either start or end date of program (nice to have)
   )
 
   out-of-scope: (
     Move the autocomplete controller from the /signup namespace to /api
     Forgotten password response if user is not registered 
+    Free trials
+    Postgres full text search for autocomplete
   )
 )
 gravity(
