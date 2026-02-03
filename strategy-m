@@ -34,6 +34,10 @@ tutable(
     Free trials
     Postgres full text search for autocomplete
   )
+
+  ideas (
+    compliance
+  )
 )
 gravity(
   reset password or welcome email to new user
