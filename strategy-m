@@ -6,11 +6,12 @@ tutable(
 
   jobs: (
     - enrolment UI
-      - block enrolment until payment is captured 
+      - block enrolment until payment is captured
+        - design in progress 
       - accept payments
-      - add payment info/status to reports/registrations
       - once payment is successful, student is enrolled 
-      - post registration confirmation
+      - post registration confirmation email with reply-to: @chessideas.com.au
+      - add payment info/status to reports/registrations
     - populate data
       - schools
       - programs for term 2 2026
@@ -22,6 +23,7 @@ tutable(
     - serve app
       - where
         - heroku ? $$$$$$ ongoing retainer information
+      - transactional email provider (Postmark / SendGrid / Mailchimp)
       - update config.action_mailer.smtp_setting
     - refactoring
       - URL/routes for chess ideas 
@@ -45,6 +47,10 @@ gravity(
   future(
     recurring bills
     debts    
+  )
+  maintenance(
+    understand the cost of compute 
+    consider charging based on some kind of usage 
   )
   v2(     
     block from editing future days total 
