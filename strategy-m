@@ -38,11 +38,16 @@ tutable(
   )
 
   ideas (
+    timetables
     compliance
+    tenants
   )
 )
 gravity(
-  check out what's live in Heroku 
+  context: get online
+  context: design recurring bills screen
+
+  check out what's live in Heroku (waiting for sqlite to postgres switch)
   reset password or welcome email to new user
   future(
     recurring bills
@@ -61,7 +66,7 @@ coming-up(
   month: Feb
   mix: >= month +1 = Mar+
   record: month +2 = Apr
-  listing: month +3 = May
+  done listing: month +3 = May
   listening: month +3 = May
   clean: wipe old database records month -2 = Jan
   backup: program 
@@ -70,4 +75,12 @@ coming-up(
     get .radio domain
     push apple app
   )
+)
+monaco(
+  nda
+  budget(
+    what gear do i want
+    what gear would I sell 
+  )
+  loan
 )
