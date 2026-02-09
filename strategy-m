@@ -1,11 +1,12 @@
 chess(
-  9-11am help
-  re: microsoft admin access for FluentSMTP, talk to Felix at Intech 
+  1030-1130 help
+  Felix at Intech (microsoft)
 )
 tutable(
   objective: "capture payment before student is registered by Mar 1",
 
   jobs: (
+    - push: 24-26 Feb
     - enrolment UI
       - block enrolment until payment is captured
         - design in progress 
@@ -42,7 +43,18 @@ tutable(
     timetables
     compliance
     tenants
+    attendance
+    3rd party website embedding (
+      Option 1 iframe
+      Option 2 “Widget” (JS + API)
+      Option 3 “Same-site” reverse proxy / custom subdomain 
+    )
   )
+
+  designs (
+    
+  )
+
 )
 gravity(
   context: get online
