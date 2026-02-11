@@ -79,13 +79,13 @@ coming-up(
   month: Feb
   mix: >= month +1 = Mar+
   record: month +2 = Apr
-  done listing: month +3 = May
+  listing: month +3 = May
   listening: month +3 = May
-  clean: wipe old database records month -2 = Jan
+  clean: wipe old database records month -2 = Dec
   backup: program 
   perhaps build a db and program for running the show
   marketing(
-    get .radio domain
+    stickers
     push apple app
   )
 )
