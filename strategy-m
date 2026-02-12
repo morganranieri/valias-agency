@@ -14,7 +14,6 @@ tutable(
       adjust price for student 
       double down this cycle to achieve 
     )
-    updating class lists based on registrations since last report (add registration date to report?)
   )
 
   jobs: (
@@ -71,6 +70,7 @@ tutable(
 )
 gravity(
   context: get online
+    - welcome email 
   context: design recurring bills screen
 
   check out what's live in Heroku (waiting for sqlite to postgres switch)
@@ -82,6 +82,7 @@ gravity(
   maintenance(
     understand the cost of compute per customer
     consider charging based on some kind of usage 
+    make the "slow down and try again" message dependent on error code 429
   )
   v2(     
     block from editing future days total 
