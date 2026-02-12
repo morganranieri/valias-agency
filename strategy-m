@@ -2,6 +2,7 @@ chess(
   1030-1130 help
   Felix at Intech (microsoft)
 )
+
 tutable(
   objective: "capture payment before student is registered by Mar 1",
 
@@ -66,8 +67,8 @@ tutable(
   designs (
     
   )
-
 )
+
 gravity(
   context: get online
     - welcome email 
