@@ -5,8 +5,6 @@ chess(
 tutable(
   objective: "capture payment before student is registered by Mar 1",
 
-
-
   issues: (
     integration and consider post-release support 
     adjustments - either class or student specific(
@@ -97,7 +95,7 @@ coming-up(
   listing: month +3 = May
   listening: month +3 = May
   clean: wipe old database records month -2 = Dec
-  backup: program 
+  backup: quarterly program once reporting is submitted (retain independend tally)
   perhaps build a db and program for running the show
   marketing(
     stickers
@@ -111,4 +109,7 @@ monaco(
     what gear would I sell 
   )
   loan
+)
+databases(
+  Heroku alternative
 )
