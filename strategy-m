@@ -5,11 +5,22 @@ chess(
 tutable(
   objective: "capture payment before student is registered by Mar 1",
 
+  issues: (
+    integration
+    adjustments - either class or student specific(
+      if student specific, happy for the guardian to make the adjustment during enrolment 
+      "will the student miss any sessions due to school organised activities - yes/no"
+      if yes, how many sessions 
+      adjust price for student 
+    )
+  )
+
   jobs: (
     - push: 24-26 Feb
     - enrolment UI
       - block enrolment until payment is captured
         - design in progress 
+          - can add payment method during enrolment 
       - accept payments
       - once payment is successful, student is enrolled 
       - post registration confirmation email with reply-to: @chessideas.com.au
@@ -67,7 +78,7 @@ gravity(
     debts    
   )
   maintenance(
-    understand the cost of compute 
+    understand the cost of compute per customer
     consider charging based on some kind of usage 
   )
   v2(     
