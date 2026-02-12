@@ -5,6 +5,8 @@ chess(
 tutable(
   objective: "capture payment before student is registered by Mar 1",
 
+
+
   issues: (
     integration
     adjustments - either class or student specific(
@@ -12,6 +14,8 @@ tutable(
       "will the student miss any sessions due to school organised activities - yes/no"
       if yes, how many sessions 
       adjust price for student 
+    double down this cycle and consider post-release support 
+    updating class lists based on registrations since last report (add registration date to report?)
     )
   )
 
