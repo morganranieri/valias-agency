@@ -74,7 +74,7 @@ gravity(
     - welcome email 
   context: design recurring bills screen
 
-  check out what's live in Heroku (waiting for sqlite to postgres switch)
+  check out what's live in Heroku (waiting for sqlite to postgres switch - done)
   reset password or welcome email to new user
   future(
     recurring bills
@@ -111,6 +111,9 @@ monaco(
     what gear would I sell 
   )
   loan
+  counter-offer(
+    buy half
+  )
 )
 databases(
   Heroku alternative
