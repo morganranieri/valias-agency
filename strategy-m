@@ -72,7 +72,8 @@ tutable(
 gravity(
   context: get online
     - welcome email 
-  context: design recurring bills screen
+  context: design debts screen
+  context: need a phone number 
 
   check out what's live in Heroku (waiting for sqlite to postgres switch - done)
   reset password or welcome email to new user
@@ -81,9 +82,13 @@ gravity(
     debts    
   )
   maintenance(
-    understand the cost of compute per customer
+    understand the cost of compute per customer (which will change when new complexity is introduced)
     consider charging based on some kind of usage 
     make the "slow down and try again" message dependent on error code 429
+    Long-term solution to rate-limiting (
+      removing the data-fetching logic from the UI code altogether
+    )
+
   )
   v2(     
     block from editing future days total 
