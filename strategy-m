@@ -70,10 +70,10 @@ tutable(
 )
 
 gravity(
-  context: get online
-    - welcome email 
   context: design debts screen
-  context: need a phone number 
+  context: get online
+    - welcome email or password reset
+  context: need a 1300 number
 
   check out what's live in Heroku (waiting for sqlite to postgres switch - done)
   reset password or welcome email to new user
