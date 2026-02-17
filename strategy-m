@@ -8,12 +8,12 @@ tutable(
 
   issues: (
     integration and consider post-release support 
-    adjustments - either class or student specific(
+    * adjustments - either class or student specific(
       if student specific, happy for the guardian to make the adjustment during enrolment 
       "will the student miss any sessions due to school organised activities - yes/no"
       if yes, how many sessions 
       adjust price for student 
-      double down this cycle to achieve 
+      double down this cycle to achieve - if need be 
     )
   )
 
@@ -43,6 +43,8 @@ tutable(
     - refactoring
       - URL/routes for chess ideas 
       - ask user are you sure? if year in admin program registration form is not in either start or end date of program (nice to have)
+      - hiding past enrolments from dashboard and student enrolment page 
+      - removing past enrolments from credit available for request 
   )
 
   out-of-scope: (
@@ -67,6 +69,7 @@ tutable(
   designs (
     
   )
+  
 )
 
 gravity(
