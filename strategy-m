@@ -8,7 +8,7 @@ tutable(
 
   issues: (
     integration and consider post-release support 
-    * adjustments - either class or student specific(
+    * adjustments see: tutable/adjustments_strategy.txt - either class or student specific(
       if student specific, happy for the guardian to make the adjustment during enrolment 
       "will the student miss any sessions due to school organised activities - yes/no"
       if yes, how many sessions 
@@ -33,7 +33,7 @@ tutable(
     - usability
       - error handling 
         - for validation errors
-    - testing
+    - testing 
     - security code review
     - serve app
       - where
@@ -43,8 +43,11 @@ tutable(
     - refactoring
       - URL/routes for chess ideas 
       - ask user are you sure? if year in admin program registration form is not in either start or end date of program (nice to have)
-      - hiding past enrolments from dashboard and student enrolment page 
-      - removing past enrolments from credit available for request 
+      - introduce concept of past enrolments (
+        if the program.end_date is < today
+      )
+      - hide past enrolments from dashboard and student enrolment page 
+      - credit request only available for program enrolments that are not past 
   )
 
   out-of-scope: (
@@ -125,4 +128,19 @@ monaco(
 )
 databases(
   Heroku alternative
+)
+short stories(
+  about an emo programmer
+  with a system that didn't work as he expected
+  behind the scenes was a lot of prople doing a lot of things 
+  the system theory was that people will do better work if they don't know about the harsh realities 
+  who unintentially fed a machine with names of kids who the system flagged for termination
+
+  editor: ffs can you lighten up 
+
+  the story is set in a different world - don't stress 
+
+  editor: any positivity? 
+
+  there was a great music scene
 )

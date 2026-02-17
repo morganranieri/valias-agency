@@ -1,0 +1,21 @@
+Step 1 of many:
+
+Render program_registrations WHERE registered_at != null AND program.end_date > today
+
+Select one - get session cost and stripe payment ID ? 
+
+Form input integer 
+How many sessions will the student miss due to school organised activities?
+Validate: must be less than the number of program.sessions 
+
+---
+
+Step 2: 
+
+Submit a form labelled "Request" with a test amount of $1 
+
+Refund via stripe API - https://docs.stripe.com/api/refunds/create?lang=ruby
+
+Using the Charge ID or PaymentIntent ID from the original payment 
+
+User gets a confirmation
