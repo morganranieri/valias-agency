@@ -76,7 +76,8 @@ tutable(
   )
   quote(
     between first release (April) and end of July
-
+      change (up down stay)
+      amount (by how much)
   )
   designs (
     
@@ -117,11 +118,15 @@ coming-up(
   listing: month +3 = May
   listening: month +3 = May
   clean: wipe old database records month -2 = Dec
-  backup: quarterly program once reporting is submitted (retain independend tally)
+  backup: quarterly program once reporting is submitted (retain independent tally)
+  define: minimum retention for independent royalties (
+    program "Indie Report" 
+    PPCA 3 reports 
+  )
   perhaps build a db and program for running the show
+  make an Indie Report for Jan-Mar 2026
   marketing(
     stickers
-    push apple app
   )
 )
 monaco(
