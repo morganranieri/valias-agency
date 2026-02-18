@@ -1,5 +1,5 @@
 chess(
-  1030-1130 help
+  1030-1130 help - first week of term 
   Felix at Intech (microsoft)
 )
 
@@ -58,17 +58,26 @@ tutable(
   )
 
   ideas (
-    timetables
-    compliance
+    timetables (concept)
+    compliance (concept)
+    2 attendance (valuable)
     tenants
-    attendance
     3rd party website embedding (
-      Option 1 iframe
+      Option 1 iframe (WP?)
       Option 2 “Widget” (JS + API)
       Option 3 “Same-site” reverse proxy / custom subdomain 
     )
+    her ideas(
+      3 online booking system for schools (program creation delegated to schools)
+      4 tournaments (preparation - with shcools - schools taking places, schools submitting team members)
+      1 registration forms (auto generate marketing PDF. with url or code.) 
+      5 subscriptions 
+    )
   )
+  quote(
+    between first release (April) and end of July
 
+  )
   designs (
     
   )
