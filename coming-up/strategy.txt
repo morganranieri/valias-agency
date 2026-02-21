@@ -1,0 +1,18 @@
+coming-up(
+  month: Feb
+  mix: >= month +1 = Mar+
+  record: month +2 = Apr
+  listing: month +3 = May
+  listening: month +3 = May
+  clean: wipe old database records month -2 = Dec
+  backup: quarterly program once reporting is submitted (retain independent tally)
+  define: minimum retention for independent royalties (
+    program "Indie Report" 
+    PPCA 3 reports 
+  )
+  perhaps build a db and program for running the show
+  make an Indie Report for Jan-Mar 2026
+  marketing(
+    stickers
+  )
+)

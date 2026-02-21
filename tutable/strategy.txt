@@ -1,0 +1,78 @@
+objective: "capture payment before student is registered by Mar 1",
+
+issues: (
+  integration and consider post-release support 
+  * adjustments see: tutable/adjustments_strategy.txt - either class or student specific(
+    if student specific, happy for the guardian to make the adjustment during enrolment 
+    "will the student miss any sessions due to school organised activities - yes/no"
+    if yes, how many sessions 
+    adjust price for student 
+    double down this cycle to achieve - if need be 
+  )
+)
+
+jobs: (
+  - push: 24-26 Feb
+  - enrolment UI
+    - block enrolment until payment is captured
+      - design in progress 
+        - can add payment method during enrolment 
+    - accept payments
+    - once payment is successful, student is enrolled 
+    - post registration confirmation email with reply-to: @chessideas.com.au
+    - add payment info/status to reports/registrations
+  - populate data
+    - schools
+    - programs for term 2 2026
+  - usability
+    - error handling 
+      - for validation errors
+  - testing 
+  - security code review
+  - serve app
+    - where
+      - heroku ? $$$$$$ ongoing retainer information
+    - transactional email provider (Postmark / SendGrid / Mailchimp)
+    - update config.action_mailer.smtp_setting
+  - refactoring
+    - URL/routes for chess ideas 
+    - ask user are you sure? if year in admin program registration form is not in either start or end date of program (nice to have)
+    - introduce concept of past enrolments (
+      if the program.end_date is < today
+    )
+    - hide past enrolments from dashboard and student enrolment page 
+    - credit request only available for program enrolments that are not past 
+)
+
+out-of-scope: (
+  Move the autocomplete controller from the /signup namespace to /api
+  Forgotten password response if user is not registered 
+  Free trials
+  Postgres full text search for autocomplete
+)
+
+ideas (
+  timetables (concept)
+  compliance (concept)
+  2 attendance (valuable)
+  tenants
+  3rd party website embedding (
+    Option 1 iframe (WP?)
+    Option 2 “Widget” (JS + API)
+    Option 3 “Same-site” reverse proxy / custom subdomain 
+  )
+  her ideas(
+    3 online booking system for schools (program creation delegated to schools)
+    4 tournaments (preparation - with shcools - schools taking places, schools submitting team members)
+    1 registration forms (auto generate marketing PDF. with url or code.) 
+    5 subscriptions 
+  )
+)
+quote(
+  between first release (April) and end of July
+    change (up down stay)
+    amount (by how much)
+)
+designs (
+  
+)
