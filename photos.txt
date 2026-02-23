@@ -1,0 +1,14 @@
+back up from source (
+  apple photos (
+    sync to mac 
+    download to disk
+  )
+  google photos (
+    download post-honeymoon
+  )
+)
+
+disk (
+  duplicate
+  store
+)
