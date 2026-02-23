@@ -1,4 +1,4 @@
-coming-up(
+coming-up (
   month: Feb
   mix: >= month +1 = Mar+
   record: month +2 = Apr
@@ -12,8 +12,26 @@ coming-up(
   )
   perhaps build a db and program for running the show
   make an Indie Report for Jan-Mar 2026
-  marketing(
+  marketing (
     stickers
+    talk to marketing departments at companies
+    talk to marketing or creative agencies
+  )
+  distribution (
+    push new version to apple store 
+    app for smart cars
+    AM/FM channel
+    android app
   )
   non-explicit track filter on record
+  idea (
+    submit a gig
+    automate processes (
+      duration work
+    )
+  )
+  financial planning (
+    calculate scenario for multiple channels
+  )
+
 )
