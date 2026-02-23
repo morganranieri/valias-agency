@@ -1,0 +1,16 @@
+marketing goals: 
+  - email all current enrolments 
+  - segment by:
+    - school, campus, division, house
+  - keep up to date with Tutable 
+
+operational goals: 
+  - segment by currently enrolled program name
+
+process: 
+  - make unique email list: 2026 Term 1 enrolments
+  - clean school campus divison house 
+  - get data
+  - add school campus division house 
+  - add full_name
+  - upload 

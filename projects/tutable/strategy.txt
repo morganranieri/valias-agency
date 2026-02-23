@@ -9,6 +9,9 @@ issues: (
     adjust price for student 
     double down this cycle to achieve - if need be 
   )
+  email marketing permissions (opt in/out for enrolment reminders)
+  contact for existing students
+  bump classes every year
 )
 
 jobs: (
@@ -67,6 +70,7 @@ ideas (
     1 registration forms (auto generate marketing PDF. with url or code.) 
     5 subscriptions 
   )
+  marketing and communications (or email sharing)
 )
 quote(
   between first release (April) and end of July

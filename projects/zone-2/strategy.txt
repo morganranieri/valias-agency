@@ -1,0 +1,26 @@
+Budget (
+  Capital (
+    Building (superannuation or lease)
+    Infrastructure (investment or loan)
+  )
+  Operating (
+    Must have(
+      Internet
+      Electricity
+      Water 
+    )
+    Nice to have(
+      Coffee
+      Security
+      Waste
+      Cleaning
+    )
+  )
+)
+Locations (
+  Bonbeach
+  Warrandyte
+)
+Funding (
+
+)
