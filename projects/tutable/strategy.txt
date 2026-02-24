@@ -1,14 +1,11 @@
 objective: "capture payment before student is registered by Mar 1",
 
 unresolved issues: (
-  adjustments (
+  feature/session-adjustments (
     double down this cycle to achieve - if need be - but we're in a single invoice cycle - urgh - if we can get away with just a single charge this cycle, we can keep the peace
   )
-  comms (
-    control email marketing permission on signup, from email link and in settings (terminology "enrolment reminders")
-    operational emails for existing students based on a filter
-  )
-  bump classes every year
+  feature/enrolment-reminders
+  increment grade on December 20 every year
 )
 
 resolved issues to be discussed and tested: (
@@ -36,17 +33,13 @@ jobs: (
   - security code review
   - serve app
     - where
-      - heroku ? $$$$$$ ongoing retainer information
+      - heroku ?
     - transactional email provider (Postmark / SendGrid / Mailchimp)
     - update config.action_mailer.smtp_setting
-  - refactoring
+  - refactoring / debt
     - URL/routes for chess ideas 
     - ask user are you sure? if year in admin program registration form is not in either start or end date of program (nice to have)
-    - introduce concept of past enrolments (
-      if the program.end_date is < today
-    )
-    - hide past enrolments from dashboard and student enrolment page 
-    - credit request only available for program enrolments that are not past 
+    - hide past enrolments from dashboard and student enrolment page (if the program.end_date is < today)
 )
 
 out-of-scope: (
@@ -78,12 +71,16 @@ ideas (
   professional photos for marketing homepage (legal on chess url)
   colour scheme update (brighter, bolder)
   FAQs page
+  operational emails for current guardians based on a filter (i.e. change of classroom for tomorrow)
 )
 quote(
   between first release (April) and end of July
-    change (up down stay)
-    amount (by how much)
+    change (stay, down or up)
+    deliverable (
+
+    )
+    payment terms (on completion, or ?)
 )
 designs (
-  
+    
 )

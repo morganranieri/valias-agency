@@ -1,12 +1,14 @@
-alternative design: introduce a pencil icon (or underline) around the # of sessions which reloads the page and asks the adjustment questions. 
+# views/guardian/programs/_program.html.erb 
+introduce a pencil icon (or underline) around the # of sessions which reloads a version of the page including an adjustment form.
 
-benefits: easier to integrate, reduced cost, reduced charge 
-issues: easy to miss (FAQs, post-hoc refunds)
 
-adjustment questions ( 
+
+adjustment form ( 
   "will the student miss any sessions due to school organised activities - yes/no" 
   if yes, how many?
+  apply to update program.total_fee
 )
+
 
 fallback (
   Step 1 of many:
