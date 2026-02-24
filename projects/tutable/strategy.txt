@@ -1,15 +1,17 @@
 objective: "capture payment before student is registered by Mar 1",
 
-issues: (
-  * adjustments see: tutable/adjustments_strategy.txt for student specific - for class specific (
+unresolved issues: (
+  adjustments (
     double down this cycle to achieve - if need be - but we're in a single invoice cycle - urgh - if we can get away with just a single charge this cycle, we can keep the peace
   )
-  email marketing permissions (opt in/out for enrolment reminders)
-  contact for existing students
+  comms (
+    control email marketing permission on signup, from email link and in settings (terminology "enrolment reminders")
+    operational emails for existing students based on a filter
+  )
   bump classes every year
 )
 
-resolved issues to be discussed: (
+resolved issues to be discussed and tested: (
   integration (how to place an ifram - call PK)
   consider post-release support (wear costs during development)
 )
@@ -50,7 +52,7 @@ jobs: (
 out-of-scope: (
   Move the autocomplete controller from the /signup namespace to /api
   Forgotten password response if user is not registered 
-  Free trials
+  Free trials (manual workaround via adjustments for now)
   Postgres full text search for autocomplete
 )
 
@@ -70,6 +72,7 @@ ideas (
     1 registration forms (auto generate marketing PDF. with url or code.) 
     5 subscriptions 
   )
+  class specific adjustments 
   marketing and communications (or email sharing)
   pretty up home page (engage an artist)
   professional photos for marketing homepage (legal on chess url)

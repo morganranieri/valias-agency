@@ -1,4 +1,3 @@
-
 alternative design: introduce a pencil icon (or underline) around the # of sessions which reloads the page and asks the adjustment questions. 
 
 benefits: easier to integrate, reduced cost, reduced charge 
