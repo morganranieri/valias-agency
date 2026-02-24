@@ -1,17 +1,17 @@
 objective: "capture payment before student is registered by Mar 1",
 
 issues: (
-  integration and consider post-release support 
-  * adjustments see: tutable/adjustments_strategy.txt - either class or student specific(
-    if student specific, happy for the guardian to make the adjustment during enrolment 
-    "will the student miss any sessions due to school organised activities - yes/no"
-    if yes, how many sessions 
-    adjust price for student 
-    double down this cycle to achieve - if need be 
+  * adjustments see: tutable/adjustments_strategy.txt for student specific - for class specific (
+    double down this cycle to achieve - if need be - but we're in a single invoice cycle - urgh - if we can get away with just a single charge this cycle, we can keep the peace
   )
   email marketing permissions (opt in/out for enrolment reminders)
   contact for existing students
   bump classes every year
+)
+
+resolved issues to be discussed: (
+  integration (how to place an ifram - call PK)
+  consider post-release support (wear costs during development)
 )
 
 jobs: (

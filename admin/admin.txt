@@ -3,14 +3,13 @@ filing
 invoices
 
 quotes (
-  chess 
+  chess
 )
 
 budget (
   my H1 tax estimate
   project super at end of life
   project annual rise in life insurance
-
 )
 
 printing (

@@ -1,21 +1,34 @@
-Step 1 of many:
 
-Render program_registrations WHERE registered_at != null AND program.end_date > today
+alternative design: introduce a pencil icon (or underline) around the # of sessions which reloads the page and asks the adjustment questions. 
 
-Select one - get session cost and stripe payment ID ? 
+benefits: easier to integrate, reduced cost, reduced charge 
+issues: easy to miss (FAQs, post-hoc refunds)
 
-Form input integer 
-How many sessions will the student miss due to school organised activities?
-Validate: must be less than the number of program.sessions 
+adjustment questions ( 
+  "will the student miss any sessions due to school organised activities - yes/no" 
+  if yes, how many?
+)
 
----
+fallback (
+  Step 1 of many:
 
-Step 2: 
+  Render program_registrations WHERE registered_at != null AND program.end_date > today
 
-Submit a form labelled "Request" with a test amount of $1 
+  Select one - get session cost and stripe payment ID ? 
 
-Refund via stripe API - https://docs.stripe.com/api/refunds/create?lang=ruby
+  Form input integer 
+  How many sessions will the student miss due to school organised activities?
+  Validate: must be less than the number of program.sessions 
 
-Using the Charge ID or PaymentIntent ID from the original payment 
+  ---
 
-User gets a confirmation
+  Step 2: 
+
+  Submit a form labelled "Request" with a test amount of $1 
+
+  Refund via stripe API - https://docs.stripe.com/api/refunds/create?lang=ruby
+
+  Using the Charge ID or PaymentIntent ID from the original payment 
+
+  User gets a confirmation
+)
