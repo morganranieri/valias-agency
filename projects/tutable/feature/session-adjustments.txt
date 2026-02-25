@@ -4,10 +4,23 @@ introduce a pencil icon (or underline) around the # of sessions which reloads a 
 
 
 adjustment form ( 
-  "will the student miss any sessions due to school organised activities - yes/no" 
+  "if the student will miss any sessions due to school organised activities please tell us how many" 
+  if no, 
   if yes, how many?
+  add program reg adjustments by number of session 
   apply to update program.total_fee
 )
+
+
+
+
+
+
+
+
+
+
+
 
 
 fallback (

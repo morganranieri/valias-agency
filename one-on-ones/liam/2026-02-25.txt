@@ -1,0 +1,22 @@
+book a room
+
+tutable (
+  potential integration issue (iframe)
+  potential double down for adding adjustments 
+  stripe integration to be done (
+    tidy up flow behind the scenes
+  )
+  quote next release
+)
+
+gravity (
+  welcome email 
+  how to push v1 of the front-end and point it to Heroku?
+)
+
+any interest in produce boxes? yep
+
+memphis may fire 24th April 
+
+security
+equal shares with chess

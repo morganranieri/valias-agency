@@ -4,6 +4,7 @@ unresolved issues: (
   feature/session-adjustments (
     double down this cycle to achieve - if need be - but we're in a single invoice cycle - urgh - if we can get away with just a single charge this cycle, we can keep the peace
   )
+  
   feature/enrolment-reminders
   increment grade on December 20 every year
 )
@@ -74,12 +75,17 @@ ideas (
   operational emails for current guardians based on a filter (i.e. change of classroom for tomorrow)
 )
 quote(
+  long term value?? 
+  multiple smaller quicker iteration 
   between first release (April) and end of July
-    change (stay, down or up)
+    due: 15 July
+    due: 15 May
+    change (stay or up)
+
     deliverable (
 
     )
-    payment terms (on completion, or ?)
+    payment terms (on completion, or 50/50)
 )
 designs (
     
