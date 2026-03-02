@@ -1,45 +1,39 @@
-ideas (
-  timetables (coupled with attendance)
-  compliance (concept)
-  2 attendance (valuable)
-  tenants
-  3rd party website embedding (
-    Option 1 iframe (WP?)
-    Option 2 “Widget” (JS + API)
-    Option 3 “Same-site” reverse proxy / custom subdomain 
-  )
-  her ideas (
-    3 online booking system for schools (program creation delegated to schools)
-    4 tournaments (preparation - with shcools - schools taking places, schools submitting team members)
-    1 registration forms (auto generate marketing PDF. with url or code.) 
-    5 subscriptions 
-  )
-  class specific adjustments 
-  marketing and communications (or email sharing)
-  pretty up home page (engage an artist)
-  professional photos for marketing homepage (legal on chess url)
-  colour scheme update (brighter, bolder)
-  FAQs page
-  operational emails for current guardians based on a filter (i.e. change of classroom for tomorrow)
+features (
+  flyers
+  attendance
+  school-program-creation
+  repeat-enrolment
+  operational-emails
+  class-adjustments
 )
 
-quote (
-  long term value?? percentage of future value, but this works once we have real revenue, keep in mind for future. 
-  multiple smaller quicker iteration 
-  between first release (April) and end of July
-    
-    due: 15 May
-
-    due: 15 July
-    
-    change (stay or up)
-
-    deliverable (
-
-    )
-    payment terms (on completion, or 50/50)
+questions (
+  to enable tenant control of colour scheme? 
+  do you really want FAQs?
 )
 
-design (
-  if blocked
+workshop (
+  tournaments
+  timetables
+  compliance
+)
+
+art (
+  pencils
+  paper
+  geometric tools
+
+  imagery
+  exciting
+  enticing
+  imagine
+  commission
+  talent permissioned
+)
+
+additional tenants ()
+
+colour (
+  bright
+  bold
 )

@@ -1,8 +1,8 @@
 feature/flyers
 feature/attendance
-maintenance (
-  
-)
-tweaks (
- 
-)
+maintenance ()
+tweaks ()
+workshop (tournaments)
+post release support ()
+due (July 15)
+charge (15k)

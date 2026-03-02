@@ -1,0 +1,5 @@
+  3rd party website embedding (
+    Option 1 iframe (WP?)
+    Option 2 “Widget” (JS + API)
+    Option 3 “Same-site” reverse proxy / custom subdomain 
+  )
