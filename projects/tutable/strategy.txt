@@ -1,57 +1,5 @@
-objective: "capture payment before student is registered by Mar 1",
-
-unresolved issues: (
-  feature/session-adjustments (
-    double down this cycle to achieve - if need be - but we're in a single invoice cycle - urgh - if we can get away with just a single charge this cycle, we can keep the peace
-  )
-  
-  feature/enrolment-reminders
-  increment grade on December 20 every year
-)
-
-resolved issues to be discussed and tested: (
-  integration (how to place an ifram - call PK)
-  consider post-release support (wear costs during development)
-)
-
-jobs: (
-  - push: 24-26 Feb
-  - enrolment UI
-    - block enrolment until payment is captured
-      - design in progress 
-        - can add payment method during enrolment 
-    - accept payments
-    - once payment is successful, student is enrolled 
-    - post registration confirmation email with reply-to: @chessideas.com.au
-    - add payment info/status to reports/registrations
-  - populate data
-    - schools
-    - programs for term 2 2026
-  - usability
-    - error handling 
-      - for validation errors
-  - testing 
-  - security code review
-  - serve app
-    - where
-      - heroku ?
-    - transactional email provider (Postmark / SendGrid / Mailchimp)
-    - update config.action_mailer.smtp_setting
-  - refactoring / debt
-    - URL/routes for chess ideas 
-    - ask user are you sure? if year in admin program registration form is not in either start or end date of program (nice to have)
-    - hide past enrolments from dashboard and student enrolment page (if the program.end_date is < today)
-)
-
-out-of-scope: (
-  Move the autocomplete controller from the /signup namespace to /api
-  Forgotten password response if user is not registered 
-  Free trials (manual workaround via adjustments for now)
-  Postgres full text search for autocomplete
-)
-
 ideas (
-  timetables (concept)
+  timetables (coupled with attendance)
   compliance (concept)
   2 attendance (valuable)
   tenants
@@ -60,7 +8,7 @@ ideas (
     Option 2 “Widget” (JS + API)
     Option 3 “Same-site” reverse proxy / custom subdomain 
   )
-  her ideas(
+  her ideas (
     3 online booking system for schools (program creation delegated to schools)
     4 tournaments (preparation - with shcools - schools taking places, schools submitting team members)
     1 registration forms (auto generate marketing PDF. with url or code.) 
@@ -74,12 +22,16 @@ ideas (
   FAQs page
   operational emails for current guardians based on a filter (i.e. change of classroom for tomorrow)
 )
-quote(
-  long term value?? 
+
+quote (
+  long term value?? percentage of future value, but this works once we have real revenue, keep in mind for future. 
   multiple smaller quicker iteration 
   between first release (April) and end of July
-    due: 15 July
+    
     due: 15 May
+
+    due: 15 July
+    
     change (stay or up)
 
     deliverable (
@@ -87,6 +39,7 @@ quote(
     )
     payment terms (on completion, or 50/50)
 )
-designs (
-    
+
+design (
+  if blocked
 )

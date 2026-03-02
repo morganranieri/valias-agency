@@ -1,0 +1,55 @@
+feature/enrolment-reminders
+feature/session-adjustments
+feature/integration
+
+objective: "capture payment before student is registered by Mar 1",
+
+unresolved issues: (
+  feature/session-adjustments (
+    double down this cycle to achieve - if need be - but we're in a single invoice cycle - urgh - if we can get away with just a single charge this cycle, we can keep the peace
+  )
+  
+  feature/enrolment-reminders
+  increment grade on December 20 every year
+)
+
+resolved issues to be discussed and tested: (
+  integration (how to place an iframe - call PK)
+  consider post-release support (small monthly fee = external expenses * 2)
+)
+
+jobs: (
+  - push: 24-26 Feb
+  - enrolment UI
+    - block enrolment until payment is captured
+      - design in progress 
+        - can add payment method during enrolment 
+    - accept payments
+    - once payment is successful, student is enrolled 
+    - post registration confirmation email with reply-to: @chessideas.com.au
+    - add payment info/status to reports/registrations
+  - populate data
+    - schools
+    - programs for term 2 2026
+  - usability
+    - error handling 
+      - for validation errors
+  - testing 
+  - security code review
+  - serve app
+    - where
+      - heroku ?
+    - transactional email provider (Postmark / SendGrid / Mailchimp)
+    - update config.action_mailer.smtp_setting
+  - refactoring / debt
+    - URL/routes for chess ideas 
+    - ask user are you sure? if year in admin program registration form is not in either start or end date of program (nice to have)
+    - hide past enrolments from dashboard and student enrolment page (if the program.end_date is < today)
+)
+
+out-of-scope: (
+  Move the autocomplete controller from the /signup namespace to /api
+  Forgotten password response if user is not registered 
+  Free trials (manual workaround via adjustments for now)
+  Postgres full text search for autocomplete
+)
