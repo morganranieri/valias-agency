@@ -1,10 +1,10 @@
 coming-up (
-  month: Feb
-  mix: >= month +1 = Mar+
-  record: month +2 = Apr
-  listing: month +3 = May
-  listening: month +3 = May
-  clean: wipe old database records month -2 = Dec
+  month: Mar
+  mix: >= month +1 = Apr+
+  record: month +2 = May
+  listing: month +3 = Jun
+  listening: month +3 = Jun
+  clean: wipe old database records month -2 = Jan
   backup: quarterly program once reporting is submitted (retain independent tally)
   define: minimum retention for independent royalties (
     program "Indie Report" 

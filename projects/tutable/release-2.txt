@@ -1,0 +1,13 @@
+factor in (
+  maintenance
+  new features (
+    12-inch print-friendly PDF with program info
+    attendance (
+      requires tutor program student data to be setup 
+      responsive tutor interface with ability to add prospective student who begin attending
+      admin visibility on tutor progress and program attendance
+      workflow decisions to be formalised (how often to mark - start, middle end? )
+    )
+  )
+  tweaks
+)
