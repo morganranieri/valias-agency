@@ -1,5 +1,6 @@
-  3rd party website embedding (
-    Option 1 iframe (WP?)
+Embed tutable via iframe 
+
+  Other website embedding options (
     Option 2 “Widget” (JS + API)
     Option 3 “Same-site” reverse proxy / custom subdomain 
   )

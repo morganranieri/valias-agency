@@ -1,8 +1,13 @@
-feature/enrolment-reminders
 feature/session-adjustments
+feature/payment-capture
 feature/integration
+feature/enrolment-reminders
+NEW feature/confirmation-emails
 
-objective: "capture payment before student is registered by Mar 1",
+
+objective: "capture payment before student is registered",
+target: March 1
+due: March 15
 
 unresolved issues: (
   feature/session-adjustments (
@@ -14,8 +19,8 @@ unresolved issues: (
 )
 
 resolved issues to be discussed and tested: (
-  integration (how to place an iframe - call PK)
-  consider post-release support (small monthly fee = external expenses * 2)
+  integration (how to place an iframe - call PK - if own domain is mandatory)
+  consider post-release support (small monthly fee = external direct expenses * 2 - for disclosure sake)
 )
 
 jobs: (

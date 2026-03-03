@@ -1,5 +1,4 @@
 set permissions (
   on signup
-  from email link
-  in settings
 )
+

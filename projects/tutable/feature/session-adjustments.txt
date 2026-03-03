@@ -16,13 +16,6 @@ adjustment form (
 
 
 
-
-
-
-
-
-
-
 fallback (
   Step 1 of many:
 
