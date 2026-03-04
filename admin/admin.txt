@@ -1,4 +1,5 @@
 filing (
+  sort inbox
   back up drive
   delete icloud backup
 )
@@ -12,9 +13,8 @@ quotes (
 )
 
 budget (
-  my H1 tax estimate
-  project super at end of life
   project annual rise in life insurance
+  project super at end of life
 )
 
 printing (
