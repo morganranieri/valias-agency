@@ -4,5 +4,47 @@ set permissions (
 
 Checkbox on signup "I don't want to receive emails from Tutable or Chess Ideas with reminders to enrol.  By not checking the box, I agree to be opted in by default."
 
-If true, save on the guardian record
-Add to admin reports (no-enrolment-reminders)
+Save on the guardian record
+Add to admin reports (reminders)
+
+Invert the checkbox to pass true (1) when unchecked (in the controller?) 
+
+
+Add the database column (migration):
+bin/rails g migration AddRemindersToGuardians reminders:boolean
+
+Edit the migration: 
+add_column :guardians, :reminders, :boolean, null: true, default: true
+Add_index :guardians, :reminders
+
+Run it: 
+Bin/rails db:migrate 
+
+Add scope for readability? Example: 
+Scope :let -> { where(reminders: false) } 
+Scope :remind -> { where(reminders: true) } 
+
+Permit the attribute: (expect?)
+Update the controller to allow it through forms
+(Hopefully Optional because am confused) params.require(:guardian).permit(
+(If I broke this, it's in the signup_controller.rb:81)
+
+Update UI:
+<%= f.check_box :reminders %> 
+<%= f.label :reminders, "I don't want to receive emails from Tutable or Chess Ideas with reminders to enrol.  By not checking the box, I agree to be opted in by default." %> 
+
+Invert the checkbox to pass true (1) when unchecked (in the controller?) 
+
+Backfil existing data
+(Might become true with the migration, otherwise probably don't run this to backfil...)
+Guardian.where(reminders: true).where("reminders_at IS NOT NULL").update_all(reminders: false)
+
+Update tests
+Model spec: scopes / behavior
+Request/controller spec: can set it, can't set it if not allowed (for admin jobs)
+System specs: checkbox works 
+Add a regression test for the "default" behavior: new records should be true unless explicitly set
+
+Rollout / deployment checklist 
+Deploy migration + code in a safe order (especially if doing multi-step migrations).
+Confirm not NULL
