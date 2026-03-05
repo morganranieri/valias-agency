@@ -1,0 +1,8 @@
+configure either postmarkapp or mailgun
+
+from: 
+reply-to: @chessideas.com.au
+
+email 1 Welcome to Tutable or Chess Ideas 
+
+email 2 Confirming your child's enrolment 

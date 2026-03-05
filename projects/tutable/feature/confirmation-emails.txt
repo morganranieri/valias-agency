@@ -1,3 +1,0 @@
-on enrolment, the guardian should receive an email, with a reply-to @chessideas.com.au, confirming enrolment. 
-
-setup transactional emails 

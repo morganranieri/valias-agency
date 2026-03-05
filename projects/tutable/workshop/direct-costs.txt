@@ -1,0 +1,5 @@
+operational (transactional) emails:
+- mailchimp (mandrill) - 100-200 / month 
+
+- postmarkapp - $25 / month (good logs but doubles with volume)
+- mailgun - $50 / month (with 5 day log)

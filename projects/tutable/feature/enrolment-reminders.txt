@@ -2,3 +2,7 @@ set permissions (
   on signup
 )
 
+Checkbox on signup "I don't want to receive emails from Tutable or Chess Ideas with reminders to enrol.  By not checking the box, I agree to be opted in by default."
+
+If true, save on the guardian record
+Add to admin reports (no-enrolment-reminders)
