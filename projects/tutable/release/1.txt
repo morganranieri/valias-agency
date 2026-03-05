@@ -12,6 +12,7 @@ target: March 1
 due: March 15
 
 unresolved issues: (
+  where to host? (Heroku, Render, VentraIP, a contact?)
   increment grade on December 20 every year
 )
 
@@ -21,7 +22,6 @@ resolved issues to be discussed and tested: (
 )
 
 jobs: (
-  - push: 24-26 Feb
   - enrolment UI
     - block enrolment until payment is captured
       - design in progress 
