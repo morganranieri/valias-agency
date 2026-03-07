@@ -9,14 +9,17 @@ invoices(
 )
 
 quotes (
-  chess
+  chess release 2
 )
 
 budget (
-  project annual rise in life insurance
-  project super at end of life
+  
 )
 
 printing (
   life insurance information
+)
+
+commitments (
+  tidy up Venus Bay
 )
