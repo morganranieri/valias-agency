@@ -3,3 +3,9 @@ operational (transactional) emails:
 
 - postmarkapp - $25 / month (good logs but doubles with volume)
 - mailgun - $50 / month (with 5 day log)
+
+hosting $200-400 (go live, cover ourselves, hit them with actuals in a month or so, their choice of performance and cost, limit the server improvements)
+
+question for us: 
+- do we hold direct costs and seek other clients to?
+- charge direct costs and retainer for attention 

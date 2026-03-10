@@ -13,7 +13,7 @@ quotes (
 )
 
 budget (
-  
+  reality check
 )
 
 printing (
@@ -22,4 +22,8 @@ printing (
 
 commitments (
   tidy up Venus Bay
+)
+
+comms (
+  book in 1:1s
 )

@@ -4,6 +4,8 @@ feature/integration
 READY-TO-MERGE feature/enrolment-reminders
 NEW feature/transactional-emails
 NEW feature/reset-password
+NEW feature/enrolment-reminders-reporting
+
 
 workshop (direct-costs)
 
