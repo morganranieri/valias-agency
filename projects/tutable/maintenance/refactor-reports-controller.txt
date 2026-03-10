@@ -1,0 +1,2 @@
+Alphabetise columns in the CSV for readabililty
+Make sure joins are efficient for scalability 
