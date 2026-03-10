@@ -1,13 +1,13 @@
 MERGED feature/session-adjustments
 feature/payment-capture
 feature/integration
-READY-TO-MERGE feature/enrolment-reminders
+MERGED feature/enrolment-reminders
+MERGED feature/enrolment-reminders-reporting
 NEW feature/transactional-emails
 NEW feature/reset-password
-NEW feature/enrolment-reminders-reporting
 
 
-workshop (direct-costs)
+workshop ()
 
 objective: "capture payment before student is registered",
 target: March 1

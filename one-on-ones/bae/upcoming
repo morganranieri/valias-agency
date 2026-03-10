@@ -1,4 +1,5 @@
 tutable(
-  hosting costs to be around $200-400 per month, but we will hold off billing on this for a month or two until we see it's usage in reality
-  reports contain program_registered_at value when payment has been processed, can use this for updating class lists
+  reports contain program_registered_at value when payment has been processed, can use this for updating class lists solution (
+    reporting filter out when program_registered_at is NULL 
+  )
 )
