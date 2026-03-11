@@ -1,10 +1,12 @@
-configure postmarkapp
+Configure smtp
+
+Fix timeout issue (:solid_queue)
+
+Test send 
+
 
 from: reception@tutable.au
 reply-to: schools@chessideas.com.au
 
 email 1: Confirming enrolment with [tenant]
 message: We are pleased to confirm your child is now enrolled in [program.name] for [program.term], [program.year].  If you have any questions, please feel free to reply to this email or contact the [tenant] office.
-
-email 2: Password reset request
-message: As requested, please follow this [link] to reset your password.  If you did not request a password reset, you may ignore this email.  

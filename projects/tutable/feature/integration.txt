@@ -1,4 +1,6 @@
-Push to Heroku (who's account?)
-Add DNS record for a subdomain (L) (Direct to Heroku address)
-Redirect registration link to URL (M) (wordpress)
-DNS settings to verify domain for postmarkapp (L)
+Setup staging on Heroku (L)
+Push production to Heroku (L)
+Provide Heroku production URL: https://tutable-2bb536b6aeb8.herokuapp.com
+Add DNS record for "register." Which points to Heroku production (M) 
+Redirect registration link on website to URL: register.chessideas.com.au (M) (wordpress)
+DNS settings to verify domain for postmarkapp (L) - pending as of 2026-03-11 - 15:50

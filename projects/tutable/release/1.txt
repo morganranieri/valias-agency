@@ -4,8 +4,7 @@ feature/integration
 MERGED feature/enrolment-reminders
 MERGED feature/enrolment-reminders-reporting
 NEW feature/transactional-emails
-NEW feature/reset-password
-NEW feature/report-on-paid
+READY-TO-MERGE feature/report-on-paid
 
 
 workshop ()
@@ -15,11 +14,12 @@ target: March 1
 due: March 15
 
 unresolved issues: (
-  where to host? (Heroku, Render, VentraIP, a contact?)
+  where to host? (Heroku, alternative Render)
   increment grade on December 20 every year
 )
 
 resolved issues to be discussed and tested: (
+  DNS (VentraIP)
   integration ()
   consider post-release support (small monthly fee = external direct expenses * 2 - for disclosure sake)
 )
