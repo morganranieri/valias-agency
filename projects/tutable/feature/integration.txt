@@ -1,14 +1,4 @@
-Subdomain to go to a different server 
- add DNS record for a subdomain 
-
-Push for Heroku due to time 
-
-
-On premesis out of scope 
-
-Embed tutable via iframe 
-
-  Other website embedding options (
-    Option 2 “Widget” (JS + API)
-    Option 3 “Same-site” reverse proxy / custom subdomain 
-  )
+Push to Heroku (who's account?)
+Add DNS record for a subdomain (L) (Direct to Heroku address)
+Redirect registration link to URL (M) (wordpress)
+DNS settings to verify domain for postmarkapp (L)

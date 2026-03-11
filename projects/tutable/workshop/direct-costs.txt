@@ -1,11 +1,6 @@
-operational (transactional) emails:
-- mailchimp (mandrill) - 100-200 / month 
-
-- postmarkapp - $25 / month (good logs but doubles with volume)
-- mailgun - $50 / month (with 5 day log)
-
 hosting $200-400 (go live, cover ourselves, hit them with actuals in a month or so, their choice of performance and cost, limit the server improvements)
 
+transactional emails: postmarkapp @ USD$15 / month includes 10,000 + $1.8/1,000 (alternative: mailgun, limitation: need to spend $1.5/month more to handle inbound emails)
 
 question for us: 
 - do we hold direct costs and seek other clients to?
