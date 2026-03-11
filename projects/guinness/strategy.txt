@@ -1,0 +1,25 @@
+Goal (Make her life better)
+Inversion (Make her life less bad)
+Scale (Small, Medium, Big)
+Ideas (
+  House (paint) 
+  Dates (
+    2026-03-25-Wed
+    2026-03-27-Fri
+    2026-03-28-Sat
+    2026-03-29-Sun
+    2026-04-03-Fri - Good Friday (Ranieri family damage control)
+  )
+  Office (zone-2)
+  Work (work)
+  Social (behave)
+  Health (consumption, movement)
+  Entertainment (something nice to focus on, comedy)
+  Rest (sleep, meditation, positive headspace opportunities)
+  Travel (
+    modes (planes, trains, automobiles)
+    next (time (second week of august), with (folks and maybe michael et al))
+  )
+  Freedom (time, money)
+  Her family (help michael find work)
+)

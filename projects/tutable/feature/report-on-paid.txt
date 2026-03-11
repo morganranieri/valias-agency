@@ -1,0 +1,1 @@
+Filter admin/registrations report to include only students WHERE program_registered_at is != NULL

@@ -5,6 +5,7 @@ MERGED feature/enrolment-reminders
 MERGED feature/enrolment-reminders-reporting
 NEW feature/transactional-emails
 NEW feature/reset-password
+NEW feature/report-on-paid
 
 
 workshop ()

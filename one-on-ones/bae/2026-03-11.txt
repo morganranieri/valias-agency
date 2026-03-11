@@ -1,0 +1,9 @@
+registration forms due 2 weeks before term ends
+how admins track payments and collect:
+  - sheet (registration data export) downloaded daily 
+  - sheet (term based payment list) updated
+  - sorted by registration time (new to old) 
+  - sheet (class list) updated
+  - programRegistration.session updated 
+  - level updated (If new) 
+  - student.medical_info updated
