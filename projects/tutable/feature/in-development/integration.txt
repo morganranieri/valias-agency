@@ -4,3 +4,5 @@ Provide Heroku production URL: https://tutable-2bb536b6aeb8.herokuapp.com
 Add DNS record for "register." Which points to Heroku production (M) 
 Redirect registration link on website to URL: register.chessideas.com.au (M) (wordpress)
 DNS settings to verify domain for postmarkapp (L) - pending as of 2026-03-11 - 15:50
+
+Forward chessideas.com.au/register to register.chessideas.com.au

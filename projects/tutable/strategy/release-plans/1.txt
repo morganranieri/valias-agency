@@ -1,0 +1,35 @@
+feature/payment-capture
+feature/integration
+MERGED feature/session-adjustments
+MERGED feature/enrolment-reminders
+MERGED feature/enrolment-reminders-reporting
+READY-TO-MERGE feature/transactional-emails
+READY-TO-MERGE feature/report-on-paid
+
+workshop ()
+
+objective: "capture payment before student is registered",
+target: March 1
+due: March 15
+
+jobs: (
+  - clean up GitHub PRs 
+  - update ruby version to make Heroku happy 
+  - favicon update
+  - enrolment UI
+    - block enrolment until payment is captured
+      - design in progress 
+        - can add payment method during enrolment 
+    - accept payments
+    - once payment is successful, student is enrolled 
+    - post registration confirmation email with reply-to: @chessideas.com.au
+    - add payment info/status to reports/registrations
+  - usability
+    - error handling 
+      - for validation errors
+  - testing 
+  - code review
+  - serve app
+    - transactional email provider (Postmark / SendGrid / Mailchimp)
+    - update config.action_mailer.smtp_setting
+)

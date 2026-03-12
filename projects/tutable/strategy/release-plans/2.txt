@@ -1,0 +1,19 @@
+quote(
+  feature/flyers
+  feature/attendance
+  maintenance/styling-framework
+  maintenance/refactor-reports-controller
+  tweaks ( )
+  workshop (tournaments)
+  direct costs covered (until end of July)
+  due (July 15)
+  charge (15k each)
+  terms (paid on completion)
+)
+
+out-of-scope topics from release 1: (
+  Move the autocomplete controller from the /signup namespace to /api
+  Free trials (manual workaround via adjustments for now)
+  Postgres full text search for autocomplete
+  Hide past enrolments from dashboard and student enrolment page (if the program.end_date is < today)
+)

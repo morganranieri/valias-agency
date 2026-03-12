@@ -1,0 +1,7 @@
+hosting $100-400 - Heroku, with Render as alternative  (go live, cover ourselves, hit them with actuals in a month or so, their choice of performance and cost, limit the server improvements)
+
+transactional emails: mailersend (pending approval and price)
+
+transactional email alternatives: postmarkapp @ USD$15 / month includes 10,000 + $1.8/1,000 (alternative: mailgun, limitation: need to spend $1.5/month more to handle inbound emails)
+
+down the line - consider post-release support (small monthly fee = external direct expenses * 2)

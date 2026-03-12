@@ -1,3 +1,11 @@
+Authenticate with mailersend 
+Upgrade mailersend to hobby plan 
+Remove postmark ruby gem 
+Add mailersend credentials to Heroku
+
+
+
+
 Configure smtp
 
 Fix timeout issue (:solid_queue)
@@ -5,8 +13,7 @@ Fix timeout issue (:solid_queue)
 Test send 
 
 
-from: reception@tutable.au
-reply-to: schools@chessideas.com.au
+from: schools@chessideas.com.au
 
-email 1: Confirming enrolment with [tenant]
+email 1: Confirming enrolment
 message: We are pleased to confirm your child is now enrolled in [program.name] for [program.term], [program.year].  If you have any questions, please feel free to reply to this email or contact the [tenant] office.

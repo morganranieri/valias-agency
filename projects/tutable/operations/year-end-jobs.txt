@@ -1,0 +1,14 @@
+Increment student.grade on or around December 20 every year
+
+Grade 1 > Grade 2 
+Grade 2 > Grade 3
+Grade 3 > Grade 4
+Grade 4 > Grade 5
+Grade 5 > Grade 6
+Grade 6 > Year 7
+Year 7 > Year 8
+Year 8 > Year 9
+Year 9 > Year 10
+Year 10 > Year 11
+Year 11 > Year 12
+Year 12 > Graduated

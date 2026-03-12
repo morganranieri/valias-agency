@@ -1,0 +1,56 @@
+operations (
+  additional-tenant
+  direct-costs
+  year-end-jobs
+)
+
+feature (
+  release 2 (
+    flyers
+    attendance
+  )
+  release 3 ()
+  future (
+    class-adjustments
+    enrolment-reminders-v2
+    repeat-enrolment
+    school-program-creation
+    transactional-emails-v2
+  )
+)
+
+workshop (
+  next workshop (
+    tournaments
+  )
+  future workshops (
+    timetables
+    compliance
+  )
+)
+
+art (
+  pencils
+  paper
+  geometric tools
+
+  imagery
+  exciting
+  enticing
+  imagine
+  commission
+  talent permissioned
+)
+
+additional tenants ()
+
+colour (
+  bright
+  bold
+)
+
+client disclosure ()
+
+client questions (
+  do you really want FAQs?
+)
