@@ -1,6 +1,7 @@
 quote(
   feature/flyers
   feature/attendance
+  feature/save-payment-methods
   maintenance/styling-framework
   maintenance/refactor-reports-controller
   tweaks ( )

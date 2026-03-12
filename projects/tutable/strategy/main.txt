@@ -4,6 +4,12 @@ operations (
   year-end-jobs
 )
 
+maintenance (
+  refactoring-reports-controller
+  styling-framework
+  refactoring-payments-code
+)
+
 feature (
   release 2 (
     flyers
