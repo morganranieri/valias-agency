@@ -1,0 +1,5 @@
+Client wants to focus on a weekday, and ensure the start and end dates are indeed on that day of the week.  If not, user should get a validation error. 
+
+On admin/programs/new Move weekday field above start and end dates. 
+
+Start and end grade should be start and end grade/year.

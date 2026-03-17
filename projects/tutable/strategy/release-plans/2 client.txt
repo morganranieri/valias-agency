@@ -1,12 +1,13 @@
+quote(
   feature/flyers
   feature/attendance
   feature/save-payment-methods
   feature/program-date-validation
-  maintenance/styling-framework
-  maintenance/refactor-reports-controller
+  maintenance
   tweaks ( )
-  workshop (tournaments)
+  workshop (tournaments - or something else?)
   direct costs covered (until end of July)
   due (July 15)
-  charge (15k each)
+  total cost inc GST ($30k)
   terms (paid on completion)
+)

@@ -1,0 +1,1 @@
+Move the autocomplete controller from the /signup namespace to /api

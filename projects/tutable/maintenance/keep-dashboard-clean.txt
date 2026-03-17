@@ -1,0 +1,1 @@
+Hide past enrolments from dashboard and student enrolment page (if the program.end_date is < today)

@@ -7,3 +7,5 @@ attendance (
   admin visibility on tutor progress and program attendance
   workflow decisions to be formalised (how often to mark - start, middle end? )
 )
+
+Include locations if possible
