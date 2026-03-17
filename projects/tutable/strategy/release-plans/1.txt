@@ -6,10 +6,10 @@ MERGED feature/enrolment-reminders-reporting
 MERGED feature/transactional-emails
 MERGED feature/report-on-paid
 
-workshop ()
+workshops ()
 
 objective: "capture payment before student is registered",
 target: March 1
 due: March 15
 
-jobs: ()
+jobs ()

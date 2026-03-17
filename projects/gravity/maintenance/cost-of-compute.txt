@@ -1,0 +1,3 @@
+Monitor and understand the cost of compute per customer, which will change over time, especially when new complexities are introduced. 
+
+Consider charging customers based on usage. 

@@ -1,0 +1,13 @@
+features ()
+
+objective (get online)
+
+workshops ()
+
+jobs (
+  - transactional emails
+  - welcome email
+  - password reset
+  - contact number
+  - setup billing
+)

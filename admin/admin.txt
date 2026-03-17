@@ -1,7 +1,6 @@
 filing (
-  sort inbox
-  back up drive
-  delete icloud backup
+  sort inbox into carry disk
+  backup periodically to 2nd disk
 )
 
 invoices(
@@ -14,7 +13,6 @@ quotes (
 
 budget (
   reality check
-  count transfer opportunities
 )
 
 printing (
@@ -26,9 +24,15 @@ commitments (
 )
 
 comms (
-  book in 1:1s
+  check if any 1:1's required
 )
 
 transfers (
-  stay 2 up 
+  stay in the don't worry
+)
+
+travel (
+  Mia's passport (
+    guarantor 
+  )
 )

@@ -1,0 +1,10 @@
+check out what's live in Heroku (waiting for sqlite to postgres switch - done)
+
+maintenance ( make the "slow down and try again" message dependent on error code 429 (think it's done))
+
+v2(     
+  if future account value is null, handle this appropriately
+)
+
+1:1 
+Long-term idea to solve rate-limiting (removing the data-fetching logic from the UI code altogether (disagree - less secure (yeah and so limitations on how much or what can be changed at once is a safety factor - unless you have a back up and a way to check integrity regularly) and packet size is a factor))
