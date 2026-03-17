@@ -1,15 +1,7 @@
 get release 1 done
 
-check out what's live in Heroku (waiting for sqlite to postgres switch - done)
+check out what's live in Heroku
 
-maintenance ( make the "slow down and try again" message dependent on error code 429 (think it's done))
-
-v2(     
-  if future account value is null, handle this appropriately
-)
-
-Long-term idea to solve rate-limiting (
-  removing the data-fetching logic from the UI code altogether
-)
+v2(if future account value is null, handle this appropriately)
 
 Consider: For PC, an offline application, purchased and downloaded

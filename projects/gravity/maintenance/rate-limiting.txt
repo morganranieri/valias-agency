@@ -1,0 +1,3 @@
+Long-term idea to solve rate-limiting (
+  removing the data-fetching logic from the UI code altogether
+)

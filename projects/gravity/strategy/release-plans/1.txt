@@ -5,9 +5,11 @@ objective (get online)
 workshops ()
 
 jobs (
-  - transactional emails
+  - authenticate domain for transactional emails 
+  - configure smtp in API
   - welcome email
   - password reset
-  - contact number
-  - integrate stripe to app
+  - receive support emails via fastmail ?
+  - update favicon
+  - build and serve flutter app
 )
