@@ -1,0 +1,15 @@
+features (
+  feature/password-reset
+)
+
+objective (get online)
+
+workshops ()
+
+jobs (
+  - build and serve flutter app
+  - update favicon
+  - authenticate domain for transactional emails (think we need to combine SPF records into one)
+  - configure smtp in API
+  - welcome email
+)

@@ -7,12 +7,35 @@ invoices(
   
 )
 
+insurance (
+  section out tech support so you can burn it down if you need to 
+)
+
+tax(
+  refactor Budget/Tax Deductions to make sure you've got a process for reconciling Tech Support and not over/underpaying 
+  process (
+    expense goes into the list 
+    if it's going to be non-directly claimed, back it out with another list 
+    put the net of that list back on my deductions 
+    don't allow either list to become unweildy 
+  )
+)
+
 quotes (
-  chess release 2
+  chess release 2 - followup 
+)
+
+costs (
+  home insurance quote from budget direct
+  call Budget Direct and get a quote for 3rd party on the Jazz insurance. 
 )
 
 budget (
   reality check
+)
+
+superannuation (
+  consider choice plus for --- why --- ? 
 )
 
 printing (

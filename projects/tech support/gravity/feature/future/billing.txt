@@ -1,0 +1,8 @@
+A user should, after their two month trial of the service, be blocked from usage unless they have an active membership.
+
+API should record whether user is a current member. 
+
+They should be able to add and remove their payment method from the settings page. 
+
+They should be able to clearly see what the costs will be.
+

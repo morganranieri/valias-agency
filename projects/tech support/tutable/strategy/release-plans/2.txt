@@ -4,8 +4,9 @@
   feature/program-date-validation
   maintenance/styling-framework
   maintenance/refactor-reports-controller
-  tweaks ( )
-  workshop (tournaments)
+  tweaks (
+    admin-delete-programs )
+  workshop ( )
   direct costs covered (until end of July)
   due (July 15)
   charge (15k each)
