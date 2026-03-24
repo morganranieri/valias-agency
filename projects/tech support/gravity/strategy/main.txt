@@ -7,6 +7,4 @@ v2(if future account value is null, handle this appropriately)
 Consider: For PC, an offline application, purchased and downloaded
 
 Design screens for billing
-
-Push current 
-
+- 
