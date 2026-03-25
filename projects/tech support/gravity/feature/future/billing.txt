@@ -1,70 +1,51 @@
-# Work in progress
-
 Context: 
-A user should, after their two month trial of the service, be blocked from usage unless they pay.
+  A user should, after their two month trial of the service, be blocked from usage unless they pay.
 
-Reqs:
-- user.active-membership (TRUE, FALSE) inferred from user.subscription-due (date)
-- user.in-grace (TRUE, FALSE) inferred from user.grace-until (date)
-- usage block controller / view
+Question:
+  Should payments go via UI->API->Provider or should they go UI->Provider->API ?
 
-user grace-until date (not globally inferred)
+Views:
+  In Settings (
+    membershipScreen (contains the price, terms, opt-in or out)
+    paymentsScreen (add, remove) methods
+    wipeAccountScreen (wipe account)
+  )
 
+Model: 
+  Date user.subscripton-due
+  Date user.grace-until (to be clear, not globally inferred)
 
-Context:
-Conditions for a users active-membership being TRUE
-
-
-Reqs:
-- default state of active-membership is TRUE
-- an active-membership payment happens
-- API needs to be updated with transactions 
-
-Context: 
-Conditions for a users active-membership being IN-GRACE 
-
-
-Reqs: 
-- Daily rake task, to see who has become 63 days since inception and 32 days since last payment and upserts active-membership to IN-GRACE 
-
-Context: 
-Conditions for a users active-membership being FALSE 
+Controllers: 
+  On user signup (
+    set user.subscription-due to be the 28th day of this month plus two months,
+    set user.grace-until to be the 7th day of this month plus three months,
+  )
+  On user membership payment (
+    upsert user.subscription-due to be the 28th day of the existing user.subscription-due month plus one month;
+    upsert user.grace-until to be the 7th day of the updated user.subscription-due month plus one month,
+  )
 
 
-Reqs:
-- Daily rake task, to see who has become 72 days since inception and 41 days since last payment and upserts active-membership to FALSE 
+View: 
+  If (user.subscription-due is in the past and user.grace-until is not in the past) { 
+    show gentleWarningModal (
+      informing them that their membership will be deactivated on $user.grace-until with a link to settings/
+      don't disappear too easily, consider repeating
+      consider triggering a warning email
+    )
+  }
 
-Context: 
-They should be able to add and remove their payment method from the settings page. 
-- via the settings UI, a logged in user can add a credit card to their payment profile
-- via the settings UI, a logged in user can remove a credit card from their payment profile
-Question - payments go via API or direct to provider
+View: 
+  If (user.grace-until is in the past) {
+    show blockerModal (
+      covers each view (days, dashboard, ins, outs) except settings
+      with a link to settings/
+    )
+  }
 
-
-Context: 
-Users should be able to clearly see what the costs will be.
-
-Reqs: 
-- "Membership UI", which contains the price, terms, payment details and couple of options (payments (add, remove), plans (start, stop), wipe account)
-
-
-Context: 
-If the user is overdue, provide a gentle warning modal informing them that their membership will be deactivated on the greater of 41 days since the users last active-membership payment or 72 days since the users account creation.
-
-Reqs:
-- Warning modal in the UI
-- API provides deactivation date
-
-
-Context: 
-Model requires a user.subscripton-due (date) and user.grace-until (date) (not globally inferred).
-
-Reqs: 
-- on user signup, set user.subscription-due to be the 28th day of this month plus two months.
-- on user signup, set user.grace-until to be the 7th day of this month plus three months. 
-- on user membership payment, upsert user.subscription-due to be the 28th day of the existing user.subscription-due month plus one month;
-- on user membership payment, upsert user.grace-until to be the 7th day of the updated user.subscription-due month plus one month.
-
-
-Context: 
-If a payment fails, tell the customer and retry it two days later.  Stop when grace period is over or the customer stops it.
+Controller: 
+  On payment fail (
+    email the customer
+    retry the payment two days later
+    repeat until user.grace-until is past or user turns off their membership 
+  )

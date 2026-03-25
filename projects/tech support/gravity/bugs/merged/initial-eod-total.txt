@@ -1,0 +1,1 @@
+User needs a prompt to enter their initial eod total. 
