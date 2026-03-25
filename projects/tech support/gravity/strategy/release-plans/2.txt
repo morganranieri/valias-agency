@@ -1,7 +1,18 @@
 features (
   feature/billing
-  feature/debts
   feature/future-eod-totals-are-read-only
+  feature/welcome-email
 )
 
-jobs (  )
+operations (
+  front-end-deployment
+)
+
+maintenance (
+  monitor cost-of-compute
+  discuss rate-limiting
+)
+
+jobs ( 
+  update favicon
+ )

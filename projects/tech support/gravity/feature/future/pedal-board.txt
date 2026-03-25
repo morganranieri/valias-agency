@@ -1,5 +1,5 @@
+Refactor Bills and Discretionary. 
+Refactor how these are configured. 
+Create a new type of Out type - recurring bills. 
+
 As a user, I want to be able to select opt-in for various "types of Outs" that I can use.  
-
-As a front-end developer, I want to setup a repeatable structure and process for building "types of Outs"
-
-For example, a user might want a variation to the core way that certain things are managed.  In this way they could sub out one method of Out management for another. 
