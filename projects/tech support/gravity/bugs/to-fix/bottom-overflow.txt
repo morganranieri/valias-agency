@@ -1,0 +1,1 @@
+Scaffold isn't scrolling on home page or settings for a short window 

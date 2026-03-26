@@ -1,0 +1,1 @@
+On login page - when focus is on email field, the field header "email" is cut in half vertically.

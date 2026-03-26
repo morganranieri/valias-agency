@@ -1,1 +1,3 @@
 For ins and outs, can't use the keyboard on either Chrome or Safari on iPhone 12
+
+MR - Trying to flutter run with the hope of seeing the simulator or serving via local network so test the issue locally.  

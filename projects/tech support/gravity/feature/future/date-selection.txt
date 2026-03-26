@@ -1,0 +1,3 @@
+Currently, a user can only see ins and outs that are 28 days from now or 2 days in the past.  
+
+This is intentional as a starting point, and might be a good initial view but we'll want to be able to setup and find Flows that are not in the cycle.

@@ -1,0 +1,95 @@
+Documents saved in local/documents/TaxTrialRun 
+See if you can do this yourself 
+
+Question 3 (
+  C1
+  D9
+  next year E3
+  F1 & F2
+)
+
+Question 4 (
+  blank
+)
+
+Question 5 (
+  blank
+)
+
+Question 6 (
+  Income (
+    b if company is a foreign resident
+    a cash in 
+    c sales from services and good 
+    d partnership income 
+    e trust income
+    x rip rip woodchip
+    f interest income 
+    g income from hiring out stuff
+    h investment income
+    i laundry for fringe benefits
+    q government handouts
+    j asset value changes
+    r balance
+    s can do 
+  )
+  Expenses (
+    b if company is a foreign resident
+    a direct costs 
+    c contractors
+    d superannuation
+    e debts written off
+    f lease local
+    i lease overseas
+    h rent
+    v interest local
+    j interest overseas
+    u royalties
+    w royalties
+    x depreciation
+    y cars
+    z maintenance 
+    g asset value change 
+    s balance
+    q can do
+  )
+  Total profit or loss (
+    t can do 
+  )
+)
+
+Question 7 (
+  g trading stock or assets 
+  m 
+  add (
+    a 
+    u 
+    j 
+    c 
+    e 
+    b 
+    w 
+    d 
+    [subtotal]
+  )
+  less (
+    c 
+    f 
+    u 
+    e 
+    h 
+    i 
+    y (fyi don't include in subtotal)
+    z 
+    n 
+    o 
+    v 
+    q 
+    w 
+    x 
+    r 
+    s 
+    [subtotal]
+  )
+  t 
+)
