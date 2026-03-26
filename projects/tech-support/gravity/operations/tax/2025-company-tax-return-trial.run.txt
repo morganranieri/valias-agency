@@ -1,0 +1,189 @@
+Documents saved in local/documents/TaxTrialRun 
+
+Question 2 (
+  Description: 
+  b - mandatory? 
+)
+
+Question 3 (
+  C1
+  D9
+  next year E3
+  F1 & F2
+)
+
+Question 4 (
+  blank
+)
+
+Question 5 (
+  blank
+)
+
+Question 6 (
+  Income (
+    b if company is a foreign resident
+    a cash in 
+    c sales from services and good 
+    d partnership income 
+    e trust income
+    x rip rip woodchip
+    f interest income 
+    g income from hiring out stuff
+    h investment income
+    i laundry for fringe benefits
+    q government handouts
+    j asset value changes
+    r balance
+    s can do 
+  )
+  Expenses (
+    b if company is a foreign resident
+    a direct costs 
+    c contractors
+    d superannuation
+    e debts written off
+    f lease local
+    i lease overseas
+    h rent
+    v interest local
+    j interest overseas
+    u royalties
+    w royalties
+    x depreciation
+    y cars
+    z maintenance 
+    g asset value change 
+    s balance
+    q can do
+  )
+  Total profit or loss (
+    t can do 
+  )
+)
+
+Item 7 
+Instructions page 108 says: "These items are adjustment for tax purposes to reconcile item 6 - label T Total profit and loss with item 7 - label T Taxable/net income or loss."
+At this item, only T is mandatory.  Therefore, unless you've got extra special deductions - like carried forward tax losses - just shoot straight. 
+Question 7 (
+  g CGT event from trading stock or assets - net gain/loss
+  m - if there's a CGT event, and you have an exemption, a table of exemptions from capital gains tax is on instructions page 114
+  add (
+    a 
+    u 
+    j 
+    c 
+    e 
+    b 
+    w - entertainment and other non-deductable expenses 
+    d 
+    [subtotal] (put L in the code box if this is negative)
+  )
+  less (
+    c 
+    f 
+    u - exemption
+    e 
+    h 
+    i 
+    y (fyi don't include in subtotal)
+    z 
+    n 
+    o 
+    v - exemption 
+    q 
+    w 
+    x 
+    r - if in a previous year the company had a loss, it can be deducted from this year
+    s 
+    [subtotal]
+  )
+  t - ( 
+    taxable net income or loss - can be zero, can be the same as question 6 T.  
+    If it's a loss, put L in the code box.  
+    If the amount here is more than 1, copy it to Label A of the Calculation Statement 
+  )
+)
+
+Question 8 (
+  n - if you're working predominantly in a foreign currency and that's the basis of your return, here you put the conversion rate you're using, rounded to 4 
+  o - functional currency chosen
+  a - trading stock start of year
+  s - direct materials in manufacture 
+  b - trading stock end of year
+  c - people who owe us 
+  d - current assets including people who owe us (probably accessible in under 12 months)
+  e - total assets including brand trademarks if valued
+  f - people we owe for good and services 
+  g - money we owe to over the next 12 months, including people we owe for good and services
+  h - total liabilities 
+  j - average debt position for the year ((opening balance + closing balance) / 2)
+  k - debts forgiven 
+  j - dividend paid with franking credit attached 
+  k - dividend paid without franking credit attached
+  p - franking account opening balance - stay positive.  use unfranked dividends if you need to. 
+  franking account example (
+    start at zero 
+    make 100 profit as a company
+    pay 25 tax on the profit
+    account balance grows (25)
+    pay 25 to shareholder 
+    account balance reduces (0)
+    FYI, company has retained 50
+    pay 25 unfranked to shareholder 
+    company has retanied 25 for next year
+  )  
+  m - franking account close.  If it's negative, leave it blank, lodge Franking account tax return for the year and pay Franking Defecit Tax by 31st July. 
+  x - a = <7.5m for 2025 or 2024
+  y - mandatory when > $1b or a globally significant entity (G1 at item 3)
+  h - (say the company gets franking credits, but they don't have any tax to pay otherwise, they can't get this credit as a refund, instead, the excess credit is written here and then it's divided by the company tax rate to become a tax loss that can be carried forward) 
+  n - loans to associates, with code A 
+  d - salary and wages - but not super, contractors, or reimbursements, code b 
+  q - payments to associates, including super 
+  g - gross foreign income, grossed up by the amount of foreign tax witheld
+  r - gross foreign income, grossed up by the amount of foreign tax witheld, net of expenses (code l for loss)
+  attributed foreign income (
+    b - if you've got income from a controlled entity in a country on the list (Regulation 19 of the Income Tax Assessment 1936 Act) Regulation 2015.
+    u - if you've got income from a controlled entity in a country not on the list (Regulation 19 of the Income Tax Assessment 1936 Act) Regulation 2015.
+    v - foreign income from transferring services with a non-resident trust 
+  )
+  taxation of financial arrangements or TOFA (
+    big finance stuff - $20m plus
+    t - income from financial investments
+    u - losses from financial investments 
+    s - change in value of the instruments held 
+  )
+)
+
+Question 9 (
+  if a small business, don't worry, go to question 10
+)
+
+Question 10 (
+  simple asset write-offs for small business, as long as it's not already listed above.  doesn't quite seem to stack up, so just make sure you're not double dipping. 
+)
+
+Questions 11 to 30 (
+  not applicable
+)
+
+Calculation statement (
+  if there is a taxable income 
+  mandatory fields (
+    a - comes from section 7 label T (if positive), otherwise zero
+    b - same as t1
+    t1 - how much tax you owe on net income (rates in appendix A)
+    t2 - t1 minus non-refundable non-carry forward tax offsets 
+    t3 - t2 minus non-refundable carry forward tax offsets 
+    t4 - t3 minus refundable tax offsets 
+    t5 - tax payable, can't be less than zero, can be zero
+    i - unused amount from refundable tax offsets (e)
+    s - amount due or refundable (if negative)
+  )
+  d - can carry forward any excess here 
+  e - refundable tax offsets 
+  f - franking deffecit tax offsets (if you've got a franking defecit tax liability - which you shouldn't if you didn't go into defecit on the franking account and this require a franking tax return - alas, you might be able to offset this amount against your income tax)
+  k - activity statements (include 5A and reduce by 5B)
+  g - secion 102AAM interest charge
+  h - adjustments for is someone else was witholding our tax
+)

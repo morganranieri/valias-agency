@@ -1,0 +1,5 @@
+Web is borked - register a company and get apple & android apps online (can do one off purchases! But be careful. Or host the logic locally...) 
+
+release 2 
+
+Consider: For the oldies who don't wanna subscribe, an offline PC application, purchased and downloaded..
