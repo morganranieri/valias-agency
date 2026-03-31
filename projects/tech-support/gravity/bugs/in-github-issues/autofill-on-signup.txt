@@ -1,0 +1,4 @@
+Doesn't work for email field 
+Does work for password
+
+in github

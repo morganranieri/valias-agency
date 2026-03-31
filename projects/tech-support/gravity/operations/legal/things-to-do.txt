@@ -1,0 +1,5 @@
+Action: transfer business name from person to company  
+Details: (
+  Pending transfer of business name, register new business name on ASIC Connect using the secure transfer number. 
+  https://register.business.gov.au/registration/dashboard 
+)

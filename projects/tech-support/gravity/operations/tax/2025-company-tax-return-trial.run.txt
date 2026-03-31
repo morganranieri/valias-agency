@@ -1,8 +1,7 @@
-Documents saved in local/documents/TaxTrialRun 
+Documents saved on Carry Disk 
 
 Question 2 (
-  Description: 
-  b - mandatory? 
+  Description of business: 
 )
 
 Question 3 (

@@ -1,0 +1,6 @@
+When filling in a modal form, user should be able to press enter to make it go. 
+
+- figure out where the onPressed logic is 
+- make return/enter = onPressed 
+
+in github

@@ -1,0 +1,44 @@
+Balance (
+  100,
+  July 1 2026
+)
+ 
+Balance (
+  55,
+  Jun 30 2027
+)
+
+Income (
+  100
+)
+
+Expenses (
+  Tax
+  Direct costs (30)
+  Superannuation
+  Lease or Rent
+  Cars 
+  Maintenance 
+  Depreciation (5)
+  Interest
+  Contractors 
+  Debts written off 
+  Other 
+)
+
+Disclosures (
+  Payments to associates inc super (11)
+  Salary exc super, contractors, reimbursements (10)
+  debts
+  outstanding invoices 
+  Entertainment (to back out)
+)
+
+Dividends (
+
+)
+
+Equity (
+  55 + car
+)
+

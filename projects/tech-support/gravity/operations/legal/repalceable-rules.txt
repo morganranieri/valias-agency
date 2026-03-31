@@ -1,0 +1,22 @@
+Without a constitution, the company would be governed by the replaceable rules in the Corporations Act 2001
+
+There's 41 rules 
+
+Rules to check: 
+33a: 254D (preemptive rights - good - could result in effective complete takeover by a majority at a general meeting - if we include other people we could consider our own constitution)
+37: 1072D (mental incapacity - open to interpretation)
+39: 1072G (can say no to register a transfer of shares - any reason)
+24: 249T (quorum 2 members, must be present)
+11: 203C (resolution to remove director)
+12: 203F (resolution to remove managing director)
+13: 204F (directors in charge of secretary)
+3: 198b (2 directors required to make promisory notes)
+4: 198C (directors can give powers to managing director)
+5: 201G (members can appoint a director)
+7: 201J (members can appoint one or more of themselves as managing directors)
+35: 1072A (on death, goes to someone you know - basically, doesn't disappear)
+33b: 254U (can give options)
+34: 254W(2) (can pay dividends) 
+1: 194 (be honest about a conflict of interest and you can still participate)
+
+worth mentioning: shares may chase you but we'll call it a Proprietary Limited company. 
