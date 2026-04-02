@@ -1,0 +1,10 @@
+Among other things...
+
+2026-03-30 angela.113@hotmail.com had an issue registering Tanya Wang.  Payment went through but enrolment remained in pending state. 
+
+LC's assessment (
+  Root cause likely due to the callback to record payments. 
+  It relies too much on the client side loading the full response. 
+  For a long term fix, implement a Stripe webhook to make sure it handles payments consistently and asynchronously.
+  Additionally, maybe a background task to keep things in sync.
+)
