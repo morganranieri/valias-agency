@@ -1,5 +1,21 @@
-Web is borked - register a company and get apple & android apps online (can do one off purchases! But be careful. Or host the logic locally...) 
+Build on ios and get keyboard working 
 
-release 2 
+Test (
+  debug on iPhone 
+)
 
-Consider: For the oldies who don't wanna subscribe, an offline PC application, purchased and downloaded..
+Review (
+  feature/billing for ios compatiblity
+)
+
+Deploy (
+  legal/register-company
+  apple-dev-account
+  feature/billing
+  flutter build ios
+)
+
+Budget (
+  list all the things we're paying for 
+  push out for 3 years 
+)

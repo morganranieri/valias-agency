@@ -1,0 +1,10 @@
+feature/flyers
+feature/program-date-validation
+maybe include? feature/admin-delete-programs
+
+tweaks ( )
+workshop ( )
+direct costs covered (until end of July)
+due (July 15)
+charge (15k each)
+terms (paid on completion)

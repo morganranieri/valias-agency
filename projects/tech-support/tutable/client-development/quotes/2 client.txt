@@ -1,0 +1,9 @@
+quote (
+  feature/flyers
+  feature/program-date-validation  
+  maintenance
+  direct costs covered (until end of July)
+  due (July 15)
+  total cost ($15k)
+  terms (paid on completion)
+)

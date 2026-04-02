@@ -1,0 +1,6 @@
+set permissions (
+  from email link (will need to clean up to put tutable in sync with mailerlite)
+  in settings
+)
+
+keep mailerlite in sync

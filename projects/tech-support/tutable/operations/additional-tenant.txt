@@ -1,5 +1,0 @@
-Other website embedding options (
-    Option 1 iFrame
-    Option 2 “Widget” (JS + API)
-    Option 3 “Same-site” reverse proxy / custom subdomain 
-  )

@@ -1,6 +1,0 @@
-set permissions (
-  from email link
-  in settings
-)
-
-keep mailerlite in sync

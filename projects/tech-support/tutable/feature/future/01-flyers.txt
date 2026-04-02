@@ -1,4 +1,8 @@
-internally called registration forms (generate marketing PDF. with url or code.) 
+flyers will need to communicate the class locations, which is going to involve some free text with option for line breaks. 
+
+
+
+internally called registration forms (generate marketing PDF. with generic url or code.) 
 about 12 inches, printer friendly, unique for the school and/or program 
 
 process (

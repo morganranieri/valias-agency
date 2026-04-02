@@ -1,0 +1,11 @@
+art (
+  pencils
+  paper
+  geometric tools
+  imagery
+  exciting
+  enticing
+  imagine
+  commission
+  talent permissioned
+)

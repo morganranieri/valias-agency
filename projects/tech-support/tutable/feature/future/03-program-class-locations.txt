@@ -3,3 +3,4 @@ Client wants to be able to easily communicate the location of a class to the stu
 Will require assignment of programRegistration.student and program.programClass - I think? 
 
 Client says high priority. 
+

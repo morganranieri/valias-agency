@@ -1,0 +1,45 @@
+Negotiating according to Harvard (
+  Prepare for conversation
+  Understand everyone's interests
+  Craft the right message
+  Work with multiple parties 
+  Disarm agressive negotiators 
+  Choose the best solution
+)
+
+Trying to organise plans for development 
+Separately, trying to not fuck myself in the quoting process 
+Two streams, see how they meet, when they eventually do 
+For now, you can refine plans for development. 
+Whether to think in terms of releases? or features? a release takes a feature and also deals with it's consequences.  
+internally we should think in releases, but will need to sell features.  
+will need to "sell" the features - not at an itemised cost price.  
+how to factor in maintenance?  that's on us.  
+how to communicate the price?  leave a good amount of slack.  
+don't overthink it and resist the urge to depreciate our position.  you're working with people who will take what they can - naturally. 
+
+forgetting the quoting games that we will no-doubt lose 
+how do we want to organise development? 
+
+start with a 
+
+how about a major plan ? 
+
+that would imply we're actually interested in doing this 
+
+still, might help us get the hell out of dodge before we die. 
+
+someone has to be the one doing the hand-waving 
+  a major plan 
+  a set of features 
+  a rosy future 
+
+back to reality
+  an understanding of the problems faced by the people demanding the solutions 
+  sales level features (
+    as a [user],
+    I want to [do an action],
+    so that I can [broader context]
+  )
+  get a commitment that someone's gonna pay for this 
+  or... back yourself or... realise this is a joke and find something better to waste your life on. 

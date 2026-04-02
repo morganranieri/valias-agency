@@ -1,0 +1,1 @@
+If a program has no enrolments - allow an admin to delete the program 

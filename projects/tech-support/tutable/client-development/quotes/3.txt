@@ -1,0 +1,13 @@
+quote(
+  "try to get this to one feature build and don't call it a feature to the client, call it a release and make it sound pretty good? or just do a retainer..."
+  feature/attendance
+  feature/communicating-location
+  feature/save-payment-methods
+
+  tweaks ( )
+  workshop ( )
+  direct costs covered ( )
+  due ( )
+  charge ($45k)
+  terms (paid on completion)
+)

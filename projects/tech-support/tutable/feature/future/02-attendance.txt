@@ -1,0 +1,11 @@
+attendance (
+  tutors (
+    a program has many tutors
+  )
+  requires tutor program student data to be setup (UI and model)
+  checklist for enrolled students with ability to add prospective student who begin attending (yeah maybe not - just get their email and give it to the office)
+  admin visibility on tutor progress and program attendance (X of Y boxes checked)
+  workflow decisions to be formalised (how often to mark - start, middle end? )
+)
+
+Include locations if possible

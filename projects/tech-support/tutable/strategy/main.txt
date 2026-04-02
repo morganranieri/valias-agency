@@ -1,62 +1,46 @@
-operations (
-  additional-tenant
-  direct-costs
-  year-end-jobs
+clarity (
+  get features list < 12 long
+  scope the next few so they're 
+  )
+
+feature (
+  01 flyers
+  02 attendance
+  03 program-class-location
+  04 communicating-location
+  05 save-payment-methods
+  06 class-adjustments
+  07 enrolment-reminders-v2
+  08 repeat-enrolment
+  09 school-program-creation
+  10 transactional-emails-v2
+  11 tutor-compliance-tickets
+  12 postgres-full-text-search-for-autocomplete
+  13 program-date-validation
+  14 admin-delete-program
 )
+
+
 
 maintenance (
   refactoring-reports-controller
   styling-framework
   refactoring-payments-code
+  refactor-move-autocomplete-controller
+  keep-dashboard-clean
 )
 
-feature (
-  release 2 (
-    flyers
-    attendance
-  )
-  release 3 ()
-  future (
-    class-adjustments
-    enrolment-reminders-v2
-    repeat-enrolment
-    school-program-creation
-    transactional-emails-v2
-  )
+operations (
+  direct-costs
+  year-end-jobs
+  support-requests
 )
 
-workshop (
-  next workshop (
-    tournaments
-  )
-  future workshops (
-    timetables
-    compliance
-  )
+research (
+  tournaments
+  FAQs
+  timetabling
+  client questions ()
+  free-trials (keep a spreadsheet)
 )
 
-art (
-  pencils
-  paper
-  geometric tools
-
-  imagery
-  exciting
-  enticing
-  imagine
-  commission
-  talent permissioned
-)
-
-additional tenants ()
-
-colour (
-  bright
-  bold
-)
-
-client disclosure ()
-
-client questions (
-  do you really want FAQs?
-)
