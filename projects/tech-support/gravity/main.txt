@@ -1,0 +1,35 @@
+Target (ios) 
+Redeploy to web?
+updateMessage (
+  if app.current-version is < api.app.latest-verison then show messageWithAction (
+    action: link "https://apps.apple.com/app/id<app-ID>"
+    message: "to continue, please update to the latest version of Gravity via the app store"
+    persist-modal: true,
+  )
+)
+
+Review (
+  feature/billing for ios compatiblity
+)
+
+Test (
+  debug on iPhone 
+)
+
+Communicate product plan 
+
+Once we're stable (
+  Continue building outKind controls
+)
+
+Deploy (
+  legal/register-company
+  apple-dev-account
+  feature/billing
+  flutter build ios
+)
+
+Budget (
+  list all the things we're paying for 
+  push out for 3 years 
+)
