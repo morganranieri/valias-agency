@@ -1,0 +1,7 @@
+updateMessage (
+  if app.current-version is < api.app.latest-verison then show messageWithAction (
+    action: link "https://apps.apple.com/app/id<app-ID>"
+    message: "to continue, please update to the latest version of Gravity via the app store"
+    persist-modal: true,
+  )
+)

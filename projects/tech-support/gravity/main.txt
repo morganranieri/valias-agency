@@ -1,15 +1,10 @@
-Target (ios) 
+Target (deploy to ios) 
+
 Redeploy to web?
-updateMessage (
-  if app.current-version is < api.app.latest-verison then show messageWithAction (
-    action: link "https://apps.apple.com/app/id<app-ID>"
-    message: "to continue, please update to the latest version of Gravity via the app store"
-    persist-modal: true,
-  )
-)
 
 Review (
   feature/billing for ios compatiblity
+  feature/app-updates
 )
 
 Test (
