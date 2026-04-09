@@ -1,11 +1,22 @@
-attendance (
-  tutors (
-    a program has many tutors
-  )
-  requires tutor program student data to be setup (UI and model)
-  checklist for enrolled students with ability to add prospective student who begin attending (yeah maybe not - just get their email and give it to the office)
-  admin visibility on tutor progress and program attendance (X of Y boxes checked)
-  workflow decisions to be formalised (how often to mark - start, middle end? )
+Model (
+  tutors (user account)
+  program.class (has many)
+  program.class.tutors (has many)
+  prorgam.class.student (has many)
+  program.class.student.date.attended (bool)
 )
 
-Include locations if possible
+View (
+  An admin can see a list of students in a program and assign them to a tutor
+  An admin can create a list of tutors 
+  An admin can assign a tutor to a program 
+  An admin can assign a tutor to a program-class
+  A tutor can see a list of students in the program-class that they are assigned to 
+  A tutor can select a session for their program-class and mark the roll (checkboxes with save button)
+  A tutor can open a form to add a student to the program-class list (separate step from marking the roll)
+  An admin can see a summarised report of tutor with high attendance for the term (relative to their program.class.registration count)
+)
+
+Controller (
+  
+)

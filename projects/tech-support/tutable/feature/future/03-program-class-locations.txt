@@ -1,6 +1,23 @@
-Client wants to be able to easily communicate the location of a class to the students/guardians. 
+Need to be able to email the program.class.location to the guardian. 
 
 Will require assignment of programRegistration.student and program.programClass - I think? 
 
-Client says high priority. 
+Sometimes the program is split into multiple classes, which are assigned after the student is enrolled. 
 
+programClassAssignment
+
+is the outcome 
+
+getting a list of guardians based on this programClassAssignment and emailing them a custom message would be beneficial. 
+
+
+Model (
+  programClass.student
+  programClass.location 
+)
+
+View (
+  An admins needs to compose an email and send to all guardians with students in a programClass
+)
+
+Controller 

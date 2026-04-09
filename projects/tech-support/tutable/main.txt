@@ -1,14 +1,15 @@
 clarity (
   get features list < 12 long
-  scope the next few so they're 
+  make em sound good
+  scope the next few so they're good
   )
 
 feature (
   01 flyers
   02 attendance
   03 program-class-location
-  04 communicating-location
-  05 save-payment-methods
+  04 save-payment-methods
+  05 
   06 class-adjustments
   07 enrolment-reminders-v2
   08 repeat-enrolment

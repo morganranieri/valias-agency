@@ -1,1 +1,2 @@
-when a class in a shcool has a known event that means a student will miss a session, the number of sessions for students of that class should be adjusted
+when a class in a shcool has a known event that means a student will miss a session, 
+the number of sessions for students of that class should be adjusted

@@ -1,4 +1,4 @@
-flyers will need to communicate the class locations, which is going to involve some free text with option for line breaks. 
+flyers will need to communicate the possible class locations, which is going to involve some free text with option for line breaks. 
 
 
 
