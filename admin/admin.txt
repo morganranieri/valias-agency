@@ -8,23 +8,31 @@ invoices(
 )
 
 insurance (
-  keep tech-support sectioned out so you can exit gracefully 
-)
-
-tax (
-  prepare for company tax return 
-  fracking accounts (above zero or more paperwork)
-  refactor Budget/Tax Deductions to make sure you've got a process for reconciling Tech Support and not over/underpaying 
-  process (
-    expense goes into the list 
-    if it's going to be non-directly claimed, back it out with another list 
-    put the net of that list back on my deductions 
-    don't allow either list to become unweildy 
+  keep tech-support sectioned out so you can exit gracefully (
+    get a copy of the ASIC company shutdown form and make sure you're well prepared to submit
   )
 )
 
+settle (
+  look at what's going into the forum ledger and move it out to a contained thing when it makes sense (
+    gravity - bank account 
+    tutable - expenses ledger ()
+  )
+)
+
+tax (
+  prepare for company tax return (
+    gravity (
+      main bank account (
+        list of ins and outs
+      )
+    )    
+  )
+  fracking accounts (above zero or more paperwork)
+)
+
 bas file by company (
-  receipts required for GST refunds over $7.5
+  receipts required for GST refunds over $7.5 (for 2027)
 )
 
 forum ledger (
@@ -32,11 +40,12 @@ forum ledger (
 )
 
 quotes (
-  chess release 2 - followup 
+  chess release 2 - followup
 )
 
 costs (
   home insurance quote from budget direct
+  zoos victoria from credit card to utilities
 )
 
 budget (

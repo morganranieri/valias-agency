@@ -1,8 +1,5 @@
 Context: 
-  A user should, after their two month trial of the service, be blocked from usage unless they pay.
-
-Question:
-  Should payments go via UI->API->Provider or should they go UI->Provider->API ?
+  A user should, after their 30 day trial of the service, and after some grace period, be blocked from usage unless they pay.
 
 Views:
   In Settings (
@@ -14,20 +11,21 @@ Views:
 Model: 
   Date user.subscripton-due
   Date user.grace-until (to be clear, not globally inferred)
+  Enum user.membership-status (new-user, trialling, subscribed, in-grace, expired, blocked)
 
 Controllers: 
   On user signup (
-    set user.subscription-due to be the 28th day of this month plus two months,
-    set user.grace-until to be the 7th day of this month plus three months,
+    set user.subscription-due to be due 30 days after;
+    set user.grace-until to be user.subscription-due plus 7 days,
   )
   On user membership payment (
-    upsert user.subscription-due to be the 28th day of the existing user.subscription-due month plus one month;
-    upsert user.grace-until to be the 7th day of the updated user.subscription-due month plus one month,
+    upsert user.subscription-due to be what stripe returns as next payment due date (same day next month);
+    upsert user.grace-until to be the 7 days after whatever stripe returns as next payment due date,
   )
 
 
 View: 
-  If (user.subscription-due is in the past and user.grace-until is not in the past) { 
+  If (user.membership-status == in-grace) { 
     show gentleWarningModal (
       informing them that their membership will be deactivated on $user.grace-until with a link to settings/
       don't disappear too easily, consider repeating
