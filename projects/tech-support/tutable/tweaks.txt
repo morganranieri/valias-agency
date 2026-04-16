@@ -1,4 +1,4 @@
-Delete a child 
-Delete a program
+Delete a child (wtf?)
+Admin can delete a program if no enrolments 
 Search on programs and guardians more reliable (works after every second refresh)
 Show dropdown (prep) for admin/program grades (currenly have to enter 0 for prep)

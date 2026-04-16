@@ -2,10 +2,14 @@ quote: $22.8k
 due: 2026-Jul-15
 approved: no
 
-Question (
+Question for client (
   mark the roll each session?
   how can a student be in the attendance but not paid/enrolled? 
   can you live without notes in the attendance, provided we put in medical info? 
+)
+
+Question for development (
+  should we include the location of the class in the model?  or see how this goes without it and then adapt? 
 )
 
 Scope (

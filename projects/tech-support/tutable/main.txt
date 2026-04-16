@@ -1,24 +1,18 @@
-clarity (
-  get features list < 12 long
-  make em sound good
-  scope the next few so they're good
-  )
+
 
 feature (
   01 flyers
   02 attendance
-  03 program-class-location
-  04 save-payment-methods
-  05 
+  03 school-support
+  04 tournaments
+  05 ongoing-enrolment
   06 class-adjustments
-  07 enrolment-reminders-v2
-  08 repeat-enrolment
-  09 school-program-creation
-  10 transactional-emails-v2
-  11 tutor-compliance-tickets
-  12 postgres-full-text-search-for-autocomplete
-  13 program-date-validation
-  14 admin-delete-program
+  07 email-marketing-best-practice
+  08 admin-email-groups
+  09 program-class-location
+  10 program-date-validation
+  11 postgres-full-text-search-for-autocomplete
+  12 tutor-compliance-tickets
 )
 
 

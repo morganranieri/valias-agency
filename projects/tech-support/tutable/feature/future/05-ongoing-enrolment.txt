@@ -1,0 +1,14 @@
+quote: 
+due: 
+approved: 
+
+Scope (
+  Parents can opt-in to have their enrolment renewed and account charged for subsequent terms 
+  Parents receive a reminder about the upcoming charge, with program details about the term ahead 
+)
+
+Model ()
+
+View ()
+
+Controller ()

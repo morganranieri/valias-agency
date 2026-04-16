@@ -1,0 +1,33 @@
+quote: 
+due: 
+approved: 
+
+Questions (
+  When a school submits a list of competing student names, are they in the tournament or are they invited to the tournament? 
+  What info do admins need to run tournaments? 
+  Should tournaments be more prominent than chess club when the guardian logs in? 
+)
+
+Scope (
+  Eligibility criteria including student specific lists
+  Schools can (
+    sign up to a tournament 
+    reserve space at a tournament
+    join a waitlist for a tournament 
+    submit competing student names by a cutoff time
+  ) 
+  Parents can (
+    see all open tournaments that their students are eligible for - possibly more prominent than programs
+    when their student is enrolled in the tournament, see more details about the tournament 
+  )
+  Admins can (
+    access info they need to run tournaments 
+    Email guardians of students who are registerd for a tournament 
+  )
+)
+
+Model ()
+
+View ()
+
+Controller ()

@@ -1,0 +1,13 @@
+
+Scope (
+  Location can be defined for a program.class 
+  Parents can see where to send their student 
+  Schools can allocate a location for a class 
+  Many reasons for it not to be free text, but will need to remain available for free text before registrations are finalised, as classes cannot be perfectly pre-defined. 
+)
+
+Model ()
+
+View ()
+
+Controller ()

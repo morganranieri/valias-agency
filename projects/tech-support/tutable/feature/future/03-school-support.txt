@@ -1,0 +1,23 @@
+quote: 
+due: 
+approved: 
+
+Questions (
+
+)
+
+Scope (
+  Schools can (
+    Login
+    See their class lists 
+    Book in programs
+    Receive, via email, a flyer (called a registration form)
+  )
+)
+
+
+Model ()
+
+View ()
+
+Controller ()
