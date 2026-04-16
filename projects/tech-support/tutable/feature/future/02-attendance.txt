@@ -1,3 +1,28 @@
+quote: $22.8k 
+due: 2026-Jul-15
+approved: no
+
+Question (
+  mark the roll each session?
+  how can a student be in the attendance but not paid/enrolled? 
+  can you live without notes in the attendance, provided we put in medical info? 
+)
+
+Scope (
+  "Replace the attendance spreadsheet"
+  Tutors login and view classes they are assigned to in the present or upcoming term
+  Tutors select a class and mark attendance for each student at the required frequency
+  A program has a main class
+  Admin creates additional classes for a program (i.e. beginner, advanced)
+  Admin moves students from the main class to another
+  Admin assigns one or more tutors to a class
+  Admin can produce a report on all student attendance (absent, present, null) for a given year and term 
+)
+
+Out of scope (
+  students who aren't enrolled - new student arrived in class - adding them to the roll - best case, get the contact details of the parents and contact them 
+)
+
 Model (
   tutors (user account)
   program.class (has many)
@@ -7,14 +32,24 @@ Model (
 )
 
 View (
-  An admin can see a list of students in a program and assign them to a tutor
-  An admin can create a list of tutors 
-  An admin can assign a tutor to a program 
-  An admin can assign a tutor to a program-class
-  A tutor can see a list of students in the program-class that they are assigned to 
-  A tutor can select a session for their program-class and mark the roll (checkboxes with save button)
-  A tutor can open a form to add a student to the program-class list (separate step from marking the roll)
-  An admin can see a summarised report of tutor with high attendance for the term (relative to their program.class.registration count)
+  admin/tutors/new
+  admin/tutors/edit
+  admin/tutors/delete
+
+  admin/program/class/new
+  admin/program/class/edit
+  admin/program/class/delete
+  admin/program/class/tutors - shows a list of all tutors and user can bump one up into the assigned section
+
+  admin/program/students - with a drop-down next to each student for class allocation
+  
+  tutor/dashboard
+  tutor/classes
+  tutor/classes/1 - can see sessions with dates (which is start date + (7 * session number))
+  tutor/classes/1/session/1 - can see students, medical info, school class/grade and mark the roll (checkbox) as a form that's submitted once. 
+  
+  admin/reports/attendance
+
 )
 
 Controller (

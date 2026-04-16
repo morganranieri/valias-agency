@@ -1,6 +1,20 @@
 Context: 
   A user should, after their 30 day trial of the service, and after some grace period, be blocked from usage unless they pay.
 
+Things that I need to figure out (
+Build a table for the payment methods page with (an options for no payment methods)
+Base it on outs_discs
+Model/card-details (
+	user.id
+	name
+	last_digits
+	exp_month
+	exp_year)
+Then query the API to ask for example data (put example data in)
+Link off and back to the billing page
+)
+
+
 Views:
   In Settings (
     membershipScreen (contains the price, terms, opt-in or out)
@@ -11,7 +25,7 @@ Views:
 Model: 
   Date user.subscripton-due
   Date user.grace-until (to be clear, not globally inferred)
-  Enum user.membership-status (new-user, trialling, subscribed, in-grace, expired, blocked)
+  Enum user.subscription-status (trialling, subscribed, grace, expired)
 
 Controllers: 
   On user signup (

@@ -1,142 +1,161 @@
-flyers will need to communicate the possible class locations, which is going to involve some free text with option for line breaks. 
+quote: $7.2k 
+Due: 2026-Jun-01
+approved: no 
 
-
-
-internally called registration forms (generate marketing PDF. with generic url or code.) 
-about 12 inches, printer friendly, unique for the school and/or program 
-
-process (
-  HTML-to-PDF or Ruby-native PDF generation
-  https://docs.asciidoctor.org/pdf-converter/latest/features/ recommended for marketing
+scope (
+  admin dashboard has a "marketing" link.  
+  Inside, a filter to produce a list of programs.  
+  Each program presents a page that the admin user will to Print to PDF. 
+  Admin/Program form has a rich text field called Location, which supports multiline text. 
+  Design flyer A4 or about 12 inches, somewhat printer friendly
 )
 
-from ChatGPT (
-  Prompt: Heya - if I wanted to build a PDF from a rails app, and wanted to do some advance research on the topic, would you have any pointers for me?
+model (
+  location
+)
+
+view (
+  registration-form
+)
+
+controller (
+  admin/program
+  admin/marketing
+)
+
+out of scope (
+  to further automate the process (
+    HTML-to-PDF or Ruby-native PDF generation
+    https://docs.asciidoctor.org/pdf-converter/latest/features/ recommended for marketing
+  ),
+  from ChatGPT (
+    Prompt: Heya - if I wanted to build a PDF from a rails app, and wanted to do some advance research on the topic, would you have any pointers for me?
 
 
 
-  Absolutely. The big decision is **how you want to author the PDF**, because that determines almost everything else.
+    Absolutely. The big decision is **how you want to author the PDF**, because that determines almost everything else.
 
-  For Rails apps today, the main paths are:
-  **HTML-to-PDF**, where you render a Rails view and convert it to PDF;
-  **Ruby-native PDF generation**, where you build the PDF with a library;
-  and **document-pipeline generation**, where content is authored in a markup format and converted to PDF. Wicked PDF is still the classic Rails HTML option and uses `wkhtmltopdf`; Grover is a newer HTML option built around headless Chrome; Prawn is the long-standing pure-Ruby PDF library; and Asciidoctor PDF is strong for structured documents like reports, manuals, and handbooks. ([GitHub][1])
+    For Rails apps today, the main paths are:
+    **HTML-to-PDF**, where you render a Rails view and convert it to PDF;
+    **Ruby-native PDF generation**, where you build the PDF with a library;
+    and **document-pipeline generation**, where content is authored in a markup format and converted to PDF. Wicked PDF is still the classic Rails HTML option and uses `wkhtmltopdf`; Grover is a newer HTML option built around headless Chrome; Prawn is the long-standing pure-Ruby PDF library; and Asciidoctor PDF is strong for structured documents like reports, manuals, and handbooks. ([GitHub][1])
 
-  My strongest pointer is to **choose by document type, not by gem popularity**:
+    My strongest pointer is to **choose by document type, not by gem popularity**:
 
-  * **Invoices, receipts, labels, certificates, tightly controlled layouts** → look hard at **Prawn**
-  * **“Make this PDF look like our web page / email / admin report”** → start with **Grover** or **Wicked PDF**
-  * **Policies, proposals, guides, long reports, multi-page docs with TOC/front matter** → consider **Asciidoctor PDF** ([GitHub][2])
+    * **Invoices, receipts, labels, certificates, tightly controlled layouts** → look hard at **Prawn**
+    * **“Make this PDF look like our web page / email / admin report”** → start with **Grover** or **Wicked PDF**
+    * **Policies, proposals, guides, long reports, multi-page docs with TOC/front matter** → consider **Asciidoctor PDF** ([GitHub][2])
 
-  A good research plan would be:
+    A good research plan would be:
 
-  **1. Start with the rendering model**
-  Ask: do you want to reuse Rails views/CSS, or do you want a PDF-specific layout system?
-  Wicked PDF lets you stay in the Rails view world and converts HTML via `wkhtmltopdf`. Grover also fits a Rails HTML workflow and can generate PDF/PNG/JPEG from app pages. Prawn is different: you are not “printing HTML”, you are composing the PDF directly in Ruby. ([GitHub][1])
+    **1. Start with the rendering model**
+    Ask: do you want to reuse Rails views/CSS, or do you want a PDF-specific layout system?
+    Wicked PDF lets you stay in the Rails view world and converts HTML via `wkhtmltopdf`. Grover also fits a Rails HTML workflow and can generate PDF/PNG/JPEG from app pages. Prawn is different: you are not “printing HTML”, you are composing the PDF directly in Ruby. ([GitHub][1])
 
-  **2. Research maintenance and platform risk**
-  This matters more than people expect. Wicked PDF itself is established, but it depends on `wkhtmltopdf`, and there has been ongoing community discussion about long-term direction because of that dependency. Grover’s Chrome-based approach is attractive partly because it follows a more modern browser engine. ([GitHub][3])
+    **2. Research maintenance and platform risk**
+    This matters more than people expect. Wicked PDF itself is established, but it depends on `wkhtmltopdf`, and there has been ongoing community discussion about long-term direction because of that dependency. Grover’s Chrome-based approach is attractive partly because it follows a more modern browser engine. ([GitHub][3])
 
-  **3. Research your exact pain points before choosing**
-  Look specifically for:
-  page breaks,
-  headers/footers,
-  custom fonts,
-  charts,
-  backgrounds,
-  Tailwind/modern CSS,
-  JS-rendered content,
-  performance on large batches,
-  and deployment on your hosting stack.
-  For example, Grover issues and examples show people using it with Rails 7.x and modern front-end output, while Wicked PDF has a long history of “HTML looks fine in browser, PDF behaves differently” style edge cases. ([GitHub][4])
+    **3. Research your exact pain points before choosing**
+    Look specifically for:
+    page breaks,
+    headers/footers,
+    custom fonts,
+    charts,
+    backgrounds,
+    Tailwind/modern CSS,
+    JS-rendered content,
+    performance on large batches,
+    and deployment on your hosting stack.
+    For example, Grover issues and examples show people using it with Rails 7.x and modern front-end output, while Wicked PDF has a long history of “HTML looks fine in browser, PDF behaves differently” style edge cases. ([GitHub][4])
 
-  **4. Prototype the same document in two approaches**
-  This is the fastest way to learn. Build one real sample, such as:
+    **4. Prototype the same document in two approaches**
+    This is the fastest way to learn. Build one real sample, such as:
 
-  * an invoice with a table, totals, logo, page numbers
-  * a report with headings, charts, page breaks
-    Then compare:
-    developer effort,
-    visual fidelity,
-    testability,
-    render speed,
-    and deployment complexity.
-    You will usually know very quickly which path is right.
+    * an invoice with a table, totals, logo, page numbers
+    * a report with headings, charts, page breaks
+      Then compare:
+      developer effort,
+      visual fidelity,
+      testability,
+      render speed,
+      and deployment complexity.
+      You will usually know very quickly which path is right.
 
-  My practical recommendation for “advance research” is:
+    My practical recommendation for “advance research” is:
 
-  ### Option A: HTML-first research track
+    ### Option A: HTML-first research track
 
-  Research **Grover vs Wicked PDF** if your instinct is “I want Rails templates and CSS.”
-  Questions to investigate:
+    Research **Grover vs Wicked PDF** if your instinct is “I want Rails templates and CSS.”
+    Questions to investigate:
 
-  * Can it render your current CSS stack cleanly?
-  * How well does it handle pagination?
-  * Do assets, fonts, and absolute/relative URLs behave in production?
-  * What happens in Docker / CI / deployment?
-  * How do you debug failures?
+    * Can it render your current CSS stack cleanly?
+    * How well does it handle pagination?
+    * Do assets, fonts, and absolute/relative URLs behave in production?
+    * What happens in Docker / CI / deployment?
+    * How do you debug failures?
 
-  Useful starting docs:
+    Useful starting docs:
 
-  * Wicked PDF README ([GitHub][1])
-  * Grover README ([GitHub][2])
+    * Wicked PDF README ([GitHub][1])
+    * Grover README ([GitHub][2])
 
-  ### Option B: PDF-first research track
+    ### Option B: PDF-first research track
 
-  Research **Prawn** if your instinct is “I need reliable document generation, not browser printing.”
-  Questions:
+    Research **Prawn** if your instinct is “I need reliable document generation, not browser printing.”
+    Questions:
 
-  * How much custom layout will I need to hand-code?
-  * How painful are tables and repeated headers?
-  * How will design changes be maintained over time?
-  * Do I need pixel-perfect repeatability more than web-like styling?
+    * How much custom layout will I need to hand-code?
+    * How painful are tables and repeated headers?
+    * How will design changes be maintained over time?
+    * Do I need pixel-perfect repeatability more than web-like styling?
 
-  Useful starting doc:
+    Useful starting doc:
 
-  * Prawn README / docs ([GitHub][5])
+    * Prawn README / docs ([GitHub][5])
 
-  ### Option C: document-publishing research track
+    ### Option C: document-publishing research track
 
-  Research **Asciidoctor PDF** if your PDFs are really publications.
-  It has native support for structured documents, theming, TOC, title pages, metadata, SVG, and custom fonts. This can be a much better fit than HTML for polished long-form documents. ([Asciidoctor Docs][6])
+    Research **Asciidoctor PDF** if your PDFs are really publications.
+    It has native support for structured documents, theming, TOC, title pages, metadata, SVG, and custom fonts. This can be a much better fit than HTML for polished long-form documents. ([Asciidoctor Docs][6])
 
-  A few deeper research questions that separate a quick hack from a solid architecture:
+    A few deeper research questions that separate a quick hack from a solid architecture:
 
-  * **Where is the source of truth?**
-    Is the PDF just another presentation of existing Rails data, or is it a formal document with versioning and templates?
+    * **Where is the source of truth?**
+      Is the PDF just another presentation of existing Rails data, or is it a formal document with versioning and templates?
 
-  * **Do you need synchronous generation or background jobs?**
-    Small PDFs can be request-time. Big reports usually want background generation and storage.
+    * **Do you need synchronous generation or background jobs?**
+      Small PDFs can be request-time. Big reports usually want background generation and storage.
 
-  * **Do you need deterministic tests?**
-    HTML-to-PDF can be more brittle than Ruby-native generation. Prawn often gives tighter control, but more custom code.
+    * **Do you need deterministic tests?**
+      HTML-to-PDF can be more brittle than Ruby-native generation. Prawn often gives tighter control, but more custom code.
 
-  * **Will non-developers need to edit templates?**
-    If yes, HTML or AsciiDoc may age better than a Ruby layout DSL.
+    * **Will non-developers need to edit templates?**
+      If yes, HTML or AsciiDoc may age better than a Ruby layout DSL.
 
-  * **Do you need accessibility, archival, signing, or form filling later?**
-    That can affect the choice early.
+    * **Do you need accessibility, archival, signing, or form filling later?**
+      That can affect the choice early.
 
-  My own bias:
+    My own bias:
 
-  * For a **business app that needs decent-looking PDFs quickly**, I’d research **Grover first**, then **Wicked PDF**
-  * For **transactional documents where reliability matters more than web styling**, I’d research **Prawn first**
-  * For **manuals, guides, proposals, board papers, or long reports**, I’d seriously consider **Asciidoctor PDF** ([GitHub][2])
+    * For a **business app that needs decent-looking PDFs quickly**, I’d research **Grover first**, then **Wicked PDF**
+    * For **transactional documents where reliability matters more than web styling**, I’d research **Prawn first**
+    * For **manuals, guides, proposals, board papers, or long reports**, I’d seriously consider **Asciidoctor PDF** ([GitHub][2])
 
-  A very efficient reading list would be:
+    A very efficient reading list would be:
 
-  1. Wicked PDF README
-  2. Grover README
-  3. Prawn README
-  4. Asciidoctor PDF features + theming docs
-  5. A few recent issue threads for whichever two finalists you’re considering, because that’s where you’ll see the real-world pain points. ([GitHub][1])
+    1. Wicked PDF README
+    2. Grover README
+    3. Prawn README
+    4. Asciidoctor PDF features + theming docs
+    5. A few recent issue threads for whichever two finalists you’re considering, because that’s where you’ll see the real-world pain points. ([GitHub][1])
 
-  If you want, I can next give you a **decision matrix for Rails PDFs** with columns like styling fidelity, maintenance, speed, deployment pain, and best use cases.
+    If you want, I can next give you a **decision matrix for Rails PDFs** with columns like styling fidelity, maintenance, speed, deployment pain, and best use cases.
 
-  [1]: https://github.com/mileszs/wicked_pdf/blob/master/README.md?utm_source=chatgpt.com "README.md - mileszs/wicked_pdf"
-  [2]: https://github.com/Studiosity/grover/blob/main/README.md?utm_source=chatgpt.com "grover/README.md at main · Studiosity/grover"
-  [3]: https://github.com/mileszs/wicked_pdf/issues/1081?utm_source=chatgpt.com "Long term plans given the deprecation of wkhtmltopdf?"
-  [4]: https://github.com/Studiosity/grover/issues/249?utm_source=chatgpt.com "Layout not used while using render_to_string · Issue #249"
-  [5]: https://github.com/prawnpdf/prawn?utm_source=chatgpt.com "prawnpdf/prawn: Fast, Nimble PDF Writer for Ruby"
-  [6]: https://docs.asciidoctor.org/pdf-converter/latest/?utm_source=chatgpt.com "Asciidoctor PDF Documentation"
+    [1]: https://github.com/mileszs/wicked_pdf/blob/master/README.md?utm_source=chatgpt.com "README.md - mileszs/wicked_pdf"
+    [2]: https://github.com/Studiosity/grover/blob/main/README.md?utm_source=chatgpt.com "grover/README.md at main · Studiosity/grover"
+    [3]: https://github.com/mileszs/wicked_pdf/issues/1081?utm_source=chatgpt.com "Long term plans given the deprecation of wkhtmltopdf?"
+    [4]: https://github.com/Studiosity/grover/issues/249?utm_source=chatgpt.com "Layout not used while using render_to_string · Issue #249"
+    [5]: https://github.com/prawnpdf/prawn?utm_source=chatgpt.com "prawnpdf/prawn: Fast, Nimble PDF Writer for Ruby"
+    [6]: https://docs.asciidoctor.org/pdf-converter/latest/?utm_source=chatgpt.com "Asciidoctor PDF Documentation"
+  )
 )

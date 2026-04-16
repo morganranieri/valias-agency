@@ -1,9 +1,16 @@
 quote (
   feature/flyers
-  feature/program-date-validation  
+  feature/attendance
   maintenance
+  tweaks ( )
   direct costs covered (until end of July)
-  due (July 15)
-  total cost ($15k)
-  terms (paid on completion)
+  due (
+    feature/flyers 1st June, 
+    feature/attendance 15th July
+  )
+  total cost ($30k)
+  terms (
+  	$7.2k paid on completion of feature/flyers,
+	  $22.8k paid on completion of feature/attendance
+  )
 )

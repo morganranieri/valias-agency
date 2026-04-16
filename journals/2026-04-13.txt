@@ -1,0 +1,13 @@
+Musings (
+  To remove ChatGPT from the arsenal:
+
+  index open source components.  
+  contribute open source component.  (radio)
+
+  step 1, break the problem down into many steps.  
+  step 2, conceptualise what you can build. 
+  step 3, identify what you cannot build.  
+  step 4, talk about it 
+
+  support open source or pay 
+)

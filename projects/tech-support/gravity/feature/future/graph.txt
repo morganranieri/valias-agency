@@ -1,0 +1,1 @@
+Context: Make a graph that shows the total balance over time where the starting point of the horizontal axis is the last user-added EOD total and where there's another vertical line showing the current point in time.  

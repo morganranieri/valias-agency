@@ -1,0 +1,4 @@
+Delete a child 
+Delete a program
+Search on programs and guardians more reliable (works after every second refresh)
+Show dropdown (prep) for admin/program grades (currenly have to enter 0 for prep)
