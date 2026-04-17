@@ -1,10 +1,11 @@
-quote: 
+quote: low - high 
 due: 
 approved: 
 
 Questions (
-  When a school submits a list of competing student names, are they in the tournament or are they invited to the tournament? 
+  What does a minimum tournament solution look like? 
   What info do admins need to run tournaments? 
+  $ When a school submits a list of competing student names, are they in the tournament or are they invited to the tournament? 
   Should tournaments be more prominent than chess club when the guardian logs in? 
 )
 

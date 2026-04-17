@@ -1,0 +1,20 @@
+tournaments 
+
+Questions (
+  NR: can we have a push pull for tutors who don't mark the roll? 
+)
+
+Website Issues (
+  pending payments issue - workaround required 
+)
+
+Quote / package (
+)
+
+Levels (classes) (
+  Office creates additional levels 
+  Office assigns tutors to levels 
+  Tutors move students between levels 
+  Issue: student gets moved to a level without a tutor 
+  Solution: warning - group has no tutor
+)

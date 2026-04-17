@@ -1,38 +1,52 @@
-quote: $22.8k 
+quote: $22.8k - 30k
 due: 2026-Jul-15
 approved: no
 
+Unscoped issues (
+  adding new students (
+    requirement to be determined (students in the system, students not in the system)
+    can you accept a manual process for rock-ups whereby the office is guardian of the child? no
+    attendance priority.  
+    we get the kid.  merge.  sometime kid has guardian in the school.  sometime kid unknown.  
+    need to cover both. 
+  )
+)
+
 Question for client (
-  mark the roll each session?
-  how can a student be in the attendance but not paid/enrolled? 
-  can you live without notes in the attendance, provided we put in medical info? 
+  do you need us to call "groups" "levels"? 
 )
 
 Question for development (
-  should we include the location of the class in the model?  or see how this goes without it and then adapt? 
+  should we include the location of the group in the model?  or see how this goes without it and then adapt? 
 )
 
 Scope (
   "Replace the attendance spreadsheet"
-  Tutors login and view classes they are assigned to in the present or upcoming term
-  Tutors select a class and mark attendance for each student at the required frequency
-  A program has a main class
-  Admin creates additional classes for a program (i.e. beginner, advanced)
-  Admin moves students from the main class to another
-  Admin assigns one or more tutors to a class
+  Tutors login 
+  Tutors view groups they are assigned to in the present or upcoming term
+  Tutors select a group and session and mark attendance for each student 
+  A program has a main group
+  Admin creates additional groups for a program (i.e. beginner, advanced) - known as levels to the client 
+  Admin moves students from the main group to another
+  Admin assigns one or more tutors to a group
   Admin can produce a report on all student attendance (absent, present, null) for a given year and term 
+  Tutors move students between groups which belong to the same program 
+  Tutors can see student.medical-info on the roll 
+  Before a tutor moves a student into a group which has no tutor, they should receive a warning which must be confirmed 
+
 )
 
 Out of scope (
-  students who aren't enrolled - new student arrived in class - adding them to the roll - best case, get the contact details of the parents and contact them 
+  students who aren't enrolled - new student arrived in group - adding them to the roll - best case, get the contact details of the parents and contact them 
+  push pull for tutors who don't mark the roll 
 )
 
 Model (
   tutors (user account)
-  program.class (has many)
-  program.class.tutors (has many)
-  prorgam.class.student (has many)
-  program.class.student.date.attended (bool)
+  program.group (has many)
+  program.group.tutors (has many)
+  prorgam.group.student (has many)
+  program.group.student.date.attended (bool)
 )
 
 View (
@@ -40,18 +54,19 @@ View (
   admin/tutors/edit
   admin/tutors/delete
 
-  admin/program/class/new
-  admin/program/class/edit
-  admin/program/class/delete
-  admin/program/class/tutors - shows a list of all tutors and user can bump one up into the assigned section
+  admin/program/group/new
+  admin/program/group/edit
+  admin/program/group/delete
+  admin/program/group/tutors - shows a list of all tutors and user can bump one up into the assigned section
 
-  admin/program/students - with a drop-down next to each student for class allocation
+  admin/program/students - with a drop-down next to each student for group allocation
   
   tutor/dashboard
-  tutor/classes
-  tutor/classes/1 - can see sessions with dates (which is start date + (7 * session number))
-  tutor/classes/1/session/1 - can see students, medical info, school class/grade and mark the roll (checkbox) as a form that's submitted once. 
-  
+  tutor/groups
+  tutor/groups/1 - can see sessions with dates (which is start date + (7 * session number)) and an option to move students
+  tutor/groups/1/session/1 - can see students, medical info, school class/grade and mark the roll (checkbox) as a form that's submitted once. 
+  tutor/groups/1/move-student - can move students
+
   admin/reports/attendance
 
 )
