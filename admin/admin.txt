@@ -9,7 +9,7 @@ invoices(
 
 insurance (
   keep tech-support sectioned out so you can exit gracefully (
-    get a copy of the ASIC company shutdown form and make sure you're well prepared to submit
+    register company 
   )
 )
 
@@ -28,7 +28,7 @@ tax (
       )
     )    
   )
-  fracking accounts (above zero or more paperwork)
+  franking accounts (above zero or more paperwork)
 )
 
 bas file by company (
@@ -65,7 +65,7 @@ commitments (
 )
 
 comms (
-  check if any 1:1's required
+  check if any 1:1's required - Bae this week
 )
 
 transfers (
@@ -74,6 +74,6 @@ transfers (
 
 travel (
   Mia's passport (
-    guarantor 
+    her signature 
   )
 )

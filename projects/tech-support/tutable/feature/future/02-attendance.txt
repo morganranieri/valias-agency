@@ -1,23 +1,18 @@
-quote: $22.8k - 30k
+quote: $22.8k - still feasible? 
 due: 2026-Jul-15
 approved: no
 
+Heads up (
+  In the old system, a large amount of registrations come from Tutors adding students to the roll, who just rock up to chess club after being enrolled in a previous term!
+  And they want to cater for this. 
+)
+
 Unscoped issues (
-  adding new students (
-    requirement to be determined (students in the system, students not in the system)
-    can you accept a manual process for rock-ups whereby the office is guardian of the child? no
-    attendance priority.  
-    we get the kid.  merge.  sometime kid has guardian in the school.  sometime kid unknown.  
-    need to cover both. 
-  )
 )
 
 Question for client (
   do you need us to call "groups" "levels"? 
-)
-
-Question for development (
-  should we include the location of the group in the model?  or see how this goes without it and then adapt? 
+  can we have a simple rule for those who are attending but not yet registered?  e.g. no discounts
 )
 
 Scope (
@@ -33,20 +28,24 @@ Scope (
   Tutors move students between groups which belong to the same program 
   Tutors can see student.medical-info on the roll 
   Before a tutor moves a student into a group which has no tutor, they should receive a warning which must be confirmed 
-
+  Tutors can add an unregistered student from this school to their group attendance record - searching for them by name and seeing school-grade 
+  Admin can report on students who are unregistered but are attending 
+  The guardian of an unregistered student, who is on the attendance record, can pay their account balance (balance tbd)
 )
 
 Out of scope (
-  students who aren't enrolled - new student arrived in group - adding them to the roll - best case, get the contact details of the parents and contact them 
+  Tutor can add a student who does not already belong to a guardian - possible fix, a placeholder guardian 
   push pull for tutors who don't mark the roll 
+  Location of groups
 )
 
 Model (
-  tutors (user account)
-  program.group (has many)
-  program.group.tutors (has many)
-  prorgam.group.student (has many)
-  program.group.student.date.attended (bool)
+  tutors (user role)
+  a program has many groups
+  a program.group has many tutors
+  a prorgam.group has many student
+  a prorgam.group has many session-dates
+  program.group student and session-date .attended (bool)
 )
 
 View (
@@ -66,8 +65,11 @@ View (
   tutor/groups/1 - can see sessions with dates (which is start date + (7 * session number)) and an option to move students
   tutor/groups/1/session/1 - can see students, medical info, school class/grade and mark the roll (checkbox) as a form that's submitted once. 
   tutor/groups/1/move-student - can move students
+  tutor/groups/1/add-student - can add students
 
-  admin/reports/attendance
+  admin/reports/attendance - showing registered and unregistered 
+
+  admin/reports/program-groups-tutors - showing whether any groups have no tutors 
 
 )
 
