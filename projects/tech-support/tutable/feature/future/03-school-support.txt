@@ -9,7 +9,7 @@ Questions (
 Scope (
   Schools can (
     Login
-    See their class lists 
+    See their group lists 
     Book in programs
     Receive, via email, a flyer (called a registration form)
   )

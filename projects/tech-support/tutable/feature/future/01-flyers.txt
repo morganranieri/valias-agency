@@ -1,10 +1,10 @@
 quote: $7.2k 
 Due: 2026-Jun-01
-approved: no 
+approved: yes 
 
 scope (
   admin dashboard has a "marketing" link.  
-  Inside, a filter to produce a list of programs.  
+  Inside admin/marketing, a filter to produce a list of programs.  
   Each program presents a page that the admin user will to Print to PDF. 
   Admin/Program form has a rich text field called Location, which supports multiline text. 
   Design flyer A4 or about 12 inches, somewhat printer friendly
@@ -16,6 +16,7 @@ model (
 
 view (
   registration-form
+  admin/marketing
 )
 
 controller (
