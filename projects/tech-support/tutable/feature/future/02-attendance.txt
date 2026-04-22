@@ -1,18 +1,44 @@
-quote: $22.8k - still feasible? 
-due: 2026-Jul-15
+quote: $22.8k - still feasible? - ? 
+due: 2026-Jul-15 - ? 
 approved: no
 
-Heads up (
-  In the old system, a large amount of registrations come from Tutors adding students to the roll, who just rock up to chess club after being enrolled in a previous term!
-  And they want to cater for this. 
+Question for client (
+  do you need us to call "groups" "levels"? 
+  with regard to payment, can we have a simple rule for those who are attending but not yet registered?  e.g. no discounts.  alternatively, a method for apply adjustments. 
 )
 
 Unscoped issues (
 )
 
-Question for client (
-  do you need us to call "groups" "levels"? 
-  can we have a simple rule for those who are attending but not yet registered?  e.g. no discounts
+Internal Questions (
+  (1) How do we present the main group to tutors? Do they know it as the "main" group?
+    Main = Standard 
+
+  (2) What's a typical scenario for adding an unregistered student to the group attendance record?
+    Student hears about Chess Club and shows up, without having been registerd by their guardian. 
+    We want to proactively collect their attendance - for both finance and compliance.  
+    Their group membership should persist for the remainder of the program. 
+
+    (a) Would it be a once-off?
+      Covered.   
+    (b) Or would the student be part of the attendance sheet for the remainder of the program? (The "attendee" model above accounts for this.)
+      Covered. 
+
+  (3) How do we determine the price to pay for unregistered students?
+    Prefer the standard program price, but may apply an adjustment.
+
+    (a) Is it about paying for the unregistered sessions they attended to date?
+      With regard to payment, target is to collect the program fee.  Office will only follow up guardians with students with a pattern of attendance. 
+
+    (b) I'm assuming it's out of scope to let them "upgrade" to fully enrolled? (We would need to know how many sessions remaining.)
+      The ideal flow for the guardian would be to complete an enrolment, as if it were not yet paid for.  
+      To enable an admin to apply an adjustment, and recalculate the total price, at this stage would be good.
+      Perhaps either:
+        an admin/adjustment view, where an admin can see a filtered list of enrolments with pending payments and apply adjustments to them, or
+        when an admin is acting as a guardian, and looking at the guardian's dashboard, they can apply an adjustment to any pending enrolments there. 
+
+  (4) What's the use case for a "null" attendance record (as opposed to absent or present)?
+    The tutor failed to mark the record.  Handy if they can get an auto-smack.
 )
 
 Scope (
@@ -39,13 +65,82 @@ Out of scope (
   Location of groups
 )
 
-Model (
+Use cases (
+  As a tutor...
+    I can log in, seeing a dashboard that's specific to the role of a tutor
+    I can see groups I'm assigned to in this term and the upcoming term
+    I can see a list of sessions with dates for a given group
+    I can reassign students to another group in the same program
+    I can reassign students to a group with no tutor (but with a warning to confirm)
+    I can assign unregistered students (students not enrolled in the program) to a group, so they are included in attendance reports
+    I can mark attendance for unregistered/"attendee" students
+    I can mark attendance for registered and unregistered students in a given session
+    I can see student medical info when marking attendance
+  
+  As an admin...
+    I can create groups (e.g. beginner, advanced) for a given program
+    I can reassign students to another group in the same program
+    I can assign one or more tutors to a group
+    I can generate an attendance report for all students in a given year and term
+
+  As a guardian...
+    I can see unregistered programs which my students have attended
+    I can pay the account balance for unregistered programs
+)
+
+Model MR (
   tutors (user role)
   a program has many groups
   a program.group has many tutors
   a prorgam.group has many student
   a prorgam.group has many session-dates
   program.group student and session-date .attended (bool)
+)
+
+Modal LC (
+  Data model
+
+    User
+
+      A user can have the role of "tutor" (instead of guardian or admin)
+  
+    Group
+
+      ProgramGroup (known as "levels" to the client?)
+
+      A program has one or more groups
+      A program has exactly one "main" group
+      A group has many students
+      A group has many sessions
+
+    Group membership
+
+      A membership tracks the link between a student and a group.
+
+      A student who enrols in a program is initially a member of the main group
+      A membership can be reassigned to a different group in the program
+      A membership normally has strict requirements:
+      The student must be enrolled in the program
+      The student can only be a member of one group in a given program
+      A membership can have "attendee" status, which removes the strict requirements:
+      The student does not have to be enrolled
+      The student can have "attendee" memberships in multiple groups in the same program
+      In all cases, a student must belong to the same school as the program
+      The "attendee" option essentially lets any student in the school be elligible for tracking attendance.
+
+    Session
+
+      (Probably GroupSession or ProgramSession, TBD)
+
+      A session belongs to a group (which belongs to a program)
+      A session has a date
+      A session has many attendance records
+
+    Attendance record
+
+      An attendance record tracks a student's attendance (absent/present/null) for a given session
+      A group has many attendance records
+      A session has many attendance records
 )
 
 View (
