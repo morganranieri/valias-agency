@@ -3,11 +3,10 @@ due: 2026-Jul-15 - ?
 approved: no
 
 Question for client (
-  do you need us to call "groups" "levels"? 
-  with regard to payment, can we have a simple rule for those who are attending but not yet registered?  e.g. no discounts.  alternatively, a method for apply adjustments. 
 )
 
 Unscoped issues (
+  As an admin, I want to be able to apply an adjustment to an attendee before they are enrolled in the term 
 )
 
 Internal Questions (
@@ -47,7 +46,7 @@ Scope (
   Tutors view groups they are assigned to in the present or upcoming term
   Tutors select a group and session and mark attendance for each student 
   A program has a main group
-  Admin creates additional groups for a program (i.e. beginner, advanced) - known as levels to the client 
+  Admin creates additional groups for a program (i.e. beginner, advanced)
   Admin moves students from the main group to another
   Admin assigns one or more tutors to a group
   Admin can produce a report on all student attendance (absent, present, null) for a given year and term 

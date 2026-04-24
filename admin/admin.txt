@@ -50,6 +50,7 @@ costs (
 
 budget (
   reality check
+  Debt schedule to become daily so that point-in-time dashboard assessment does not double up 
 )
 
 superannuation (
@@ -77,3 +78,4 @@ travel (
     her signature 
   )
 )
+

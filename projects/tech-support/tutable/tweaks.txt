@@ -1,6 +1,6 @@
 "Pending payment" sounds like payment may have been initiated - update to "please pay" (
-  Look at Nicolette’s guardian account for clues as to how to word it
-  Kid is not registered - please pay to complete registration
+  Success: Student Name is registered for Chess Club in Term 1 2026
+  Alternative: <a>Please pay<a/> to finalise Student Name's enrolment for Chess Club in Term 1 2026
 )
 Delete a child (wtf?)
 Admin can delete a program if no enrolments 

@@ -1,0 +1,10 @@
+quote:
+due:
+approved: 
+
+Scope (
+  A guardian can register a student into a program on a "trialling" basis
+  Student is in the program group, similar to an attendee 
+  Based on the attendance record, the office might follow the guardian up for payment 
+  The guardian can pay for the term, with an adjustment applied for the free-trial period
+)

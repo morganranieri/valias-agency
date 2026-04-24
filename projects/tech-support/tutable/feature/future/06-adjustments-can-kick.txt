@@ -1,0 +1,11 @@
+quote: 
+due: 
+payment approved: freebie - reduce support requests
+
+Issue: Guardians are getting stuck in "Pending Payment" state and are confused 
+
+Scope (
+  Change guardian view language from "pending enrolment" to "Please Pay"
+  Admin can view a list of enrolments which are pending payment 
+  Admins can reset an enrolment which is pending payment
+)

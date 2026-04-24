@@ -2,32 +2,62 @@ quote: low - high
 due: 
 approved: 
 
+Two kinds of tournaments (
+  Open - fully public 
+  Selective - schools reserve space
+)
+
+Lockdown (
+  Where possible, non-admins can't make adjustments < 5 days from tournament 
+)
+
+Note (
+  This feature deals with schools who handle admin and payment for programs and are not yet included in our model.  Let's call these Ghost Schools. 
+)
+
 Questions (
-  What does a minimum tournament solution look like? 
-  What info do admins need to run tournaments? 
-  $ When a school submits a list of competing student names, are they in the tournament or are they invited to the tournament? 
-  Should tournaments be more prominent than chess club when the guardian logs in? 
+  Should tournaments be more prominent than chess club when the guardian logs in? Perhaps out of scope. 
+  Feedback on this scope? 
+  Feedback on what's out of scope? 
+  Are we missing any info that admins need to run tournaments? 
 )
 
 Scope (
-  Eligibility criteria including student specific lists
+  Guardians with students from unknown schools can register for an open tournament
+  Admins need to see a tournament report with an overview of capacity and takeup by tournament and school 
+  Eligibility criteria for closed tournaments based on schools who have reserved capacity 
+  Admins can (
+    set eligibility criteria for tournament registration (open-entry, school-based capacity, named-student, combination of school-based capacity and named student)  
+    access info they need to run tournaments (
+      registered students, school, guardian.name, guardian.phone, guardian.email_address, student.medical-info, student.program.group, student.program.group.tutor
+    ) 
+    Email guardians of students who are registerd for a tournament 
+  )
   Schools can (
-    sign up to a tournament 
+    sign up to a tournament which is open to all schools
     reserve space at a tournament
     join a waitlist for a tournament 
-    submit competing student names by a cutoff time
   ) 
-  Parents can (
-    see all open tournaments that their students are eligible for - possibly more prominent than programs
-    when their student is enrolled in the tournament, see more details about the tournament 
+  Ghost Schools (
+    submit competing student names by the lockdown 
   )
-  Admins can (
-    access info they need to run tournaments 
-    Email guardians of students who are registerd for a tournament 
+  Guardians can (
+    see all open tournaments 
+    see any tournament that their student's school has reserved space for, provided the capacity limit hasn't been reached
+    when their student is enrolled in the tournament, see more details about the tournament 
   )
 )
 
-Model ()
+Out of scope (
+  Mark attendance on the day
+  Results ()
+  Games (who plays who)
+  Timetable (when games play) 
+)
+
+Model (
+  Tournament.competitor - can be a tutable guardian.student or a student from a Ghost School or general public
+)
 
 View ()
 

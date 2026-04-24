@@ -1,4 +1,6 @@
-
+conflict (
+  might need to bump up feature/adjustments above feature/attendance to make for an reusable UI
+)
 
 feature (
   01 flyers
@@ -6,13 +8,15 @@ feature (
   03 school-support
   04 tournaments
   05 ongoing-enrolment
-  06 class-adjustments
+  06 adjustments-can-kick (freebie - reduce support requests)
   07 email-marketing-best-practice
   08 admin-email-groups
-  09 program-class-location
+  09 free-trials
   10 program-date-validation
   11 postgres-full-text-search-for-autocomplete
-  12 tutor-compliance-tickets
+  12 class-adjustments
+  13 program-class-location
+  14 tutor-compliance-tickets
 )
 
 

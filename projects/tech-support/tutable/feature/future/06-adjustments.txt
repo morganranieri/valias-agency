@@ -1,8 +1,0 @@
-quote: 
-due: 
-payment approved: no 
-
-Guardians are getting stuck in "Pending Payment" state 
-Change to "Please Pay"
-
-Consider, how might we improve the adjustment process to result in less people ending up in "Pending Payment" state 
