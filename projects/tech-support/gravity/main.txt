@@ -1,6 +1,6 @@
-Target (deploy to ios) 
-
-Redeploy to web?
+Target (web) 
+Target (additional flow interfaces)
+Target (ios and android)
 
 Review (
   feature/billing for ios compatiblity
@@ -8,10 +8,7 @@ Review (
 )
 
 Test (
-  debug on iPhone 
 )
-
-Communicate product plan 
 
 Once we're stable (
   Continue building outKind controls

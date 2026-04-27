@@ -1,0 +1,51 @@
+Company (
+  bankAccount (
+    Avoid batch payment to keep account statement a useful record 
+  )
+  Ledger (
+    expenseRegister (
+      bool inc-GST
+      bool Capital
+      payrollExpense (
+        bool associatedPerson
+        enum Destination [
+          "Salary and wages",
+          Contractors, 
+          Superannuation
+        ]
+      )
+      taxExpense
+      generalExpense (
+        enum Destination [
+          Lease,
+          Rent,
+          Interest,
+          Royalties, 
+          Cars,
+          Maintenance,
+          "Entertainment and other non-deductible",
+          "Other deductible",
+        ]
+      )
+    )
+    assetRegister (
+      Depreciation 
+      Value change
+      Debts written off
+      Previous year tax loss
+    )
+    debtRegister (
+    )
+    frankingAccount (
+      keep it above zero or more paperwork (franking account return)
+    )
+  )
+  receiptFolder (
+    $75 or more 
+    What are the BAS requirements?  
+  )
+  Forms (
+    Company return 
+    BAS 
+  )
+)

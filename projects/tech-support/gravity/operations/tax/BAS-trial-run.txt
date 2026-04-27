@@ -1,0 +1,24 @@
+G1 - Total sales (including GST)
+1A - GST on sales 
+G2 - export sales 
+G3 - GST-free sales 
+G10 - capital purchases 
+G11 - non-capital purchase 
+W1 - salary and wages 
+W2 - tax witheld from W1 payments
+W4 - tax witheld from suppliers who you believe are being criminals (i.e. not providing ABN on a tax invoice)
+W3 - a miscellaneous witholding amount that's not included at W2 and W4
+W5 - (W2 + W4 + W3)
+T4 - 23
+T1 - taxable income 
+T2 - Company Tax Rate as a portion of taxable income (expected company tax / expected company income * 100)
+T3 - if changing T2 
+T11 - if T3 exists {T1 * T3}, else {T1 * T2}
+4 - PAYG income tax installment (payroll employees)
+5A - Company Income Tax Prepayment (installment amount as calculated)
+7 - deferred installment (probably debt on BAS)
+8A - (1A + 4 + 5A + 7)
+1B - GST on Purchases 
+5B - credit from variation (most likely if using rate method)
+8B - (1B + 5B)
+9 - balance

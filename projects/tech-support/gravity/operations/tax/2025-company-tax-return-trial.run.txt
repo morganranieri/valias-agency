@@ -1,7 +1,7 @@
 Documents saved on Carry Disk 
 
 Question 2 (
-  Description of business: 
+  Description of business: database for expenses and cash-days calculator
 )
 
 Question 3 (
@@ -22,38 +22,38 @@ Question 5 (
 Question 6 (
   Income (
     b if company is a foreign resident
-    a cash in 
-    c sales from services and good 
-    d partnership income 
-    e trust income
-    x rip rip woodchip
-    f interest income 
-    g income from hiring out stuff
-    h investment income
-    i laundry for fringe benefits
-    q government handouts
-    j asset value changes
-    r balance
+    a cash in (source: bank account)
+    c sales from services and goods (source: bank account)
+    d partnership income (source: bank account)
+    e trust income (source: bank account)
+    x rip rip woodchip 
+    f interest income (source: bank account)
+    g income from hiring out stuff (source: bank account)
+    h investment income (source: bank account)
+    i laundry for fringe benefits (source: tbd if fringe benefits are used)
+    q government handouts (source: bank account)
+    j asset value changes (source: asset register)
+    r balance (source: bank account)
     s can do 
   )
   Expenses (
-    b if company is a foreign resident
-    a direct costs 
-    c contractors
-    d superannuation
-    e debts written off
-    f lease local
-    i lease overseas
-    h rent
-    v interest local
-    j interest overseas
-    u royalties
-    w royalties
-    x depreciation
-    y cars
-    z maintenance 
-    g asset value change 
-    s balance
+    b if company is a foreign resident 
+    a direct costs (source: bank account)
+    c contractors (sources: bank account & company ledger)
+    d superannuation (sources: bank account & company ledger)
+    e debts written off (sources: company ledger / invoices)
+    f lease local (sources: bank account & company ledger)
+    i lease overseas (sources: bank account & company ledger)
+    h rent (sources: bank account & company ledger)
+    v interest local (sources: bank account & company ledger)
+    j interest overseas (sources: bank account & company ledger)
+    u royalties (sources: bank account & company ledger)
+    w royalties (sources: bank account & company ledger)
+    x depreciation (source: asset register)
+    y cars (sources: bank account & company ledger)
+    z maintenance (sources: bank account & company ledger)
+    g asset value change (source: asset register)
+    s balance (sources: bank account & company ledger)
     q can do
   )
   Total profit or loss (
@@ -74,7 +74,7 @@ Question 7 (
     c 
     e 
     b 
-    w - entertainment and other non-deductable expenses 
+    w - entertainment and other non-deductable expenses (sources: bank account & company ledger)
     d 
     [subtotal] (put L in the code box if this is negative)
   )
@@ -93,7 +93,7 @@ Question 7 (
     q 
     w 
     x 
-    r - if in a previous year the company had a loss, it can be deducted from this year
+    r - if in a previous year the company had a loss, it can be deducted from this year (sources: company ledger / equity )
     s 
     [subtotal]
   )
@@ -101,7 +101,7 @@ Question 7 (
     taxable net income or loss - can be zero, can be the same as question 6 T.  
     If it's a loss, put L in the code box.  
     If the amount here is more than 1, copy it to Label A of the Calculation Statement 
-  )
+  ) (sources: company ledger / equity )
 )
 
 Question 8 (
@@ -112,15 +112,15 @@ Question 8 (
   b - trading stock end of year
   c - people who owe us 
   d - current assets including people who owe us (probably accessible in under 12 months)
-  e - total assets including brand trademarks if valued
-  f - people we owe for good and services 
+  e - total assets including brand trademarks if valued 
+  f - people we owe for good and services (sources: company ledger / liabilities )
   g - money we owe to over the next 12 months, including people we owe for good and services
   h - total liabilities 
   j - average debt position for the year ((opening balance + closing balance) / 2)
   k - debts forgiven 
-  j - dividend paid with franking credit attached 
-  k - dividend paid without franking credit attached
-  p - franking account opening balance - stay positive.  use unfranked dividends if you need to. 
+  j - dividend paid with franking credit attached (sources: bank account & company ledger)
+  k - dividend paid without franking credit attached (sources: bank account & company ledger)
+  p - franking account opening balance - stay positive.  use unfranked dividends if you need to. (sources: company ledger / franking account)
   franking account example (
     start at zero 
     make 100 profit as a company
@@ -137,8 +137,8 @@ Question 8 (
   y - mandatory when > $1b or a globally significant entity (G1 at item 3)
   h - (say the company gets franking credits, but they don't have any tax to pay otherwise, they can't get this credit as a refund, instead, the excess credit is written here and then it's divided by the company tax rate to become a tax loss that can be carried forward) 
   n - loans to associates, with code A 
-  d - salary and wages - but not super, contractors, or reimbursements, code b 
-  q - payments to associates, including super 
+  d - salary and wages - but not super, contractors, or reimbursements, code b (sources: bank account & company ledger)
+  q - payments to associates, including super (sources: bank account & company ledger )
   g - gross foreign income, grossed up by the amount of foreign tax witheld
   r - gross foreign income, grossed up by the amount of foreign tax witheld, net of expenses (code l for loss)
   attributed foreign income (
