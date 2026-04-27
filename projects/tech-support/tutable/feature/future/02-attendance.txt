@@ -3,10 +3,11 @@ due: 2026-Jul-15 - ?
 approved: no
 
 Question for client (
+  A student begins attending after week 1, but is not enrolled.  How do you decdide what to charge them? 
 )
 
 Unscoped issues (
-  As an admin, I want to be able to apply an adjustment to an attendee before they are enrolled in the term 
+  Manually solves the account balance requirement: As an admin, I want to be able to apply an adjustment to an attendee's registration so they can finalise enrollment at the right price
 )
 
 Internal Questions (
