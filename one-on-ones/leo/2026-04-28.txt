@@ -1,0 +1,7 @@
+Unscoped issue in tutabe:feature/attendance (admin applying an adjustment)
+
+Delivering: feature/flyer 
+Scoping: featre/attendance 
+Complete: gravity/billing 
+
+Make a blog or a store: https://rubyonrails.org/docs/tutorials

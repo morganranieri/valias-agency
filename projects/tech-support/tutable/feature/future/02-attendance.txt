@@ -1,13 +1,17 @@
-quote: $22.8k - still feasible? - ? 
-due: 2026-Jul-15 - ? 
+quote: $24k
+due: 2026-Jul-15
 approved: no
 
+Quote for client (
+  "Replace the attendance spreadsheet"
+  Key concepts: Tutors, Groups, Sessions
+  Present
+)
+
 Question for client (
-  A student begins attending after week 1, but is not enrolled.  How do you decdide what to charge them? 
 )
 
 Unscoped issues (
-  Manually solves the account balance requirement: As an admin, I want to be able to apply an adjustment to an attendee's registration so they can finalise enrollment at the right price
 )
 
 Internal Questions (
@@ -56,13 +60,15 @@ Scope (
   Before a tutor moves a student into a group which has no tutor, they should receive a warning which must be confirmed 
   Tutors can add an unregistered student from this school to their group attendance record - searching for them by name and seeing school-grade 
   Admin can report on students who are unregistered but are attending 
-  The guardian of an unregistered student, who is on the attendance record, can pay their account balance (balance tbd)
+  The guardian of an unregistered student, who is on the attendance record, can upgrade from attendee to enrolled 
+  As a Guardian, I can make an adjustment to my attendee student's program registration before making a payment.  
 )
 
 Out of scope (
   Tutor can add a student who does not already belong to a guardian - possible fix, a placeholder guardian 
   push pull for tutors who don't mark the roll 
   Location of groups
+  Charging students for past attendance when they're not enrolling in that term 
 )
 
 Use cases (
@@ -85,7 +91,8 @@ Use cases (
 
   As a guardian...
     I can see unregistered programs which my students have attended
-    I can pay the account balance for unregistered programs
+    out: I can pay the account balance for unregistered programs
+    in: I can add an adjustment before upgrading my student from attendee to enrolled
 )
 
 Model MR (

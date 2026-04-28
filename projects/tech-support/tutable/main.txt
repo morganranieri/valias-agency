@@ -17,6 +17,7 @@ feature (
   12 class-adjustments
   13 program-class-location
   14 tutor-compliance-tickets
+  15 credit-for-canned-class
 )
 
 

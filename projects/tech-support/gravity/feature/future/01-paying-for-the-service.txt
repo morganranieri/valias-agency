@@ -1,6 +1,26 @@
 Context: 
   A user should, after their 30 day trial of the service, and after some grace period, be blocked from usage unless they pay.
 
+Scope (
+  Make a subscription status call to the API 
+  Opt-in to a membership
+  Opt-out of membership
+  Add a payment method
+  Remove a payment method 
+  endOfGrace (
+    Show a persistent endOfGraceView once grace-until date has passed 
+    Allow the user to navigate to settings from endOfGraceView  
+  )
+  endOfTrial (  
+    Show an endOfTrialView once subscription-due date has passed
+    Allow the user to dismiss the view 
+  )
+  daysFromEndOfTrial (
+    
+  )
+
+)
+
 Things that I need to figure out (
   Link off and back to the billing page
 )

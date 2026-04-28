@@ -1,27 +1,42 @@
-Target (web) 
-Target (additional flow interfaces)
-Target (ios and android)
-
-Review (
-  feature/billing for ios compatiblity
-  feature/app-updates
+conflict (
+  platforms have varying requirements
+  will need to decide and lock in a heirarchy on support, testing and deployment
+  Mobile Web, Desktop Web, iOS, Android, everything else. 
 )
 
-Test (
+feature (
+  01 paying-for-the-service
+  app-updates
+  recurring-bills
+  debts
+  date-selection
+  future-eod-totals-are-read-only
+  graph
+  paint-job
+  pedal-board 
+  recurring-bills
+  welcome-email
 )
 
-Once we're stable (
-  Continue building outKind controls
+maintenance (
+  cost-of-compute
+  rate-limiting
 )
 
-Deploy (
-  legal/register-company
-  apple-dev-account
-  feature/billing
-  flutter build ios
+operations (
+  legal
+  tax
+  improving the front-end deployment process
+  distribution (
+    iOS (
+      legal/register-company
+      apple-dev-account
+    )
+    Android
+  )
 )
 
-Budget (
+budget (
   list all the things we're paying for 
   push out for 3 years 
 )
