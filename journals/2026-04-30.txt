@@ -1,0 +1,38 @@
+Stop. Recentre. Remember goal. Practice. 
+Once focus moved from your centre to another person's.  What then? 
+Potentially, you'll need to take a deep breath and realise that you need to start again. 
+Whilst keeping some focus with your mate.  But with a plan for what you're doing.  
+Try to stay out of trash talking. 
+
+
+Is the internet required for this? 
+
+Carry cash.  Be on good terms.  Make a phone call.  
+
+Or, make a system.  However the system is currently unweildy and unconstrained.  Needs to be cleaned up and structured a bit. 
+
+Plus I need to learn how to write in Ruby!
+
+So, perhaps here's an opportunity.  Not a small commitment.  Will need to sit straight for... calculating... as long as it's interesting. 
+
+That could be 1,000 or even 10,000 hours!  With bad posture that could be quite an issue.  And that little spot that cops the stress is not going to be happy. 
+
+So, settle for the fact that your practice will yield next to nothing, for the longest time.  
+
+But.  This isn't to say that it's not going to make you a better developer.  You might even waste a bit less of your mate's time. 
+
+When somebody puts an alarm on.  Resist the urge to move suddenly.  Suddeny movement might start the wrong process. 
+
+What should be the first response?  Clarity on the issue.  
+
+Switching focus.  Giving attention.  Accepting that in a social setting the reset is going to put the work back to 0.  Lucky if you remember where you were! 
+
+Have low expectations.  When someone asks for help.  Be okay with forgetting what you were doing.  Or, tell them you can't help right now. 
+
+If you do in fact need hours of uninterruped time, make it happen. 
+
+And make sure you work in such a way that you can cleanly and easily come back in from the top.  
+
+Simple context.  Clean files.  Commit as you go.  Small wins.  Check.  Stop scratching my head - unless it's actually itchy. 
+
+Give it a go! 

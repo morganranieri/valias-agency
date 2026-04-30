@@ -1,0 +1,11 @@
+context("I'd like a box of fruit and vegetables")
+
+spec (
+  I can order it 
+  They tick it off
+  I can pick it up 
+  Every so often, I can pay
+)
+
+#keepitlocal 
+

@@ -6,16 +6,17 @@ conflict (
 
 feature (
   01 paying-for-the-service
-  app-updates
-  recurring-bills
-  debts
-  date-selection
-  future-eod-totals-are-read-only
-  graph
-  paint-job
-  pedal-board 
-  recurring-bills
-  welcome-email
+  02 
+  03 pedal-board 
+  04 recurring-bills
+  05 debts
+  06 future-eod-totals-are-read-only
+  07 welcome-email
+  08 graph
+  09 date-selection
+  10 app-updates
+  11 
+  12
 )
 
 maintenance (

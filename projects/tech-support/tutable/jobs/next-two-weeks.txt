@@ -1,0 +1,8 @@
+In Progress: Admin can make an additional group.  
+Admin can make a tutor. 
+
+Admin can move students between groups. 
+Admin can add a tutor to a group. 
+
+Tutor can see their groups. 
+Tutor can see their group sessions. 

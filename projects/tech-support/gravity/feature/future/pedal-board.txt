@@ -1,5 +1,6 @@
 Refactor Bills and Discretionary. 
 Refactor how these are configured. 
+
 Create a new type of Out type - recurring bills. 
 
 As a user, I want to be able to select opt-in for various "types of Outs" that I can use.  

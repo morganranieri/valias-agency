@@ -62,6 +62,9 @@ Scope (
   Admin can report on students who are unregistered but are attending 
   The guardian of an unregistered student, who is on the attendance record, can upgrade from attendee to enrolled 
   As a Guardian, I can make an adjustment to my attendee student's program registration before making a payment.  
+  Admin can see the most recent past-term group that a student was a member of when assigning them to a group
+  For new students, admin can see the self-assessed level in place of the most recent past-term group
+  Standard group becomes the student fallback for deleted groups and cannot itself be deleted
 )
 
 Out of scope (
@@ -88,6 +91,7 @@ Use cases (
     I can reassign students to another group in the same program
     I can assign one or more tutors to a group
     I can generate an attendance report for all students in a given year and term
+    in: I can see most recent past-group membership for students when allocating them to a group
 
   As a guardian...
     I can see unregistered programs which my students have attended

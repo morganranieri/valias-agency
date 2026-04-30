@@ -1,0 +1,2 @@
+Tutorial with practice example: https://rubyonrails.org/docs/tutorials
+List of Ruby String methods: https://ruby-doc.org/3.4.1/String.html

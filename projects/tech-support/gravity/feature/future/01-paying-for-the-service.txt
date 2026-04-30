@@ -2,10 +2,10 @@ Context:
   A user should, after their 30 day trial of the service, and after some grace period, be blocked from usage unless they pay.
 
 Scope (
-  Make a subscription status call to the API 
-  Opt-in to a membership
-  Opt-out of membership
   Add a payment method
+  Opt-in to a membership
+  Make a subscription status call to the API
+  Opt-out of a membership
   Remove a payment method 
   endOfGrace (
     Show a persistent endOfGraceView once grace-until date has passed 
@@ -15,10 +15,7 @@ Scope (
     Show an endOfTrialView once subscription-due date has passed
     Allow the user to dismiss the view 
   )
-  daysFromEndOfTrial (
-    
-  )
-
+  When the user is 3 and 15 days from the end of their trial, send emails
 )
 
 Things that I need to figure out (
