@@ -9,3 +9,6 @@ spec (
 
 #keepitlocal 
 
+Rails study guide: https://guides.rubyonrails.org/getting_started.html
+Ruby practice: https://try.ruby-lang.org 
+Current tutorial: https://pine.fm/LearnToProgram/chap_05.html

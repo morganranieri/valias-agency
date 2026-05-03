@@ -1,2 +1,5 @@
+Ruby Docs: https://www.ruby-lang.org/en/documentation/
 Tutorial with practice example: https://rubyonrails.org/docs/tutorials
+Practice Ruby: https://try.ruby-lang.org
 List of Ruby String methods: https://ruby-doc.org/3.4.1/String.html
+Control expressions: https://ruby-doc.org/3.4.1/syntax/control_expressions_rdoc.html

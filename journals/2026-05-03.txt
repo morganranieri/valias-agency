@@ -1,0 +1,5 @@
+def healthy_scepticism
+  has beliefs
+  has someone to trust
+  does not expect the best or worst case
+end 

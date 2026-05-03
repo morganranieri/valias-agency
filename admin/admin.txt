@@ -50,8 +50,10 @@ costs (
 )
 
 budget (
+  Update Hospital Insurance to be a new monthly schedule of around $260 
   Debt schedule to become daily so that point-in-time dashboard assessment does not double up 
   reality check
+  Make a conditional home loan repayment amount, based on a percentage of income 
 )
 
 superannuation (
