@@ -1,6 +1,6 @@
 filing (
+  backup to 2nd disk
   sort inbox into carry disk
-  backup periodically to 2nd disk
 )
 
 invoices(
@@ -10,7 +10,6 @@ invoices(
 insurance (
   keep tech-support sectioned out so you can exit gracefully (
     register company 
-    
   )
 )
 
@@ -41,7 +40,7 @@ forum ledger (
 )
 
 quotes (
-  chess release 2 - followup
+  chess release 2 - followup for approval? slow down. 
 )
 
 costs (
@@ -50,10 +49,10 @@ costs (
 )
 
 budget (
-  Update Hospital Insurance to be a new monthly schedule of around $260 
   Debt schedule to become daily so that point-in-time dashboard assessment does not double up 
   reality check
   Make a conditional home loan repayment amount, based on a percentage of income 
+  Consider how we might rent locally AND build up cash (clear plan, don't change it often).  Interest is $1m.  Not interesting. 
 )
 
 superannuation (
@@ -69,7 +68,7 @@ commitments (
 )
 
 comms (
-  check if any 1:1's required - Bae this week
+  check if any 1:1's required
 )
 
 transfers (
@@ -78,7 +77,6 @@ transfers (
 
 travel (
   Mia's passport (
-    her signature 
   )
 )
 

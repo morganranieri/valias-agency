@@ -11,4 +11,4 @@ spec (
 
 Rails study guide: https://guides.rubyonrails.org/getting_started.html
 Ruby practice: https://try.ruby-lang.org 
-Current tutorial: https://pine.fm/LearnToProgram/chap_05.html
+Current tutorial: https://pine.fm/LearnToProgram/chap_06.html
