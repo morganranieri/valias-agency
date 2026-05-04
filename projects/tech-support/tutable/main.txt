@@ -1,5 +1,6 @@
 conflict (
   might need to bump up feature/adjustments above feature/attendance to make for an reusable UI
+  might need to register company and begin prospecting customers 
 )
 
 feature (
