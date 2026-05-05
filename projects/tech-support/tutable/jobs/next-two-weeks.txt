@@ -1,5 +1,5 @@
-In Progress: Admin can make an additional group.  
-Admin can make a tutor. 
+Blocked: Admin can make an additional group.  
+In-progress: Admin can make a tutor. 
 
 Admin can move students between groups. 
 Admin can add a tutor to a group. 

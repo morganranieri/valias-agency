@@ -12,6 +12,7 @@ Question for client (
 )
 
 Unscoped issues (
+  Reporting on the number of tutors in a program 
 )
 
 Internal Questions (
@@ -173,7 +174,7 @@ View (
   tutor/groups/1/move-student - can move students
   tutor/groups/1/add-student - can add students
 
-  admin/reports/attendance - showing registered and unregistered 
+  admin/reports/attendance - filter by term and year, rows are schools and columns are 1 - enrolled, 2 - attending, 3 - tutors (bonus, ratio of enrolled to tutors)
 
   admin/reports/program-groups-tutors - showing whether any groups have no tutors 
 

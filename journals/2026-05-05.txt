@@ -1,0 +1,20 @@
+Issue: git branch management 
+
+Okay? Do it.  And try to remember how you got from A to B so you can stay in context.  Chance for errors are a bit higher now.  
+
+main
+feature/managing-program-groups 
+feature/add-a-tutor
+
+
+how to start on job 2 (feature/managing-program-groups) whilst waiting for something to get committed to job 1. 
+
+Want to build on job 1 for job 2.  So branch off and pull back in to feature/managing-program-groups. 
+
+Or just keep going on this branch.  Might make for a more challenging merge later.  Better to branch.  
+
+
+  		UI (good)
+UI (wip)
+—— Main 
+DA
