@@ -1,6 +1,7 @@
 conflict (
   might need to bump up feature/adjustments above feature/attendance to make for an reusable UI
   might need to register company and begin prospecting customers 
+  maintenance needs a bit of time every fortnight 
 )
 
 feature (
@@ -21,11 +22,9 @@ feature (
   15 credit-for-canned-class
 )
 
-
-
 maintenance (
-  refactoring-reports-controller
   styling-framework
+  refactoring-reports-controller
   refactoring-payments-code
   refactor-move-autocomplete-controller
   keep-dashboard-clean

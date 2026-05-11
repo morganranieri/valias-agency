@@ -1,1 +1,2 @@
+Fix up CSS to be best practice soon or suffer immense consequence later 
 View components to create some UI elements

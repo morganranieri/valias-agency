@@ -15,7 +15,7 @@ insurance (
 
 settle (
   look at what's going into the forum ledger and move it out to a contained thing when it makes sense (
-    gravity - bank account 
+    gravity - bank account (await company registration)
     tutable - expenses ledger ()
   )
 )
@@ -40,7 +40,7 @@ forum ledger (
 )
 
 quotes (
-  chess release 2 - followup for approval? slow down. 
+
 )
 
 costs (
@@ -49,18 +49,16 @@ costs (
 )
 
 budget (
-  Debt schedule to become daily so that point-in-time dashboard assessment does not double up 
-  reality check
-  Make a conditional home loan repayment amount, based on a percentage of income 
-  Consider how we might rent locally AND build up cash (clear plan, don't change it often).  Interest is $1m.  Not interesting. 
+  
+  Long range budget issue: Make a conditional home loan repayment amount, based on a percentage of income
 )
 
 superannuation (
-  consider choice plus for --- why --- finger on the button
+
 )
 
 printing (
-  life insurance information
+
 )
 
 commitments (
@@ -77,6 +75,7 @@ transfers (
 
 travel (
   Mia's passport (
+    check form submission date
   )
 )
 

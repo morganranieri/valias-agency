@@ -1,6 +1,8 @@
-quote: $24k
+quote: $25k
 due: 2026-Jul-15
-approved: no
+approved: yes
+
+Time: 9 weeks
 
 Quote for client (
   "Replace the attendance spreadsheet"

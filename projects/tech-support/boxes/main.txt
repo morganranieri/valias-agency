@@ -1,14 +1,16 @@
 context("I'd like a box of fruit and vegetables")
 
 spec (
-  I can order it 
-  They tick it off
-  I can pick it up 
-  Every so often, I can pay
+  I can order a box (price, collectionDateTime)
+  I can give cash and increase my account balance
+  The fruiterer can receive cash and reduce their account balance
+  I have a balance to maintain with the fruiterer (
+    
+  )
 )
 
 #keepitlocal 
 
 Rails study guide: https://guides.rubyonrails.org/getting_started.html
 Ruby practice: https://try.ruby-lang.org 
-Current tutorial: https://pine.fm/LearnToProgram/chap_06.html
+Current tutorial: https://pine.fm/LearnToProgram/chap_06.html (a few things to try - deaf grandma)
