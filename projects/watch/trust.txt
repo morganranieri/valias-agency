@@ -1,0 +1,23 @@
+f
+
+s - Budget Statement of Finances (section b.12.3)
+
+date: 2026-03-31
+ins: (
+  operating: 23b
+  investing: 
+  financing: 
+)
+outs: (
+  operating: 24b
+  investing: 
+  financing: 
+)
+operating-net: -1b 
+investing-net: -4b
+financing-net: 2b
+cash-flow-net: -3b
+debt: 247b
+cash and deposits: 13b
+
+c

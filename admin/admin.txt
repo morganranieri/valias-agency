@@ -1,5 +1,4 @@
 filing (
-  backup to 2nd disk
   sort inbox into carry disk
 )
 
@@ -8,8 +7,9 @@ invoices(
 )
 
 insurance (
-  keep tech-support sectioned out so you can exit gracefully (
-    register company 
+  keep tech-support projects sectioned out so you can exit gracefully (
+    register company for Gravity 
+    register company for Tutable 
   )
 )
 
@@ -21,6 +21,10 @@ settle (
 )
 
 tax (
+  bas file by company (
+    statements (clarify and document the opaque question)
+    receipts required for GST refunds over $7.5 (for 2027)
+  )
   prepare for company tax return (
     gravity (
       main bank account (
@@ -31,16 +35,11 @@ tax (
   franking accounts (above zero or more paperwork)
 )
 
-bas file by company (
-  receipts required for GST refunds over $7.5 (for 2027)
-)
-
 forum ledger (
   balance
 )
 
 quotes (
-
 )
 
 costs (
@@ -48,7 +47,7 @@ costs (
   zoos victoria from credit card to utilities
 )
 
-budget (
+budget (  
   
   Long range budget issue: Make a conditional home loan repayment amount, based on a percentage of income
 )
@@ -58,7 +57,7 @@ superannuation (
 )
 
 printing (
-
+  backup to 2nd disk
 )
 
 commitments (
@@ -74,8 +73,8 @@ transfers (
 )
 
 travel (
-  Mia's passport (
-    check form submission date
+  passport (
+    return call
   )
 )
 
