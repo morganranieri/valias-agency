@@ -1,0 +1,7 @@
+Use cases for receipts and invoices(
+  Reimbursement
+  Audit
+  Warranty
+  Obtaining additional info
+  Reminder to pay
+)

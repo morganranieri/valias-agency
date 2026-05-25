@@ -16,7 +16,7 @@ insurance (
 settle (
   look at what's going into the forum ledger and move it out to a contained thing when it makes sense (
     gravity - bank account (await company registration)
-    tutable - expenses ledger ()
+    tutable
   )
 )
 
@@ -33,6 +33,7 @@ tax (
     )    
   )
   franking accounts (above zero or more paperwork)
+  project her tax to June 30
 )
 
 forum ledger (
@@ -73,8 +74,7 @@ transfers (
 )
 
 travel (
-  passport (
-    return call
-  )
+  Tas accom
+  
 )
 

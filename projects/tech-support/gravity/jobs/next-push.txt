@@ -1,8 +1,11 @@
-Opt-in to membership. 
-Opt-out of payment method. 
+In-progress: Opt-in to subscription. 
+Opt-out of subscription. 
 
-Add a payment method. 
+Add a payment method.
 Remove a payment method.
 
-Push end-of-grace modal. 
-Push membership-due modal. 
+URL for successful subscription - "thank you"
+URL for failed subscription - "hmm... no subscription"
+
+Push end-of-grace modal.
+Push membership-due modal.

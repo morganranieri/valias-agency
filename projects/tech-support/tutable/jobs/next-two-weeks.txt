@@ -1,8 +1,8 @@
 Done: Admin can make an additional group.  
 Done: Admin can make a tutor. 
 
-In progress: Admin can move students between groups. 
-Admin can add a tutor to a group. 
+Done: Admin can move students between groups. 
+Done: Admin can add a tutor to a group. 
 
-Tutor can see their groups. 
+Done: Tutor can see their groups. 
 Tutor can see their group sessions. 
