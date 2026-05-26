@@ -1,4 +1,5 @@
 Use cases for receipts and invoices(
+  GST refunds > $7.5
   Reimbursement
   Audit
   Warranty

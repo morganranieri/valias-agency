@@ -22,7 +22,6 @@ settle (
 
 tax (
   bas file by company (
-    statements (clarify and document the opaque question)
     receipts required for GST refunds over $7.5 (for 2027)
   )
   prepare for company tax return (

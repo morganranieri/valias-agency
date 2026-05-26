@@ -1,0 +1,7 @@
+Tutor can select a session number within a program.
+Tutor can see their groups and group members after selecting a program session. 
+
+Tutor can mark the roll for a given session. 
+
+Tutor can move an attendee to another group. 
+Tutor can add an attendee to a group, from the list of known students. 
