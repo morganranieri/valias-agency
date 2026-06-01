@@ -2,9 +2,9 @@ filing (
   sort inbox into carry disk
 )
 
-invoices(
-  
-)
+reminders ()
+
+invoices ()
 
 insurance (
   keep tech-support projects sectioned out so you can exit gracefully (
@@ -21,9 +21,7 @@ settle (
 )
 
 tax (
-  bas file by company (
-    receipts required for GST refunds over $7.5 (for 2027)
-  )
+  bas file by company (sheets)
   prepare for company tax return (
     gravity (
       main bank account (
@@ -73,7 +71,4 @@ transfers (
 )
 
 travel (
-  Tas accom
-  
 )
-

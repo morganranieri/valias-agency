@@ -15,7 +15,7 @@ W3 - a miscellaneous witholding amount that's not included at W2 and W4
 W5 - (W2 + W4 + W3)
 Income-Tax-Option -	1 or 2
 T4 - 23
-T1 - taxable income 
+T1 - sales (copy of G1)
 T2 - Company Tax Rate as a portion of taxable income (expected company tax / expected company income * 100)
 T3 - if changing T2 
 T11 - if T3 exists {T1 * T3}, else {T1 * T2}

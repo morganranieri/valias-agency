@@ -170,7 +170,7 @@ Calculation statement (
   if there is a taxable income 
   mandatory fields (
     a - comes from section 7 label T (if positive), otherwise zero
-    b - same as t1
+    b - same as t1 (unless the company is a retirement savings account)
     t1 - how much tax you owe on net income (rates in appendix A)
     t2 - t1 minus non-refundable non-carry forward tax offsets 
     t3 - t2 minus non-refundable carry forward tax offsets 
@@ -182,7 +182,7 @@ Calculation statement (
   d - can carry forward any excess here 
   e - refundable tax offsets 
   f - franking deffecit tax offsets (if you've got a franking defecit tax liability - which you shouldn't if you didn't go into defecit on the franking account and this require a franking tax return - alas, you might be able to offset this amount against your income tax)
-  k - activity statements (include 5A and reduce by 5B)
+  k - activity statements (only what BAS have been lodged (paid or unpaid), include 5A and reduce by 5B, page 260 of notes)
   g - secion 102AAM interest charge
   h - adjustments for is someone else was witholding our tax
 )
