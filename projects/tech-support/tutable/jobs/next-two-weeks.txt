@@ -1,0 +1,8 @@
+Guardian can pay to finalise an enrolment for their attendee student (
+  Please pay to finalise John Wayne's enrolment for Program
+)
+Tutors can't see past terms 
+Admin can report on attendance and enrolment status for a given year and term
+Admin can report on students self-assessed levels (simple report or incorporate into UX - Q: future or short)
+Testing
+Additional expected controls

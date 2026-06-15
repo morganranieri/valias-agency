@@ -6,23 +6,25 @@ reminders ()
 
 invoices ()
 
-insurance (
-  keep tech-support projects sectioned out so you can exit gracefully (
-    register company for Gravity 
-    register company for Tutable 
+legal structure (
+  prepare for exit (
+    Partnership (
+      Gravity 
+      Tutable 
+    )
   )
 )
 
-settle (
-  look at what's going into the forum ledger and move it out to a contained thing when it makes sense (
-    gravity - bank account (await company registration)
+balance (
+  check Forum Ledger and refactor when it makes sense (
+    gravity - own bank account
     tutable
   )
 )
 
 tax (
-  bas file by company (sheets)
-  prepare for company tax return (
+  bas file by business (sheets)
+  prepare for partnership tax return (
     gravity (
       main bank account (
         list of ins and outs
@@ -30,18 +32,12 @@ tax (
     )    
   )
   franking accounts (above zero or more paperwork)
-  project her tax to June 30
-)
-
-forum ledger (
-  balance
 )
 
 quotes (
 )
 
 costs (
-  home insurance quote from budget direct
   zoos victoria from credit card to utilities
 )
 
