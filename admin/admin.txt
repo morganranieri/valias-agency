@@ -6,21 +6,11 @@ reminders ()
 
 invoices ()
 
-legal structure (
-  prepare for exit (
-    Partnership (
-      Gravity 
-      Tutable 
-    )
-  )
-)
+payments ()
 
-balance (
-  check Forum Ledger and refactor when it makes sense (
-    gravity - own bank account
-    tutable
-  )
-)
+emails ()
+
+ledger ()
 
 tax (
   bas file by business (sheets)
@@ -34,24 +24,22 @@ tax (
   franking accounts (above zero or more paperwork)
 )
 
-quotes (
+business development (
+  quotes
+  specifications
+  marketing
 )
 
-costs (
-  zoos victoria from credit card to utilities
-)
+costs ()
 
-budget (  
-  
+budget (    
   Long range budget issue: Make a conditional home loan repayment amount, based on a percentage of income
 )
 
-superannuation (
+superannuation ()
 
-)
-
-printing (
-  backup to 2nd disk
+safety (
+  backup files to 2nd disk
 )
 
 commitments (
@@ -67,4 +55,17 @@ transfers (
 )
 
 travel (
+  Bali ideas (
+    Temple
+    Night to ourselves
+    Walk to ourselves
+    Cafe
+    Family restaurant (our shout)
+    Taxi
+    Cash Rupee
+    Loki and Chooks 
+    Home transfers and work coverage
+  )
 )
+
+issues (GH)

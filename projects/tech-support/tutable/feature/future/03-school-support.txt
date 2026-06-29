@@ -17,6 +17,7 @@ Scope (
     Book in programs
     Receive, via email, a flyer (called a registration form)
   )
+  Admins can provision schools ()
 )
 
 Model ()
