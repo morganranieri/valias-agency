@@ -1,18 +1,42 @@
-H1 - Extracurriculum admin, sorted.
+H1 - Extracurricular admin, sorted.
 
-H2 - Sharing skills takes focused attention, so do some booking systems. 
+H2 - Training takes your full attention, our booking system doesn't. 
 
 Brief (2 paragraphs)
-We can help you:
-- lock in times
-- 
-- get paid
+We can help you lock in schedules and stay organised, so you can focus on what you do best.  
 
+
+Action: "talk to us to learn more"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Backlog of features: 
 Touch on compliance but not everything
+Payroll for more complicated structures 
+Tournaments 
+Student specific development plans 
+Parents can discover programs at a school
+
+Security and compliance badges:
+- our own data centre with snipers and guard dogs and flame throwers and even a fire warden
+- store and share your state tickets
+- 
+
 
 For tutors - say it without saying it 
 
 For schools - say it without saying it (present through trusted connection)
 
-Action: "learn more"
 
