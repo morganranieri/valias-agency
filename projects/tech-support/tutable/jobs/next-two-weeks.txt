@@ -1,2 +1,1 @@
-GitHub Issues: 10 remaining
-Testing
+scoping 
