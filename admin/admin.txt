@@ -4,9 +4,7 @@ filing (
 
 reminders ()
 
-invoices (
-  Urgent EOFY report for Tutable - 300 each
-)
+invoices ()
 
 payments ()
 
@@ -15,19 +13,22 @@ emails ()
 ledger ()
 
 tax (
-  bas file by business (sheets)
-  prepare for partnership tax return (
-    gravity (
-      main bank account (
-        list of ins and outs
-      )
-    )    
+  2026 personal returns (hers - expenses, health fund PHI's )
+  future proof (
+    bas file by business (sheets)
+    prepare for partnership tax return (
+      gravity (
+        main bank account (
+          list of ins and outs
+        )
+      )    
+    )
+    franking accounts (above zero or more paperwork)
   )
-  franking accounts (above zero or more paperwork)
 )
 
 business development (
-  quotes
+  quotes - scope 
   specifications
   marketing
 )
@@ -57,6 +58,7 @@ transfers (
 )
 
 travel (
+  Flight credits from Booking.com / AirAsia (take to twitter/accc)
   Bali ideas (
     Temple
     Night to ourselves

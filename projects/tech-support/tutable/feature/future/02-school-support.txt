@@ -1,0 +1,41 @@
+Quote: 25k..
+Due: Term 4, Week 1 - 2026-10-05
+Approved: no
+
+Scope (
+  Admins can provision school offices (
+    A school office ( 
+      has many users
+      has many school_campuses
+    )
+    School officers can provision other school offices 
+    School officers can remove other school offices 
+  )
+  School offices can see last twleve months of (
+    programs (
+      filtering/sorting for schools with heaps of campuses/programs
+    )
+    attendance (
+      design (
+        One row per student
+        One column per session
+        One column for group membership with asterisk if group membership has changed during the term
+        Asterisk note section containing mid-term group membership changes
+      )
+    )
+    groups memberships (through programs)
+  )
+  Registration flyers are easier to provide to officers (
+    Redesign form so it prints on any browser 
+    Schools print their own
+  )
+  Compliance pack sharing (
+    Admin can upload, remove and download a multipage PDF 
+    School officers can view the compliance pack of each Tutor who is assigned to a program/group at their school in the future or last twelve months
+  )
+  Maintenance (
+    When guardian creates a student, validate that the guardian doesn't have a child by the same name
+    Make guardian phone number mandatory
+    UI GH Issue 276 Guardians shouldn't be able to see and enroll in programs which have passed their end date
+  )
+)
