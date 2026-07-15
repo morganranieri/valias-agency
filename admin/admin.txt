@@ -28,7 +28,7 @@ tax (
 )
 
 business development (
-  quotes - scope 
+  quotes
   specifications
   marketing
 )
@@ -37,6 +37,7 @@ costs ()
 
 budget (    
   Long range budget issue: Make a conditional home loan repayment amount, based on a percentage of income
+  make sense of education costs
 )
 
 superannuation ()

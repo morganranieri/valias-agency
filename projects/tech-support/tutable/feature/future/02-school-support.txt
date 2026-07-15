@@ -3,15 +3,16 @@ Due: Term 4, Week 1 - 2026-10-05
 Approved: no
 
 Scope (
-  Admins can provision school offices (
-    A school office ( 
-      has many users
+  Admins can provision school_officers (
+    A school (
+      has one office
+      has many school_officer users
       has many school_campuses
     )
-    School officers can provision other school offices 
-    School officers can remove other school offices 
+    school_officers can provision other school_officers 
+    school_officers can remove other school_officers
   )
-  School offices can see last twleve months of (
+  School offices can see this and previous year of (
     programs (
       filtering/sorting for schools with heaps of campuses/programs
     )
@@ -35,7 +36,9 @@ Scope (
   )
   Maintenance (
     When guardian creates a student, validate that the guardian doesn't have a child by the same name
-    Make guardian phone number mandatory
-    UI GH Issue 276 Guardians shouldn't be able to see and enroll in programs which have passed their end date
+    Guardian phone number is mandatory (backfill?)
+    Sorting programs by end_date.desc for guardian/#/student enrolment (GHIssue 276)
   )
 )
+
+nice-to-have: download a PDF (render html as PDF on server-side) or instructions (subtext in the marketing page)

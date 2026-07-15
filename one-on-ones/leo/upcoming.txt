@@ -1,2 +1,5 @@
-Security: monitoring unusual login attempts
-School-support quote 
+School-support quote/scope 
+2 support requests (
+  Stripe redirects failed 
+  reachshveta@gmail.com, anan10102002@gmail.com
+)
