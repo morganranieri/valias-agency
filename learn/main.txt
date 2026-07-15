@@ -1,0 +1,8 @@
+Practice (
+  building a message app in my own time, 
+  hosted on the computer at home
+)
+
+Study (
+  PR#224 for learning spec
+)

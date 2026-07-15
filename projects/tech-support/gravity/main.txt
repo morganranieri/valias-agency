@@ -1,3 +1,12 @@
+feature/paying-for-the-service(
+  In-progress: Opt-in to subscription. (
+    when I press subscribe, wait for URL, then follow it in the same window.
+  )
+  Work in sync across flutter and rails. 
+  Pre-work: design all cases and pressure test. 
+  Front-end tests: Opt-in to a membership.  Etc. 
+)
+
 conflict (
   platforms have varying requirements
   will need to decide and lock in a heirarchy on support, testing and deployment
