@@ -2,7 +2,9 @@ filing (
   sort inbox into carry disk
 )
 
-reminders ()
+reminders (
+  1,449 - Flight credits from Booking.com / AirAsia (take to twitter/accc)
+)
 
 invoices ()
 
@@ -36,6 +38,7 @@ business development (
 costs ()
 
 budget (    
+  check home loan balance at 15 Jul
   Long range budget issue: Make a conditional home loan repayment amount, based on a percentage of income
   make sense of education costs
 )
@@ -58,19 +61,7 @@ transfers (
   stay in the don't worry
 )
 
-travel (
-  Flight credits from Booking.com / AirAsia (take to twitter/accc)
-  Bali ideas (
-    Temple
-    Night to ourselves
-    Walk to ourselves
-    Cafe
-    Family restaurant (our shout)
-    Taxi
-    Cash Rupee
-    Loki and Chooks 
-    Home transfers and work coverage
-  )
-)
+projects/personal/guinness ()
+
 
 issues (GH)

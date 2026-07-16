@@ -1,3 +1,5 @@
+probably best to work for a major - not a venture space - Metcash, Woolies, not sure Australian's want price of food delivered, except in special circumstances.  Niche, expensive.  Service stream. 
+
 context("I'd like a box of fruit and vegetables")
 
 spec (

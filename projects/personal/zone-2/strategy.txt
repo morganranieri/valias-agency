@@ -1,3 +1,5 @@
+Big goal (be around eachother on the job, reasonable commute)
+
 Budget (
   Capital (
     Building (superannuation or lease)
@@ -20,7 +22,8 @@ Budget (
 Locations (
   Bonbeach
   Warrandyte
+  Glen Waverly
 )
 Funding (
-
+  Super on buildings
 )
