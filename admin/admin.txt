@@ -8,14 +8,18 @@ reminders (
 
 invoices ()
 
-payments ()
+payments (
+  radio? ? 
+)
+
+sales (PA, )
 
 emails ()
 
 ledger ()
 
 tax (
-  2026 personal returns (hers - expenses, health fund PHI's )
+  2026 personal returns (hers - expenses, not getting PHI's but there were 30 days not covered )
   future proof (
     bas file by business (sheets)
     prepare for partnership tax return (
@@ -65,3 +69,5 @@ projects/personal/guinness ()
 
 
 issues (GH)
+
+jobs (apply)

@@ -1,0 +1,16 @@
+Context: 
+  Present the user some in-app modals as certain points in time, to prompt subscriptions and payment method management. 
+
+Scope (
+  Make sure whatever we miss in feature/paying-for-the-service is covered here. 
+)
+
+Things that I need to figure out (
+  What's missed. 
+)
+
+Model: 
+
+View: 
+
+Controller: 

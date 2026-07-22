@@ -1,3 +1,9 @@
+Front-end tests (
+  Cucumber tests for Tutable:
+    features/pages/ - plain English test cases (written in Gherkin language)
+    features/steps/ - Ruby code that defines what the English instructions actually do
+)
+
 Practice (
   building a message app in my own time, 
   hosted on the computer at home

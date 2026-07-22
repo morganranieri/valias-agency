@@ -1,11 +1,22 @@
 feature/paying-for-the-service(
-  In-progress: Opt-in to subscription. (
-    when I press subscribe, wait for URL, then follow it in the same window.
+  In-progress: feature/end-of-grace-modal
+  setting up the subscription page to show status and allow a cancellation. (
+    check if the user has an active subscription 
+    replace the text and button on subscription_page.dart with "you are subscribed"
+    swap 'subscribe' button for 'cancel'
   )
-  Work in sync across flutter and rails. 
-  Pre-work: design all cases and pressure test. 
-  Front-end tests: Opt-in to a membership.  Etc. 
+  
+  Front-end tests: Opt-in to a membership.  Start manual, with a checklist. 
+  Configure state of the app to show modals based on the user's trial date status (awaiting API support) (
+    check status on each login?
+    put in a clock and check subscription.due_date and subscription.status every 24 hours?
+  )
+  Allow the user to manage their payment methods. 
 )
+
+Work in sync across flutter and rails. 
+
+deployment to be streamlined 
 
 conflict (
   platforms have varying requirements

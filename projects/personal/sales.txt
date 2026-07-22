@@ -1,0 +1,12 @@
+PA (
+  Buyers (
+    Venue
+    Production com
+    Band 
+    Musician 
+  )
+  Terms (
+    Depends on trust with buyer 
+  )
+)
+

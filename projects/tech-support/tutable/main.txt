@@ -1,4 +1,17 @@
+Deal with CI 
+Plan B: rebuild, consider equity. (
+  make plan realistic, with a hint of optimism
+)
+
 issues: check 
+
+Get front-end testing up to standard (
+  Check out framework cucumber written in gherkin for front-end testing 
+  make a checklist of what the user should be able to do 
+  run a process of testing that every time we make a change 
+  write the test before the feature is built (how would you know what the test is supposed to be if you're developing and designing in tandem? You wouldn't, so you might fold it in to your commit or PR process)
+  update old tests of things change 
+)
 
 staging (https://tutable-test-2e7ce448b497.herokuapp.com/admin/dashboard)
 
