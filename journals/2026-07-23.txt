@@ -1,0 +1,23 @@
+Business.  Admin.  Today's gig.  
+
+Not in spreadsheets.  In story.  Mashed into model.  Takes time or else it's a not quite good enough system.
+
+What should the service look like? 
+
+Tutors.  Schools.  Tutor companies.  Guardians.  Non-school places. 
+
+Guardian view: relative and built in order.  Key area of interest is discovery and standardised communications.  
+
+Companies of tutors - all the things 
+
+Schools - ? ? next thing
+
+Tutors - ? ? 
+
+Between tutors and tutor companies - what does the user experience look like?  could be super inefficient.  
+
+We can still direct it from here.  Or shelve it.  To direct it may mean to fork it.  Insane complexity to support both. 
+
+Unity is 3x less work.  
+
+Front-end testing.  Means we can refactor and rewrite tests.  Fair play.  Do the testing.  

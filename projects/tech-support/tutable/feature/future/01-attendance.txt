@@ -1,6 +1,7 @@
 quote: $25k
 due: 2026-Jul-15
 approved: yes
+completed: yes
 
 Time: 9 weeks
 

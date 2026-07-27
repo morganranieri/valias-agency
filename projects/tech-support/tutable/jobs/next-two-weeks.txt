@@ -1,1 +1,13 @@
-scoping 
+Next two weeks: 
+- provision school officers
+- school officer dashboard
+  - programs 
+  - roles 
+- school officer programs with filter (school_campus.display_name, year, term) and scope (this and last year)
+- program view (
+  - details 
+  - marketing 
+  - attendance 
+  - students (group memberships)
+  - tutors (group memberships)
+  )

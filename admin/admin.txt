@@ -1,18 +1,12 @@
-filing (
-  sort inbox into carry disk
-)
+filing (sort inbox into carry disk)
 
-reminders (
-  1,449 - Flight credits from Booking.com / AirAsia (take to twitter/accc)
-)
+reminders ()
 
 invoices ()
 
-payments (
-  radio? ? 
-)
+payments (radio? cancel or hold)
 
-sales (PA, )
+sales (PA, mic)
 
 emails ()
 
@@ -42,9 +36,23 @@ business development (
 costs ()
 
 budget (    
-  check home loan balance at 15 Jul
   Long range budget issue: Make a conditional home loan repayment amount, based on a percentage of income
-  make sense of education costs
+  education budget needs realism
+    - university
+    + align P-12 with DCC
+      + Prep - Grade 2 = $9,215 
+      + Grade 3 - Grade 6 = $10,445
+      + Year 7 - Year 10 = $13,510
+      + Year 11 - Year 12 = $14,950
+    + inflation: as per
+    + extra-curricular providers = $2k/year for sports, music, arts, physics, skills,  
+    + school-related costs = $1k/year for excursions, incursions, programs (DCC wants $2.3k/year but covers camps)
+    + camps = $500/year
+    + supplies = $1,330/year 
+      + uniforms $500
+      + books $400
+      + equipment computers sports $200 
+      + shoes $230
 )
 
 superannuation ()
@@ -54,7 +62,7 @@ safety (
 )
 
 commitments (
-  tidy up Venus Bay
+  after 4th Augst do another tidy up of Venus Bay
 )
 
 comms (
@@ -70,4 +78,10 @@ projects/personal/guinness ()
 
 issues (GH)
 
-jobs (apply)
+jobs (
+  for telco rig (
+    print CV
+    visit ringwood to see if they have any rigging 
+    hand in a CV
+  )
+)

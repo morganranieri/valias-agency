@@ -1,0 +1,53 @@
+Thoughts on an email (
+  It is clear that you want to work to commercialize Tutable.  Its doesn't go as far as to say you're going to begin this week.  
+
+
+  Does it give me clearance and confidence to start thinking commercially? No.  
+
+
+  Perhaps, indicating the next steps you plan to take...  such as... developing an ideal customer profile.  Building a list of prospects, with the view to engage in discovery of their administration.  
+
+
+  Separately, I have concerns about the user and domain models.  I would like us to form a view of the constraints sooner rather than later.  I'm inclined to not engage in building a network of networks.  Tis a massive shot in the dark.  "School based", feels like the ideal constraint to me, with "ECP (extra-curricular provider) based" also a workable alongside.  A noticeboard of opportunity for guardians (independent of schools and provider, may be run under a separate domain, a yellow-pages.  Still, we face a challenge with regard to the user and domain models.  Guardians are becoming used to using third party services to manage their interactions across multiple places or groups.  Although I think it's a detracting experience and not one that builds trust or confidence.  How might it be a neutral experience for the guardian, an administrative enhancement for the tutors, and state-of-the-art for schools.  
+
+  A guardian app?  Possibly.  But not as the only front gate.  A central domain.  Hard to imagine.  What's the pitch to a guardian?  A la carte education for your kid.  Okay, kinda interesting.  But please give me $10m.  Why?  Because without a good enough menu, it's not interesting.  So, could start locally, has to be local anyway, could start with a geographic constraint, and have some degree of alignment with schools.  Visualization:  I tell you where I live.  You tell me 20 different opportunities I have to give my kid some training.  You help me comprehend the opportunities.  You standardize the terms.  Yeah, I can see it.  Doesn't need the venture money.
+
+  But I think it's a different business than providing admin support to tutors.  
+
+  Not a big problem.  And doesn't mean there's not value in a multi-tenant model for the current rails approach. 
+
+  Perhaps naming these two domains, with both being independent from Chess, will make us more productive.  Uggh, I know, two extra businesses!  Humbug..  might work though.. 
+
+  Time to check in?  Or continue to flesh out my thoughts on the future of the current rails approach?  Or to just prepare my workload for tomorrow?  Or, just crack on with admin.  
+
+
+
+
+  Remember: the tenant is the tuition provider, not the school.  The school could be given quite nice access or some kind of domain authority, but that's probably not how my mortgage gets paid this year.  
+
+
+
+
+
+  "Importantly, I don't see chess as separate to tutable" - what's your position?  This is not clear. 
+
+
+  Panned?  Penned?
+
+
+  However, question raised:  what is the work and what do we actually want to do?  Unclear.  
+  Systems, database, general administration, yeah.  
+
+  Is there a theory on where our advantage will be?  Do I see surplus?  Do I see a good trade?  And in what shape or form is it?  Thoughts aside.  
+
+  The email does not say, I am going to work with these guys on a project, it says you WANT to.  Can't accuse you of being out of line. 
+
+
+  At this stage we do not have a set of clients/customers/users we're seeking to serve, so I suppose we are not pushing anything anyway.  All rights reserved.  
+
+
+  Accurate, yes.  Provided we don't work outside the scope.  
+
+
+  Two ideas:  call them for-the-Guardian, for-the-Tutor.  They're not equal.  One's product marketing, one's systems.  Both cool.  Sure, but where's Elon musk and his work ethic to run multiple companies at once?  And who even wants that?  Really?  Sure, pay me twice, but politics?  Definitely don't co-locate.  Ok, time to check in.  Or stay focused on your own work.  
+  )

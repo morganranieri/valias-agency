@@ -1,1 +1,13 @@
-1 - funny story about a car in a car 
+* Tutable's next two weeks jobs 
+
+* Our approach to testing 
+  Goal: is confidence to deploy, as the product gets more complicated. 
+  Additional outcome: more upfront design and planning.
+  Constraints, unless we want to become testing engineers.  12 tests.  
+  Top and tail.  Tests to start the process, then ditch and review the 12 tests.  12 for a new feature, 12 standards. 
+  "I can learn by starting with a little bit of test coverage, but may not be able to honestly commit to the workflow till I know more"
+  
+  "in the style of BDD, yes.  Automate, not sure I see the value" 
+  "balance our resource with our needs"
+
+* funny story about a cat in a car 

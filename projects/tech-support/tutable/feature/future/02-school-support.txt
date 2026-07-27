@@ -1,6 +1,7 @@
-Quote: 25k..
-Due: Term 4, Week 1 - 2026-10-05
-Approved: no
+quote: 25k
+due: Term 4, Week 1 - 2026-10-05
+approved: yes
+completed: no
 
 Scope (
   Admins can provision school_officers (
@@ -41,4 +42,6 @@ Scope (
   )
 )
 
-nice-to-have: download a PDF (render html as PDF on server-side) or instructions (subtext in the marketing page)
+nice-to-haves: 
+- download a PDF (render html as PDF on server-side) or instructions (subtext in the marketing page)
+- sort and refactor admin/schools 
