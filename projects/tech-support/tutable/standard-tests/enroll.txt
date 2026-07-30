@@ -1,0 +1,28 @@
+Feature: Guardian's enroll students
+
+  Background:
+    I am logged in as a guardian
+    And I have a student
+    And the student has a school
+    And the student has a grade/year
+    And there are programs they are eligible for
+
+  Scenario: See the programs 
+    Given I am on the dashboard
+    When I click enroll next to my student
+    Then I should see all the eligible programs   
+
+  Scenario: Confirm the programs 
+    Given I have clicked on an eligible program
+    Then I should see more details with a program enrolment confirmation 
+
+  Scenario: Enroll in a program
+    Given I can see more details with a program enrolment confirmation
+    When I click on confirm enrollment     
+    And complete payment
+    Then I should receive a confirmation email 
+      
+  Scenario: Adjust the number of sessions
+    Given the tenant permits adjustments
+    When I add a session adjustment 
+    Then the total price should be adjusted

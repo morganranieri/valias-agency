@@ -1,0 +1,38 @@
+Feature: Office support for the tutor
+
+  Background: 
+    Given I am logged in as a tutor 
+
+  Scenario: Tutor can see their dashboard
+    When I visit the tenant homepage
+    Then I am redirected to the dashboard
+
+  Scenario: Tutor can see their programs 
+    Given I am on the dashboard
+    And I have been assigned to a at least one program
+    Then I can see my program(s)
+    
+  Scenario: Tutor can mark the roll 
+    Given I have clicked a program
+    And I have clicked a session number
+    And I have students in the program
+    Then I should be able to mark them as absent/present/unrecorded
+
+  Scenario: Tutor can find students to add to their group
+    Given a guardian has previously added a student in the same school
+    And the student is eligible for the program
+    And I am in a program session page
+    When I click add a student under a group heading
+    Then I should be able to search for eligible students to add to the group
+  
+  Scenario: Tutor adds a previously registered attendee to their group
+    Given I am looking at a list of eligible students to add to my group
+    When I add the student
+    And they appear on the roll
+    Then the guardian should see a pending enrolment on their dashboard
+ 
+  Scenario: Tutor can move students to another group in the same program
+    Given I am on the program session page
+    And there is more than one group in the program
+    When I click then pencil icon
+    Then I should be able to assign them to another group even if I am not assigned to that group

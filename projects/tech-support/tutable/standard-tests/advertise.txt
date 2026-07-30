@@ -1,0 +1,5 @@
+Feature: The landing page 
+
+  Scenario: A polished page for the public
+    When I visit the base url for the tenant
+    Then I should see a nice page

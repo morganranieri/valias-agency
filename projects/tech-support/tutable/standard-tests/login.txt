@@ -1,0 +1,12 @@
+Feature: Login
+
+  Scenario: User can login from the tenant homepage
+    Given I am not logged in on the tenant homepage 
+    When I login as a <user-type> user
+    Then I should be redirected to <user-type-dashboard>
+
+    | user-type      | user-type-dashboard      |
+    | guardian       | guardian/dashboard       |
+    | tutor          | tutor/dashboard          |
+    | admin.         | admin/dashboard          |
+    | school-officer | school_officer/dashboard |

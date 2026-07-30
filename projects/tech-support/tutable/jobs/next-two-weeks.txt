@@ -1,5 +1,13 @@
 Next two weeks: 
-- provision school officers
+- schema update
+  - split the campus model into campus and school
+  - add school officer model 
+- provision school officers 
+  - feature flag to hide link on admin dashboard (file: tutable_features, define flag, in controller, use: feature_enabled?) similar to tutor or attendance
+  - UI start page
+  - Link from admin dashboard 
+    - test link from the admin_dashboard_page.feature
+  - get it working 
 - school officer dashboard
   - programs 
   - roles 

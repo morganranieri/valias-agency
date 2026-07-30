@@ -1,0 +1,12 @@
+Feature: Collecting payment
+
+  Scenario: A guardian goes to stripe to pay for their students enrolment
+    Given I am logged in as a guardian
+    And I have chosen a program for my student
+    Then I should be redirected to my payment url
+
+  Scenario: Stripe redirects the guardian with successful response 
+    Given I am logged in as a guardian
+    And I have a pending enrolment 
+    When I am directed from stripe with a successful payment response
+    Then I should see my student is enrolled 

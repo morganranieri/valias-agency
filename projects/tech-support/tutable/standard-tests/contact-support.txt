@@ -1,0 +1,12 @@
+Feature: Contact someone for support
+
+  Scenario: A tenant administrator can reach someone on the phone
+    Given I am a paying tenant 
+    And I have an urgent issue 
+    Then I should be able to find the tutable support phone number
+
+  Scenario: A non-administrative user can contact their administrator 
+    Given I am a user
+    And I am not an administrator
+    When I scroll to the bottom of the page
+    Then I should see contact details for the administrator

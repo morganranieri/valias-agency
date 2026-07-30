@@ -1,0 +1,27 @@
+Feature: User provides their contact details
+
+  Background: 
+
+  Scenario: Guardian adds contact details during signup 
+    Given I have clicked sign up from the tenant homepage
+    When I give my full name
+    And phone number
+    And email address
+    And click next
+    Then I should be see "add a student"
+
+  Scenario: Tutor/"school officer"/administrator adds contact details post signup
+    Given I am logged in as tutor/"school officer"/administrator
+    And I have not provided my contact details
+    And I have selected "provide my contact details" from the dashboard
+    When I have provided new contact details
+    And submitted the form
+    Then I should see the new details confirmed on the dashboard
+
+  Scenario: A user with contact details updates their contact details
+    Given I am logged in as tutor/"school officer"/administrator
+    And I have provided my contact details
+    And I have selected "update my contact details" from the dashboard
+    When I have provided updated contact details
+    And submitted the form
+    Then I should see the updated details confirmed on the dashboard

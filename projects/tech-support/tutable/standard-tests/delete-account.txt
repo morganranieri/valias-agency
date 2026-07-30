@@ -1,0 +1,43 @@
+Feature: Deleting data and accounts
+
+  Background:
+
+
+  Scenario: Guardian requests account deletion
+    Given I am logged in
+    And I am a guardian 
+    And I am not any other type of user 
+    When I request an account deletion
+    Then I should be logged out 
+
+  Scenario: Deleted guardian signs up again
+    Given I am on the login page
+    When I sign up with the same email as an account that has been deleted
+    Then I should not see any information that was associated with the deleted account
+
+  Scenario: Administrator removes a tutor's access
+    Given I am logged in as an administrator 
+    When I remove a tutor 
+    Then the tutor should not be able to login
+
+  Scenario: Tutor's access has been removed but I still want to see their attendance records
+    Given I am logged in as an administrator
+    When I have removed a tutor
+    Then I should still see their attendance records 
+    
+  Scenario: Administrator removes a school officer
+    Given I am logged in as an administrator
+    When I remove a school officer
+    Then the school officer should not be able to login
+
+  Scenario: School officer removes another school officer
+    Given I am logged in as a school officer
+    And there is another school officer at the same school
+    When I remove the other school officer 
+    Then the other school officer should not be able to login
+
+  Scenario: Tenant Administrator requests deletion of their whole setup
+    Manual process
+
+  Scenario: Tutor requests account deletion (not supported)
+

@@ -1,0 +1,12 @@
+Feature: Signup 
+
+  Scenario: A guardian signs up
+    Given I am on the tenant homepage 
+    And I click sign up
+    And I provide the details
+    And I click next
+    And I add a student
+    And I fill out the skill assessment for the student
+    Then I should see the dashboard
+
+  Scenario: A new tenant signs up (not yet supported) 

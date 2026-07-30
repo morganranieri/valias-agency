@@ -1,0 +1,27 @@
+Feature: Guardian can manage a student
+
+  Background:
+    Given I am logged in as a guardian
+
+  Scenario: Guardian adds a student
+    Given I am on the dashboard
+    When I click add a student
+    And I fill in the student name, school and grade
+    And I click submit
+    Then I should see the student's name on my dashboard
+
+  Scenario: Guardian updates student name
+    Given I am on the dashboard
+    When I click edit next to my student's name
+    And I update their name
+    Then I should see their updated name on my dashboard
+
+  Scenario: Guardian updates multiple student profile fields at once
+    Given I am on the dashboard 
+    When I click edit next to my student's name
+    And I update their grade and school and "medical information"
+    And I am redirected to the dashboard
+    And I click edit next to their name again
+    Then I should see their updated information
+
+  Scenario: Remove (not supported)
