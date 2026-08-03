@@ -4,7 +4,7 @@ reminders ()
 
 invoices ()
 
-payments (radio? cancel or hold)
+payments ()
 
 sales (PA, mic)
 
@@ -13,7 +13,7 @@ emails ()
 ledger ()
 
 tax (
-  2026 personal returns (hers - expenses, not getting PHI's but there were 30 days not covered )
+  2026 personal returns (hers)
   future proof (
     bas file by business (sheets)
     prepare for partnership tax return (
@@ -78,10 +78,4 @@ projects/personal/guinness ()
 
 issues (GH)
 
-jobs (
-  for telco rig (
-    print CV
-    visit ringwood to see if they have any rigging 
-    hand in a CV
-  )
-)
+jobs ()

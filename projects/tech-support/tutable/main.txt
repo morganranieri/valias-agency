@@ -1,3 +1,5 @@
+jobs/concerns.txt might become an issue for the final push 
+
 Deal with CI 
 Plan B: rebuild, consider equity. (
   make plan realistic, with a hint of optimism

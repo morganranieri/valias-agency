@@ -3,3 +3,4 @@ Admin/schools ui is going to need some more attention
 Feature flag 
 Removing a school officer 
 Uncomment the admin_schools_school_officers_page.feature test 
+Removing the name from the user model... if we're interested. 

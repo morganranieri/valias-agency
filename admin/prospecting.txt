@@ -1,0 +1,31 @@
+Goal: meet with 5 extra-curricular providers who each have more than 10 tutors 
+
+What can I offer? 
+Coffee.  Warmth.  Database.  Admin, tutor, school and public interfaces.  Local support.  Hosting.  
+
+What would I like to know? 
+- how many tutors do you have? 
+- how many students do you teach
+- do you take payment from parents?
+- is the owner involved?
+- how long has the business been around? 
+- what schools are you involved with? 
+- if you had to sort these in order, what would they be for you at the moment?  growth, admin workload reduction, quality improvement
+
+What's the plan? 
+Build a standard database package for extra-curricular providers that replaces the need for spreadsheets and file-sharing systems. 
+
+What does it cost? 
+$50/tutor/month + 1.8% per enrolment.
+
+What if they say they're ready to go? 
+We're building our list of day-one clients. 
+It'll take us 10-20 full-time weeks to get something working. 
+We know you can't give us a commitment. 
+But we're confident that when we're ready to go, you'll want to migrate.  
+So can we keep you in the loop? 
+
+How are you going to build it? 
+Venture funding. 
+
+We'd have to have a very good relationship with our first few clients, because things will change for them.  
