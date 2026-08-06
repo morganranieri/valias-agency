@@ -1,11 +1,13 @@
 jobs/concerns.txt might become an issue for the final push 
 
-Deal with CI 
-Plan B: rebuild, consider equity. (
-  make plan realistic, with a hint of optimism
+issues: check 
+
+Testing (
+  To avoid slowing down development, keep refining my front-end test data. 
+  Possibly documenting it in my own location, or pushing it through cucumber. 
+  Consider driving the next feature with a small set of tests.  12 was a good number, could try 3 and see what happens. 
 )
 
-issues: check 
 
 Get front-end testing up to standard (
   Check out framework cucumber written in gherkin for front-end testing 
@@ -63,3 +65,8 @@ research (
   free-trials (keep a spreadsheet)
 )
 
+consider repayment to CI for their spend on development (
+  5% of revenue until paid
+  discounted service fees once a threshold is reached
+  consider how much to accept payment in light of this
+)

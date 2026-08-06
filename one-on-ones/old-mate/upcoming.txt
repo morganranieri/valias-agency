@@ -1,0 +1,7 @@
+If one were building software for a client with no contract. 
+
+And one were wanting to build a service to support a range to non-competitive clients within the same industry. 
+
+Assuming, no equity arrangement was going to happen in the next 12 months.  
+
+What conventions would be worth keeping in mind? 

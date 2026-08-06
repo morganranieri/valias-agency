@@ -1,4 +1,11 @@
-Goal: meet with 5 extra-curricular providers who each have more than 10 tutors 
+Goal: meet with 5 extra-curricular providers who each have more than 10 tutors, based in Australia
+
+List of target companies (
+  https://docs.google.com/spreadsheets/d/1S34hh5o94u2DiZz9NOWJXDF9o6x1StEatkZyRqRar4s/edit?gid=0#gid=0
+  google: "category" + programs for victorian primary school students
+)
+
+Meeting (in person or online)
 
 What can I offer? 
 Coffee.  Warmth.  Database.  Admin, tutor, school and public interfaces.  Local support.  Hosting.  
@@ -26,6 +33,7 @@ But we're confident that when we're ready to go, you'll want to migrate.
 So can we keep you in the loop? 
 
 How are you going to build it? 
-Venture funding. 
+Venture funding to build the program. 
+Commercial loan to buy the IP. 
 
 We'd have to have a very good relationship with our first few clients, because things will change for them.  

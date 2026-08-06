@@ -1,0 +1,24 @@
+Tutable status: Can do business.
+
+  Scenario: CI don't care about the code. 
+
+  Scenario: Will be nice for CI to get a refund. 
+
+  Scenario: Plan. 
+    Make a new feature.
+    Close an issue.
+    Clean. 
+    Deploy. 
+
+    Setup a front-page for tuition providers.
+    Reach out to prospective customers.
+    Onboard a new customer.
+    Support an existing customer.
+    Maintain relationship.
+
+  Scenario: Allocate. 
+    Dev: 50
+    Biz: 50
+
+Setting pace for myself.  Difficult.  Someone has to do it. 
+Without becoming religious about it, try to avoid working alone for long periods without a clear objective.

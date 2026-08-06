@@ -1,0 +1,4 @@
+Delete a school: Some student.school (?) may be recorded as “Example - Update student to Caulfield South Primary School” and, if so, will need to be updated to “Caulfield South Primary School”.  
+See payment amount on registration report 
+Front-end web design and development 
+Enrolment into online classes which are not linked to schools ()

@@ -59,6 +59,8 @@ superannuation ()
 
 safety (
   backup files to 2nd disk
+  create Tutable company
+  assignments of IP to Tutable company
 )
 
 commitments (

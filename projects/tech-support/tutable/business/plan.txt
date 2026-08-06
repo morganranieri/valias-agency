@@ -1,0 +1,31 @@
+A 1-page strategy
+
+Gives us the clarity to invest energy into the project
+
+Current state of the product:
+  Single tenant 
+  Administrators can setup schools and programs
+  Guardians can book students into programs
+  Tutors can mark attendance
+
+Future state of the product: 
+  Multi tenant
+  School officers can see programs and attendance
+
+Things we have: 
+  Ideal customer profile
+  Software development cycle
+  Cornerstone customer
+  5 months of an office 
+
+Needs:
+  Business presence
+  Second tenant
+
+Tentions: 
+  Existing versus new customer development
+  Build to spec or design 
+
+Next push:
+  feature delivery
+  8 hours of sales and marketing (2 hours Monday, 2 hours Thursday, for 2 weeks)
