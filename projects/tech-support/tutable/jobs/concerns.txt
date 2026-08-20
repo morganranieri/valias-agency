@@ -4,3 +4,7 @@ Feature flag
 Removing a school officer 
 Uncomment the admin_schools_school_officers_page.feature test 
 Removing the name from the user model... if we're interested. 
+officer/programs/#/show could be styled into a grid 
+Printing flyers (Test on Edge in staging, inform client Chrome is now preferred)
+Group membership after programs start should be noted 
+Scope updated: group membership not listed against attendance 

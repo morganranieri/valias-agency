@@ -1,9 +1,34 @@
 I give two years (1989, 2026)
-You know the years between and including them 
-(You check each one for leap status)
-You print (leap) years 
+List the years between and including them 
+For each year_in_focus check if is leap
+Print leap years
 
-Scenario: Get a list of leap years 
-  When I enter 1989 as the start year
-  And 2026 as the end year
-  Then I get [1992, 1996, 2000, 2004, 2008, 2012, 2016, 2020, 2024] leap years 
+
+x Scenario: Check if a given year is a leap year
+x   When I enter 1989 as the start year 
+x   Then I should see "not a leap year"
+
+x Scenario: Check if a given year is a leap year
+x   When I enter a <givenYear> as a start year
+x   Then I should see <leapStatus>
+x
+x  | givenYear | leapStatus |
+x  | 2000      | yep        |
+x  | 1900      | nup        |
+x  | 1896      | yep        |
+x  | 1897      | nup        |
+
+  Scenario: Get a list of leap years 
+    When I enter 1989 as the start year
+    And 2026 as the end year
+    Then I get [1992, 1996, 2000, 2004, 2008, 2012, 2016, 2020, 2024] leap years 
+
+  Scenario: Get a list of years 
+    When I enter 1989 as the start year
+    And 2026 as the end year
+    Then I get each year between them, including then start and end years 
+  
+x Scenario: Get two years
+x   When I enter 1989 as the start year
+x   And 2026 as the end year
+x   Then I get both years 

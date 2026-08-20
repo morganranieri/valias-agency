@@ -23,7 +23,7 @@ end
 
 counter = Counter.new
 
-while (counter.value != 2)
+while (counter.value != 3)
   puts "Computer: say something to Grandma.."
   something = gets.chomp
   if (something == "BYE")
