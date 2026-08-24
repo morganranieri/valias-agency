@@ -1,10 +1,11 @@
 School campus schema change needs time for clean up once we've stabilised 
 Admin/schools ui is going to need some more attention 
 Feature flag 
-Removing a school officer 
 Uncomment the admin_schools_school_officers_page.feature test 
 Removing the name from the user model... if we're interested. 
 officer/programs/#/show could be styled into a grid 
 Printing flyers (Test on Edge in staging, inform client Chrome is now preferred)
 Group membership after programs start should be noted 
 Scope updated: group membership not listed against attendance 
+Question: Would it be worth building the record of who created a given officer?
+Admins can remove themselves (potential to free up their email address by properly deactivating the account)

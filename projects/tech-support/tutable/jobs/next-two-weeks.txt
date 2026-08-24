@@ -1,4 +1,3 @@
-Admin can remove an officer 
 Admin can upload a file to a Tutor profile
 Validate student has unique name, scope: guardian
 Guardian phone number is required 

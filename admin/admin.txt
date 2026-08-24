@@ -13,7 +13,6 @@ emails ()
 ledger ()
 
 tax (
-  2026 personal returns (hers)
   future proof (
     bas file by business (sheets)
     prepare for partnership tax return (
@@ -59,8 +58,8 @@ superannuation ()
 
 safety (
   backup files to 2nd disk
-  create Tutable company
-  assignments of IP to Tutable company
+  create Tutable partnership
+  assignments of IP to Tutable partnership
 )
 
 commitments (
