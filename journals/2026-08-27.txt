@@ -1,0 +1,22 @@
+What advice would I leave behind with regard to the work. 
+
+For who? 
+
+Her. 
+
+One feature at a time. 
+Despite the fact that you may have pressure to articulate a broad strategy, try to constrain your delivery to one feature at a time. 
+Yes, there will be some rework down the track because you didn't think through every case.
+But at that stage, you'll be down the track and still in business. 
+
+Pair up the operator. 
+Whilst they may not want the help, it'll keep them grounded to have someone they need to collaborate with. 
+I think this to be so important that if there is a period where there is no second operator, cease work. 
+In addition, resist the urge to ensure both are independently utilised.
+Sometimes the best thing for one to do is standby and in doing so, they will probably realise something they could be doing that is related to the task at hand.
+
+Let them have a life outside of work.
+Try not to push big stuff on a friday. 
+There is a great deal of cleaning up required after the working prototype has been shown off, so try to make a deployment dealine on a Wednesday or Thursday. 
+If a milestone is reached in the last hour or two of the day, resist the urge to start something new. 
+It's better to end the day with clarity and start the day with ambition. 
