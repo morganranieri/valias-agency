@@ -4,7 +4,7 @@ Business and partner details – Make sure you include the partnership start dat
 
 Ownership and contributions – How much will each partner contribute? What percentage of the business does each partner own?
   Ownerhip: Each partner owns 50% of the business. 
-  Contributions: Each partner will contribute their ongoing efforts, as needed. 
+  Modify: Contributions: Each partner will contribute $300 initial capital and their ongoing efforts, as needed. 
 
 Profit and loss sharing – How will you split profit and losses between partners? Is it proportional to their ownership share?
   Profit and loss sharing will be proprtional to share ownership.   
@@ -13,8 +13,9 @@ Roles and responsibilities – What does each partner do in the business?
   Intentionally left blank.
 
 Intellectual property (IP) – Who owns any pre-existing IP? What about IP created during the partnership?
-  All pre-existing intellectual property relating to Tutable is owned by the partnership. 
-  All intellectual property created during the partnership is owned by the partnership. 
+  Remove: All pre-existing intellectual property relating to Tutable is owned by the partnership. 
+  Remove: All intellectual property created during the partnership is owned by the partnership. 
+  Add: Any software, code, documentation, trademarks, customer lists, and intellectual property developed for the business will belong to the partnership.
 
 Making decisions – Who can make decisions? What’s your process for joint decisions? Do you need unanimous agreement for major decisions? 
   The following decisions should have unanimous agreement: 
@@ -23,6 +24,7 @@ Making decisions – Who can make decisions? What’s your process for joint dec
     Withdrawing any capital from the company. 
     Hiring any employee. 
     Permitting an employee to do any of these. 
+    Add: Selling any significant assets.
 
 Dispute resolution – Outline the process to follow if partners have a major disagreement. Include what you’ll do if the process fails.
   
@@ -38,6 +40,8 @@ Adding or removing partners – Include rules for admitting new partners and wha
   Removing by choice: Provided no debts are outstanding, a partner can leave the partnership at any time.
   Removing by force: If a partner is imprisoned, they may be removed from the partnership. 
   Death: If a partner dies, their share is cancelled. 
+  Add: Bankrupcy: If a partner becomes bankrupt, their share is cancelled. 
+  Add: Permanent incapacity: If a partner becomes permanently incapacitated, their share is cancelled. 
 
 Ending the partnership – When and how will you wind up the partnership? How will you divide up the remaining assets?
   Ending: 
