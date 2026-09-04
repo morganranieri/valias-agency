@@ -1,11 +1,35 @@
-School campus schema change needs time for clean up once we've stabilised 
-Admin/schools ui is going to need some more attention 
-Feature flag 
-Uncomment the admin_schools_school_officers_page.feature test 
-Removing the name from the user model... if we're interested. 
-officer/programs/#/show could be styled into a grid 
-Printing flyers (Test on Edge in staging, inform client Chrome is now preferred)
-Group membership after programs start should be noted 
-Scope updated: group membership not listed against attendance 
-Question: Would it be worth building the record of who created a given officer?
-Admins can remove themselves (potential to free up their email address by properly deactivating the account)
+Misc: 
+- Record created_by on school_officer record
+- Error message improvement: New student form when failing validation due to attempting to add a duplicate student
+
+Styling:
+- officer/programs/#/show could be styled better 
+- officer/programs/#/attendance needs a no data view
+- Printing flyers (Chrome is now working, safari borked - try font idea)
+
+Issues: 
+- School name is locked.  Solution: allow update for schools with single campus 
+- Duplicated students (solution in main (development), data to be updated)
+
+Post-release:
+- Mismatched user/guardian full_names (solution in main (development), data updated)
+- Duplicated students (solution in main (development), data to be updated)
+
+Remove: 
+- Feature flag 
+
+Refactor abilities: 
+- Beefing out for new feature (for officer controllers)
+- General refactor
+
+Refactor front-end / layouts 
+
+Framework for front-end testing:
+- Uncomment the admin_schools_school_officers_page.feature test 
+- Any new front-end tests. 
+
+Setup seeds:
+- Clean up test data. 
+
+School and campus UI
+- allow update for school names where a school has multiple campuses (user warning)

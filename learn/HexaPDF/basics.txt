@@ -1,0 +1,172 @@
+Links: https://hexapdf.gettalong.org, https://hexapdf.gettalong.org/documentation/basics/index.html
+
+Legal: we can use it, can't modify it, have to put HexaPDF in the Producer line of any docs created or modified. 
+
+Basics:
+  Introduction
+    About PDF
+      Adobe originated
+      1.7 in 2008
+      2.0 2017 (ISO 2020) https://www.iso.org/standard/75839.html
+      Original ISO standard and Adobe spec are similar, not the same
+      PDF 2.0 is currently provided by PDF association 
+      
+    HexaPDF API Design
+      HexaPDF::Document or HexaPDF::Composer is the starting point
+      Main data type: dictionary (hash)
+      Standard = low level 
+      Try to keep it high level 
+
+    General Usage Pattern 
+      doc = HexaPDF:Document.new 
+      # or 
+      doc = HexaPDF::Document.open(pdf_file)
+      doc.write('output.pdf', optimize: true)
+
+      Smallest HexaPDF application which writes out a minimal PDF is:
+        HexaPDF::Document.new.write('output.pdf')
+  end
+
+  PDF Object Representation
+    Basic Object Types 
+      Booleans
+      Numerics
+      Strings
+      Names
+      Arrays
+      Dictionaries
+      Null
+      Streams
+      Indirect objects
+
+      Draws a line on a page:
+        require 'hexapdf'
+
+        doc = HexaPDF::Document.new
+        page = doc.add({Type: :Page, MediaBox: [0, 0, 100, 100]})
+        page.contents = "0 0 m 100 100 l S"
+        doc.pages << page
+        doc.write("sample.pdf")
+
+    Dictionary Types
+      Dealign with indirect objects
+
+    Mapping Dictionary Types to Classes
+      HexaPDF::GlobalConfiguration
+  end
+
+  Document Structure
+    File Trailer
+      Entry point into the document Structure
+      Loads the file
+      /Info goes to information dictionary
+      /Root goes to...
+
+    Document Catalog
+      HexaPDF::Type::Catalog is the rood of the document tree
+      Contains outline, page tree and other important parts
+      /PageLayout and /PageMode
+      Accessed via HexaPDF::Document::catalog
+
+    Page Tree
+      Not an array, to save memory
+      Don't manually alter, use HexaPDF::Type::PageTreeNode
+    
+    Page
+      For each page is a page objects
+        Media box (/MediaBox)
+          Size of physical medium, defaults to A4
+        Crop box (/CropBox)
+          Margins, none by default
+          Set this or suffer the consequences 
+        Content streams (/Contents)
+          Defines contents
+        Ressource dictionary (Ressources)
+          Fonts or images, etc
+      HexaPDF::Type::Page provides the convenience methods
+        #canvas - for drawing
+        #orientation and #rotation - for retrieving the page orientation and to rotate a page
+        #box - view or change page boxes 
+        #each_annotation - iterates over all annotations of the page.  It is also possible to flatten one or more annotations. 
+      To access an existing page object you can use HexaPDF::Document::Pages#[] with a zero-based index;
+      To add a new one use HexaPDF::Document::Pages#add
+  end
+
+  Creating a PDF from Scratch
+    Installing HexaPDF
+      $ gem install hedapdf
+
+    Requiring HexaPDF
+      require 'hexapdf'
+
+    Creating the PDF Document
+      Make empty document instance
+        doc = HexaPDF::Document.new
+      
+      Add a page
+        page = doc.pages.add
+      
+      Draw to put something on it
+        canvas = page.canvas
+      
+      Set the font and font size as well as the fill color
+        canvas
+          .font('Helvetica', size: 50)
+          .fill_color(0, 128, 255)
+      
+      A4 is 595x842 points 
+
+      Knowing this, and starting from the lower left, draw text in the center:
+        canvas.text("Hello World", at: [150, 396])
+
+      Now write the PDF document to a file:
+        doc.write("hello-world.pdf")
+      
+      May prefer to do this with the high-level HexaPDF::Composer (https://hexapdf.gettalong.org/documentation/api/HexaPDF/Composer.html)
+  end
+
+  Modifying a PDF Document
+    Opening an Existing Document
+      require 'hexapfd'
+      doc = HexaPDF::Document.open('hello-world.pdf')
+
+      The variable `doc` now contains a HexaPDF::Document instance with the data from hello-world.pdf
+
+    Drawing onto an Existing Page
+      HexaPDF::Documents#pages
+
+      To get the first page
+        page1 = docs.pages[0]
+      
+      Draw beneath and atop the existing page
+        underlay_canvas = page1.canvas(type: :underlay)
+        underlay_canvas.fill_color(50).
+          rectangle(0, 0, page1.box.width, page1.box.height).
+          fill
+        
+        overlay_canvas = page1.canvas(type: :overlay)
+        overlay_canvas.fill_color(129, 192, 255).
+          font('Helvetica', size: 50).
+          save_graphics_state.
+          translate(170, 330).rotate(30).
+          text("Hello World", at: [0, 0]).
+          restore_graphics_state.
+          translate(170, 470).rotate(-30).
+          text("Hello World", at: [0, 0])
+
+    Re-Using Content on Multiple Pages
+      (bookmark study here: https://hexapdf.gettalong.org/documentation/basics/modifying-a-pdf-document.html)
+      Form XObjects
+
+    Inserting New Pages
+
+    Writing the PDF and Experiments
+
+    The Compelte Code and Result PDF
+
+  end
+
+  Analysing PDFs
+  end
+end
+

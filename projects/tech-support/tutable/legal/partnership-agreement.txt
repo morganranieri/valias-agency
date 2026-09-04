@@ -1,52 +1,65 @@
-Business and partner details – Make sure you include the partnership start date and the purpose of your business.
+Business and partner details
   Start date: 2026-September-01
   Purpose: Build and maintain Tutable - administrative software for extra-curricular education providers in Australia. 
 
-Ownership and contributions – How much will each partner contribute? What percentage of the business does each partner own?
-  Ownerhip: Each partner owns 50% of the business. 
-  Modify: Contributions: Each partner will contribute $300 initial capital and their ongoing efforts, as needed. 
+Ownership and contributions
+  Ownership: Each partner owns 50% of the business. 
+  Contributions: Each partner will contribute $300 initial capital and their ongoing efforts, as needed. 
 
-Profit and loss sharing – How will you split profit and losses between partners? Is it proportional to their ownership share?
-  Profit and loss sharing will be proprtional to share ownership.   
+Profit and loss sharing
+  Profit and loss sharing will be proportional to share ownership.   
 
-Roles and responsibilities – What does each partner do in the business?
-  Intentionally left blank.
+Intellectual property (IP)
+  Any software, code, documentation, trademarks, customer lists, and intellectual property developed for the business will belong to the partnership.
 
-Intellectual property (IP) – Who owns any pre-existing IP? What about IP created during the partnership?
-  Remove: All pre-existing intellectual property relating to Tutable is owned by the partnership. 
-  Remove: All intellectual property created during the partnership is owned by the partnership. 
-  Add: Any software, code, documentation, trademarks, customer lists, and intellectual property (IP) developed for the business will belong to the partnership.
-
-Making decisions – Who can make decisions? What’s your process for joint decisions? Do you need unanimous agreement for major decisions? 
+Making decisions 
   The following decisions should have unanimous agreement: 
     Entering into contractual debt greater than $100. 
     Making a purchase greater than $100. 
     Withdrawing any capital from the company. 
     Hiring any employee. 
     Permitting an employee to do any of these. 
-    Add: Selling any significant assets.
-    Add: Selling any IP.
-    Add: Publishing closed source IP, including code and version control history.
+    Selling any significant assets.
+    Selling any IP.
+    Publishing closed source IP, including code and version control history.
 
-Dispute resolution – Outline the process to follow if partners have a major disagreement. Include what you’ll do if the process fails.
-  
+Dispute resolution
   Step one: decide a timeframe by when the matter should be settled. 
-  Step two: clafiry the issue by defining and agreeing on the terms of reference. 
-  Step three: jointly appoint an arbitor. 
-  Step four: present the issue to the arbitor, seeking to find a resolution. 
+  Step two: clarify the issue by defining and agreeing on the terms of reference. 
+  Step three: jointly appoint an arbiter. 
+  Step four: present the issue to the arbiter, seeking to find a resolution. 
 
   If arbitration fails, the matter should be settled by a court of law. 
 
-Adding or removing partners – Include rules for admitting new partners and what happens if a partner leaves the business or dies.
+Adding or removing partners
   Adding: By unanimous agreement, a partner can be added.  
   Removing by choice: Provided no debts are outstanding, a partner can leave the partnership at any time.
   Removing by force: If a partner is imprisoned, they may be removed from the partnership. 
   Death: If a partner dies, their share is cancelled. 
-  Add: Bankrupcy: If a partner becomes bankrupt, their share is cancelled. 
-  Add: Permanent incapacity: If a partner becomes permanently incapacitated, their share is cancelled. 
+  Bankruptcy: If a partner becomes bankrupt, their share is cancelled. 
+  Permanent incapacity: If a partner becomes permanently incapacitated, their share is cancelled. 
 
-Ending the partnership – When and how will you wind up the partnership? How will you divide up the remaining assets?
-  Ending: 
-    Last man standing: if only one partner remains, the partnership will be ended and remaining assets belong to the surviving partner.
-    Mutual parting: if the partnership is disolved by mutual agreement, any remaining assets should be divided equally. 
+Ending the partnership
+  Last person standing: if only one partner remains, the partnership will be ended and remaining assets belong to the surviving partner.
+  Mutual parting: if the partnership is dissolved by mutual agreement, any remaining assets should be divided equally. 
+
+
+
+Signed, sealed and delivered by:
+
+Liam Cooke
+
+Signature
+Date 1st Sep 2026
+
+
+Signed, sealed and delivered by:
+
+Morgan Ranieri
+
+Signature
+Date 1/Sep/2026
+
+
+
 

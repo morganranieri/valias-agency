@@ -1,4 +1,0 @@
-Validate student has unique name, scope: guardian
-Guardian phone number is required 
-Report of guardians without phone number 
-Sort programs by end_date.desc for guardian/#/student enrolment (GHIssue 276)
