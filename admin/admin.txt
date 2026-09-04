@@ -6,6 +6,10 @@ invoices ()
 
 payments ()
 
+licencing(
+  Draft for chess ideas to include clause giving them source code and database if we discontinue support
+)
+
 sales (PA, mic)
 
 emails ()
