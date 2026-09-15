@@ -1,0 +1,7 @@
+quote: low
+due: 
+approved: no
+
+scope (
+  
+)

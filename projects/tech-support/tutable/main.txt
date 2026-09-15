@@ -1,46 +1,32 @@
 jobs/concerns.txt might become an issue for the final push 
 
 issues: check 
+tutable/bugs/to-fix: check
 
 Testing (
-  To avoid slowing down development, keep refining my front-end test data. 
-  Possibly documenting it in my own location, or pushing it through cucumber. 
-  Consider driving the next feature with a small set of tests.  12 was a good number, could try 3 and see what happens. 
-)
-
-
-Get front-end testing up to standard (
-  Check out framework cucumber written in gherkin for front-end testing 
-  make a checklist of what the user should be able to do 
-  run a process of testing that every time we make a change 
-  write the test before the feature is built (how would you know what the test is supposed to be if you're developing and designing in tandem? You wouldn't, so you might fold it in to your commit or PR process)
-  update old tests if things change 
+  Manual
+  Auto (
+    Decide on front end coverage
+    Work together to setup seeds for clean test data
+  )
 )
 
 staging (https://tutable-test-2e7ce448b497.herokuapp.com/admin/dashboard)
 
-conflict (
-  might need to bump up feature/adjustments above feature/attendance to make for an reusable UI
-  might need to register company and begin prospecting customers 
-  maintenance needs a bit of time every fortnight 
-)
-
 feature (
-  01 flyers
-  02 attendance
-  03 school-support
-  04 tournaments
-  05 ongoing-enrolment
-  06 adjustments-can-kick (freebie - reduce support requests)
-  07 email-marketing-best-practice
-  08 admin-email-groups
-  09 free-trials
-  10 program-date-validation
-  11 postgres-full-text-search-for-autocomplete
-  12 class-adjustments
-  13 program-class-location
-  14 tutor-compliance-tickets
-  15 credit-for-canned-class
+  00 home-page
+  01 tournaments
+  02 ongoing-enrolment
+  03 adjustments-can-kick (freebie - reduce support requests)
+  04 email-marketing-best-practice (probably not gonna get paid for this)
+  05 admin-email-groups
+  06 free-trials
+  07 program-date-validation
+  08 postgres-full-text-search-for-autocomplete
+  09 class-adjustments
+  10 program-class-location
+  11 tutor-compliance-tickets
+  12 school-bookings
 )
 
 maintenance (
@@ -63,10 +49,4 @@ research (
   timetabling
   client questions ()
   free-trials (keep a spreadsheet)
-)
-
-consider repayment to CI for their spend on development (
-  5% of revenue until paid
-  discounted service fees once a threshold is reached
-  consider how much to accept payment in light of this
 )

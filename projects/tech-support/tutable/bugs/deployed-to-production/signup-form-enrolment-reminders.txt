@@ -1,1 +1,0 @@
-Enrolment reminders on signup form should be unchecked by default 

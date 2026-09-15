@@ -6,8 +6,8 @@ invoices ()
 
 payments ()
 
-licencing(
-  Draft for chess ideas to include clause giving them source code and database if we discontinue support
+legal(
+  Assignment of IP https://docs.google.com/document/d/1XTxhRj4lDvuoxD5-d6nbKZV0ZsIygcBSr00gTQAmNqc/edit?tab=t.0
 )
 
 sales (PA, mic)
