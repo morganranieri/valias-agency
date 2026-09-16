@@ -1,5 +1,7 @@
 filing (sort inbox into carry disk)
 
+battery check (pager)
+
 reminders ()
 
 invoices ()
