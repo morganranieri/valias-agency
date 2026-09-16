@@ -11,6 +11,8 @@ Testing (
   )
 )
 
+reporting (hidden page for school term payments /admin/reports/school-payments)
+
 staging (https://tutable-test-2e7ce448b497.herokuapp.com/admin/dashboard)
 
 feature (
