@@ -1,7 +1,12 @@
-quote: low
+quote: low (<$5k)
 due: 
 approved: no
 
+Pre-scope options (
+  research their Wordpress setup
+)
+
 scope (
-  
+  Wordpress
+  Change to menu structure 
 )

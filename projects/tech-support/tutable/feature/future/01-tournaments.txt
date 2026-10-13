@@ -2,6 +2,37 @@ quote: low - high
 due: 
 approved: 
 
+
+Conversation with client from 2026-09-28 when looking for a quick fix (
+  - must haves: 
+  -- kids pay for their registration for chess Victoria finals 
+  -- one email to each guardian with a unique registration token
+
+  -- Token for your child via guardian email
+  a- create an account
+  -- add your child (standard flow) 
+  -- banner at the top of your screen with your tournament registration button 
+  -- Select the child to register
+  -- Pay
+
+  b- Login 
+  -- Has/adds a child 
+  -- banner at the top of your screen with your tournament registration button 
+  -- Select the child to register
+  -- Pay
+
+  Admin:
+  -- Add schools which are not already in the list 
+  -- After tournament, tokens are wiped. 
+  -- Admin enters email address for each recipient, or array of emails 
+  -- Initial email is sent to each recipient 
+  -- Confirmation email is sent to each registration 
+
+  Nice:
+  -- Admin can remove the token for a recipient 
+)
+
+
 Two kinds of tournaments (
   Open - fully public 
   Selective - schools reserve space

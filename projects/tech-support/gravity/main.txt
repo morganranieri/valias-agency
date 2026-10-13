@@ -26,7 +26,7 @@ conflict (
 
 feature (
   01 paying-for-the-service
-  02 
+  02 brochure
   03 pedal-board 
   04 recurring-bills
   05 debts
