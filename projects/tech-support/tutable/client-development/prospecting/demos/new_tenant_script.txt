@@ -1,0 +1,2 @@
+tenant = Tenant.create!(name: "Cricket Victoria")
+tenant.hosts.create(hostname: "cricket.localhost", standard: true)

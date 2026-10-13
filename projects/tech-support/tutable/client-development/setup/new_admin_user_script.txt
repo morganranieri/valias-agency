@@ -1,0 +1,3 @@
+email_address = "admin@example.com"
+user = tenant.users.create!(email_address:, role: "admin", full_name: "Admin")
+user.user_logins.create!(tenant:, email_address:, password: email_address)
