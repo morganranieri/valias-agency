@@ -1,0 +1,55 @@
+Status: pending
+Due: mid-Jan 
+Budget: $13k 
+
+Client notes (
+  Some tweaks to come around 10th November (after schools test the attendance process)
+  Coach and school feedback gathered and prioritized by mid-Nov
+  Client has a list of improvements/issues, wants to prioritize, by end of October
+)
+
+Scope (
+  As a tutor, if I have started marking the roll but haven't saved yet, suggest that I save progress before navigating to add a new student or moving a student. (JS)
+  As a tutor, I don't want to use browser navigation buttons on mobile to move through attendance. (tutor/programs/#/sessions - back to dashboard, add student to group - cancel)
+  As a guardian, when I get to the checkout and notice the price is not right, I want to be able to go back and add an adjustment, so I can checkout out again, provided the student is not attending. (
+    when to allow guardian to reset enrolment? at the enrol page if enrolment has been initiated by guardian (and not by tutor)
+  )
+  As an admin, I don't want to be able to reset an enrolment for a student who is an overdue payment (attendee not enrolled). (rockup - treat with an admin coupon) 
+  As a guardian, I want to be able to apply a session based coupon to an overdue payment. (attendee not enrolled, adjust all but one session)
+  As an admin, I want an overdue payment to be cleared after 12 months. (attendee not enrolled)
+  As an admin, I want pending enrolments to be cleared at the end of the program. (pending and not attending)
+
+  ---
+  
+  - As an admin, I want to be able to create a program using pre-filled data. (Clone: Clear Term, Year, Start Date, End Date, Session Adjustment, or restructure form to group like data) 
+  + As an admin, I want to create a master program for a school campus (e.g. a campus has many master programs: e.g. day of the week, start and end time, location, program name, year levels, fee per session, capacity)
+
+  --- 
+
+  As an admin, I want the programs index to be tidier. (Filtering by: School, Year, Term. Possibly program form too.)
+  As an admin, when creating a program, I want to select the day of the week first and have the start and end dates softly validate again it.
+  
+  ---
+
+  As an admin, I want to be able to draft a program. 
+  As an admin, I want to store additional information relating to a school campus. (-- noted)
+  As an admin, I want to fix the URL to run the financial report.
+  As an admin, I want to be able to search by students. (Name, school, grade)
+  As an admin, I want to see the local timezone in the registration report. 
+  As an admin, when adding a program, I want to select from a list of grades. 
+
+  ---
+
+  As a school officer, I want the program index to be tidier. 
+  As a school officer, I want the group names to be sorted in program/show. 
+  As a tutor, I want enough information on the dashboard to differentiate between programs with the same name and at the same school (i.e. Day of the week, start time, end time, ?)
+
+  --- 
+  
+  As a tutor, I want the roll to be aligned for long names and medical info. 
+  Change "Add to Standard" to "Add student to Standard"
+)
+
+Out of scope (
+  Tutors can upload their own components of a compliance pack
+)

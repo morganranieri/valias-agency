@@ -1,3 +1,5 @@
+Status: pending 
+
 Homepage in wordpress needs work
 Prefer to iterate and move support to us
 Sitemap to be reconstructed with a focus on flows for diffenent user types
