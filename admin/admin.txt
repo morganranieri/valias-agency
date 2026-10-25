@@ -9,7 +9,7 @@ invoices ()
 payments ()
 
 legal(
-  Assignment of IP https://docs.google.com/document/d/1XTxhRj4lDvuoxD5-d6nbKZV0ZsIygcBSr00gTQAmNqc/edit?tab=t.0
+  Assignment of IP https://docs.google.com/document/d/1XTxhRj4lDvuoxD5-d6nbKZV0ZsIygcBSr00gTQAmNqc/edit?tab=t.0 ? Perhaps Sharon can draft the contract? 
 )
 
 sales (PA, mic)
@@ -38,6 +38,10 @@ business development (
   marketing
 )
 
+projects/personal/guinness (
+  get across her work processes (Dec-Feb)
+)
+
 costs ()
 
 budget (    
@@ -64,7 +68,6 @@ superannuation ()
 
 safety (
   backup files to 2nd disk
-  create Tutable partnership
   assignments of IP to Tutable partnership
 )
 
@@ -76,11 +79,7 @@ comms (
   check if any 1:1's required
 )
 
-transfers (
-  stay in the don't worry
-)
-
-projects/personal/guinness ()
+transfers ()
 
 
 issues (GH)
