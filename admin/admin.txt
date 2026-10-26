@@ -36,6 +36,7 @@ business development (
   quotes
   specifications
   marketing
+  partnerships (gravity)
 )
 
 projects/personal/guinness (
@@ -44,8 +45,7 @@ projects/personal/guinness (
 
 costs ()
 
-budget (    
-  Long range budget issue: Make a conditional home loan repayment amount, based on a percentage of income
+budget (
   education budget needs realism
     - university
     + align P-12 with DCC
