@@ -1,0 +1,11 @@
+Budget:
+Approved: no
+
+Tidy up of program index (
+  As an admin, I want the programs index to be tidier. (Filtering by: School, Year, Term)
+  As a school officer, I want the program index to be tidier. (How to?) 
+)
+
+Search by student (
+  As an admin, I want to be able to search by students to find and act as their guardian. (Name, school, grade)
+)

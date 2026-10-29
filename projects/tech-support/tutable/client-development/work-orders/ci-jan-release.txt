@@ -11,19 +11,11 @@ Client notes (
 Scope (
   scoping/fine-tune-total-owing.txt - $6.3k
 
-  scoping/upgrade-to-program-creation.txt - 
+  scoping/upgrade-to-program-creation.txt - $4.2k
 
-  scoping/including-tutor-feedback.txt - 
+  scoping/including-tutor-feedback.txt - study JS
 
-  Tidy up of program index (
-    As an admin, I want the programs index to be tidier. (Filtering by: School, Year, Term. Possibly program form too.)
-    As a school officer, I want the program index to be tidier. (How to?) 
-  )
-
-  Search by student (
-    As an admin, I want to be able to search by students to find and act as their guardian. (Name, school, grade)
-  )
-  
+  scoping/indexing-upgrade.txt - design   
 
   (support - done) As a tutor, I want the roll to be aligned for long names and medical info. 
   (support conversation) As an admin, I want to store additional information relating to a school campus. (-- noted)

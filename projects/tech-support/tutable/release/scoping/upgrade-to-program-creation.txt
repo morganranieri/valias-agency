@@ -1,4 +1,4 @@
-Budget: 
+Budget: $4.2k
 Approved: no
 
 As an admin, when creating a program, I want to select the day of the week first and have the start and end dates softly validate again it.
