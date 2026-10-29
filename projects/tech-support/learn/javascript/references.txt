@@ -1,0 +1,8 @@
+JavaScript Guide (this guide) provides an overview about the JavaScript language and its objects.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction
+
+Dynamic scripting with JavaScript provides structured JavaScript guides for beginners and introduces basic concepts of programming and the Internet.
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting
+
+JavaScript Reference provides detailed reference material for JavaScript.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference

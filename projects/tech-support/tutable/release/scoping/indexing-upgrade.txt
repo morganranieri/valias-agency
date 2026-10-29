@@ -1,11 +1,22 @@
 Budget:
 Approved: no
 
-Tidy up of program index (
-  As an admin, I want the programs index to be tidier. (Filtering by: School, Year, Term)
-  As a school officer, I want the program index to be tidier. (How to?) 
-)
+Programs index
+  As an admin, I want the programs index to be tidier.
+    Filtering by: School Campus, Year, Term
+    Aligned data
+  As a school officer, I want the program index to be tidier.
+    Filtering by: Campus, Year, Term
+    Aligned data
 
-Search by student (
-  As an admin, I want to be able to search by students to find and act as their guardian. (Name, school, grade)
-)
+Search by student
+  As an admin, I want to be able to search by students to find and act as their guardian. 
+    Search fields:
+      Name
+      School campus
+    Display fields:
+      Name
+      School Campus
+      School Grade
+      Guardian email
+      Act as guardian button

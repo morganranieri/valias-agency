@@ -13,13 +13,13 @@ Scope (
 
   scoping/upgrade-to-program-creation.txt - $4.2k
 
+  scoping/indexing-upgrade.txt - $2.1k
+
   scoping/including-tutor-feedback.txt - study JS
 
-  scoping/indexing-upgrade.txt - design   
-
   (support - done) As a tutor, I want the roll to be aligned for long names and medical info. 
-  (support conversation) As an admin, I want to store additional information relating to a school campus. (-- noted)
   (support) As an admin, I want to fix the URL to run the financial report.
+  (support conversation) As an admin, I want to store additional information relating to a school campus. (-- noted)
   (support) As an admin, I want to see the local timezone in the registration report. 
   (support) As an admin, when adding a program, I want to select from a list of grades. 
   (support) As a school officer, I want the group names to be sorted in program/show. 
