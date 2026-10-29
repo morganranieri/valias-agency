@@ -1,25 +1,27 @@
 Budget: $6.3k 
 Approved: no
 
+note: overdue_payment
+note: session_based_coupon
+
 Scope(
+  As an admin
+    I should be unable to reset a pending enrolment for a student who has been assigned to the group by a tutor.
+    I want an overdue_payment to be cleared after 9 months. (attendee not paid)
+    I want pending enrolments which have not been created by tutors to be cleared at the end of the program.
 
-  As a guardian, when I get to the checkout and notice the price is not right, I want to be able to go back and add an adjustment, so I can checkout out again, provided the student is not attending. (
-    when to allow guardian to reset enrolment? at the enrol page if enrolment has been initiated by guardian (and not by tutor)
-  )
-
-  As an admin, I don't want to be able to reset an enrolment for a student who is an overdue payment (attendee not enrolled). (rockup - treat with an admin coupon) 
-
-  As a guardian, I want to be able to apply a session based coupon to an overdue payment. (attendee not enrolled, adjust all but one session)
-
-  As an admin, I want an overdue payment to be cleared after 12 months. (attendee not enrolled)
-  As an admin, I want pending enrolments to be cleared at the end of the program. (pending and not attending)
+  As a guardian
+    I should be unable to reset a pending enrolment for a student who has been assigned to the group by a tutor.
+    I want to be able to apply a session_based_coupon to an overdue_payment, up to the value of total minus one session. 
+    When I get to the checkout, notice the price is not right and exit the checkout, I want to be able to reset the pending enrolment.
 )
 
-def overdue_payment 
-  # attendee whose enrolment has not been paid for
+note overdue_payment 
+  # student has been assigned to a group by a tutor,
+  # enrolment has not been paid
 end
 
-def session_based_coupon
+note session_based_coupon
   # Int which can be applied to an overdue_payment
+  # not changing the total price, but changing the total collected
 end
-

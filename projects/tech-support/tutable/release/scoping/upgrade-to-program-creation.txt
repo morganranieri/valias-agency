@@ -1,0 +1,20 @@
+Budget: 
+Approved: no
+
+As an admin, when creating a program, I want to select the day of the week first and have the start and end dates softly validate again it.
+As an admin, I want to be able to draft a program. 
+As an admin, I want to create master programs for school campuses
+  model:
+    a campus has many master programs
+  output: 
+    create a draft program with pre-populated data (
+      school campus,
+      day of the week, 
+      start and end time, 
+      location, 
+      program name, 
+      year levels, 
+      fee per session, 
+      capacity
+    )
+As an admin, I want the program form to be ordered so that pre-filled data is grouped, where possible. 

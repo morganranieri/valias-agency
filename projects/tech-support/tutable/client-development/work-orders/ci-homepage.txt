@@ -1,6 +1,17 @@
 Status: pending 
+Budget: $10k 
+Approved: no 
+Workable: no
 
-Homepage in wordpress needs work
-Prefer to iterate and move support to us
-Sitemap to be reconstructed with a focus on flows for diffenent user types
-Client has no time for scoping until December 
+Brief (
+  Homepage in wordpress needs work
+  Prefer to iterate and move support to us
+  Sitemap to be reconstructed with a focus on flows for diffenent user types
+  Client has no time for scoping until December 
+)
+
+Hosting situation (
+  In order to properly support the Wordpress site, we'd need access to the server that Darren is hosting on, which is not Peter's one.  Would require a smooth handover from Darren to us. 
+  Can Darren give us Siteground server access? Awaiting. 
+  Otherwise, can rebuild site for reasonable fee. (Investigate a content managed approach)
+)

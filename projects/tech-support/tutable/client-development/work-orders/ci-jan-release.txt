@@ -9,22 +9,11 @@ Client notes (
 )
 
 Scope (
-  scoping/fine-tune-total-owing.txt
+  scoping/fine-tune-total-owing.txt - $6.3k
 
-  Upgrade to program creation (
-    Pre-filling program details (
-      - As an admin, I want to be able to create a program using pre-filled data. (Clone: Clear Term, Year, Start Date, End Date, Session Adjustment, or restructure form to group like data) 
-      + As an admin, I want to create a master program for a school campus (scope: pre-fill e.g. a campus has many master programs: e.g. day of the week, start and end time, location, program name, year levels, fee per session, capacity)
-    )
-    As an admin, when creating a program, I want to select the day of the week first and have the start and end dates softly validate again it.
-    As an admin, I want to be able to draft a program. 
-  )
-  
-  Including Tutor feedback (
-    As a tutor, if I have started marking the roll but haven't saved yet, suggest that I save progress before navigating to add a new student or moving a student. (JS)
-    As a tutor, I don't want to use browser navigation buttons on mobile to move through attendance. (tutor/programs/#/sessions - back to dashboard, add student to group - cancel, edit student - cancel and return)
-    As a tutor, I want enough information on the dashboard to differentiate between programs with the same name and at the same school (i.e. Day of the week, start time, end time, ?)
-  )
+  scoping/upgrade-to-program-creation.txt - 
+
+  scoping/including-tutor-feedback.txt - 
 
   Tidy up of program index (
     As an admin, I want the programs index to be tidier. (Filtering by: School, Year, Term. Possibly program form too.)
@@ -43,6 +32,7 @@ Scope (
   (support) As an admin, when adding a program, I want to select from a list of grades. 
   (support) As a school officer, I want the group names to be sorted in program/show. 
   (support) Change "Add to Standard" to "Add student to Standard"
+  (support) As a Tutor, when I'm marking the roll, I want to see which students have not paid. 
 )
 
 Out of scope (
