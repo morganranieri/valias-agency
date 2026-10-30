@@ -2,15 +2,24 @@ Budget:
 Approved: no
 
 As a tutor
-  If I have started marking the roll but haven't saved yet, suggest that I save progress before navigating to
-    add a new student,
-    edit a student;
   I don't want to use browser navigation buttons on mobile to move through attendance
-    tutor/programs/#/sessions, "back to dashboard",
-    tutor/programs/#/sessions/#, "change session",
-    tutor/groups/#/sessions/#/unenrolled-students, "back", 
+    tutor/programs/#/sessions, "back to dashboard", - done 
+    tutor/programs/#/sessions/#, "change session", - done
+    tutor/groups/#/sessions/#/unenrolled-students, "back", - done
     tutor/programs/#/sessions/#/students/#/edit, "back";
   I want enough information on the dashboard to differentiate between programs with the same name and at the same school 
     day of the week, 
     start time, 
     end time;
+  
+  # Either of
+    
+    If I have started marking the roll but haven't saved yet, suggest that I save progress before navigating to
+      add a new student,
+      edit a student;
+
+    or
+    
+    Save the form when I navigate to (can this be conditional on change of state?)
+      add a new student, 
+      edit a student;

@@ -3,6 +3,8 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction
 
 Dynamic scripting with JavaScript provides structured JavaScript guides for beginners and introduces basic concepts of programming and the Internet.
 https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting
+Bookmark: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/A_first_splash
 
 JavaScript Reference provides detailed reference material for JavaScript.
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
+

@@ -15,7 +15,7 @@ Scope (
 
   scoping/indexing-upgrade.txt - $2.1k
 
-  scoping/including-tutor-feedback.txt - study JS
+  scoping/including-tutor-feedback.txt - ? 
 
   (support - done) As a tutor, I want the roll to be aligned for long names and medical info. 
   (support) As an admin, I want to fix the URL to run the financial report.
