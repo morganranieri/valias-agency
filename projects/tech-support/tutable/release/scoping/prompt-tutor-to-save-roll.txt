@@ -1,0 +1,14 @@
+Budget: 
+Approved: no
+
+# Either of
+  
+  If I have started marking the roll but haven't saved yet, suggest that I save progress before navigating to
+    add a new student,
+    edit a student;
+
+  or
+  
+  Save the form when I navigate to (can this be conditional on change of state?)
+    add a new student, 
+    edit a student;

@@ -7,13 +7,13 @@ note: session_based_coupon
 Scope(
   As an admin
     I should be unable to reset a pending enrolment for a student who has been assigned to the group by a tutor.
-    I want an overdue_payment to be cleared after 9 months. (attendee not paid)
+    I want an overdue_payment to be cleared after 9 months.
     I want pending enrolments which have not been created by tutors to be cleared at the end of the program.
 
   As a guardian
     I should be unable to reset a pending enrolment for a student who has been assigned to the group by a tutor.
     I want to be able to apply a session_based_coupon to an overdue_payment, up to the value of total minus one session. 
-    When I get to the checkout, notice the price is not right and exit the checkout, I want to be able to reset the pending enrolment.
+    I want to be able to reset my pending enrolment.
 )
 
 note overdue_payment 
