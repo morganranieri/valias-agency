@@ -1,4 +1,4 @@
-Budget: 
+Budget: $2.1k
 Approved: no
 
 # Either of
