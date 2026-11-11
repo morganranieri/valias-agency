@@ -11,17 +11,20 @@ Client notes (
 Scope (
   scoping/fine-tune-total-owing.txt - $4.2k
 
-  scoping/upgrade-to-program-creation.txt - $4.2k
+  scoping/tutor-adds-brand-new-student.txt - 
 
-  scoping/indexing-upgrade.txt - $2.1k
+  As a Tutor, when I'm marking the roll, I want to see which students have not paid. 
 
-  scoping/prompt-tutor-to-save-roll.txt - $2.1k 
+  scoping/upgrade-to-program-creation.txt - 
+
+  scoping/indexing-upgrade.txt - 
+
+  scoping/prompt-tutor-to-save-roll.txt - 
 
   (support - done) As a tutor, I want the roll to be aligned for long names and medical info. 
   (support - in review PR439) As a tutor, I don't want to use browser navigation buttons on mobile to move through attendance.
   (support - in review PR438) As a tutor, I want enough information on the dashboard to differentiate between programs with the same name and at the same school.
   (support - in review PR438) Change "Add to Standard" to "Add student to Standard"
-  (support) As a Tutor, when I'm marking the roll, I want to see which students have not paid. 
   (support conversation) As an admin, I want to store additional information relating to a school campus. (-- noted)
   (support) As an admin, I want to fix the URL to run the financial report.
   (support) As an admin, I want to see the local timezone in the registration report. 

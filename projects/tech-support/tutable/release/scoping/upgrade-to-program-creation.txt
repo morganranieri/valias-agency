@@ -18,3 +18,8 @@ As an admin, I want to create master programs for school campuses
       capacity
     )
 As an admin, I want the program form to be ordered so that pre-filled data is grouped, where possible. 
+
+Design (
+  admin/dashboard add "Master Programs" 
+  admin/programs/new add "Add from a master program" to the top
+)
