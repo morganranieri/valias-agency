@@ -1,0 +1,8 @@
+Approved: no
+Budget: $2.1k 
+
+Constraint: primary school student must have guardian.  These attendance records will not become associated with the student file. 
+
+As a Tutor, I want to note the attendance of an unknown student (name, grade, class). 
+As a School Officer, each temporary attendance becomes it's own line on the attendance record, or is placed on another report. 
+As an Admin, I can see the same data as the Tutor and School Officer. 

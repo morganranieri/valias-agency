@@ -11,7 +11,7 @@ Client notes (
 Scope (
   scoping/fine-tune-total-owing.txt - $4.2k
 
-  scoping/tutor-adds-brand-new-student.txt - 
+  scoping/tutor-notes-temporary-attendance.txt - $2.1k 
 
   As a Tutor, when I'm marking the roll, I want to see which students have not paid. 
 

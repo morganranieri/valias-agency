@@ -1,7 +1,0 @@
-Budget: $
-Approved: no
-
-As a Tutor, I want to add brand new students to a group so I can mark accurate attendance. 
-
-New data (student gets added to the list by a tutor)
-
