@@ -1,4 +1,4 @@
-Status: pending
+Status: in-progress
 Due: mid-Jan 
 Budget: $13k 
 
@@ -9,13 +9,11 @@ Client notes (
 )
 
 Scope (
-  scoping/fine-tune-total-owing.txt - $4.2k
+  in-development/fine-tune-total-owing.txt - $4.2k
 
-  scoping/tutor-notes-temporary-attendance.txt - $2.1k 
+  scoping/tutor-roll-november-upgrade.txt - $3k 
 
-  As a Tutor, when I'm marking the roll, I want to see which students have not paid. 
-
-  scoping/upgrade-to-program-creation.txt - 
+  scoping/program-creation-upgrade.txt - 
 
   scoping/indexing-upgrade.txt - 
 

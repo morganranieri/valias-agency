@@ -1,5 +1,6 @@
 Budget: $4.2k 
 Approved: yes
+Status: merged
 
 note: overdue_payment
 note: session_based_coupon
@@ -7,8 +8,8 @@ note: session_based_coupon
 Scope(
   As an admin
 x   I should be unable to reset a pending enrolment for a student who has been assigned to the group by a tutor.
-    I want an overdue_payment to be cleared after 9 months. (and no longer appearing in admin student followups)
-    I want pending enrolments which have not been created by tutors to be cleared at the end of the program.
+x   I want an overdue_payment to be cleared after 9 months. (and no longer appearing in admin student followups)
+x   I want pending enrolments which have not been created by tutors to be cleared at the end of the program.
 
   As a guardian
 x   I should be unable to reset a pending enrolment for a student who has been assigned to the group by a tutor.
@@ -17,7 +18,7 @@ x   I want to be able to reset my pending enrolment.
 )
 
 Nice to have (
-  Admin can apply a session_based_coupon up to the value of total sessions. 
+x As an admin, I can manually clear an overdue_payment
   Auditing on who applied the coupon
 )
 

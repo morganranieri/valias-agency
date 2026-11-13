@@ -1,1 +1,5 @@
 create issues in github
+organise issues in github
+fix issues in github
+discuss issues that seem unfixable in github
+take an axe to the issues in github every now and then 

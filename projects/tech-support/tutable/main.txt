@@ -1,28 +1,41 @@
-jobs/concerns.txt might become an issue for the final push 
-
 issues: check 
 tutable/bugs/to-fix: check
 
 Testing (
-  Manual
-  Auto (
-    Decide on front end coverage
-    Work together to setup seeds for clean test data
+  Staging (https://tutable-test-2e7ce448b497.herokuapp.com/admin/dashboard)
+  Process (
+    Document Manual (
+      Note IDs of test data
+      Write tests for current
+      Run tests current feature 
+      Standby for issues on everything else
+    )
+    Auto (
+      Decide on front end coverage
+      Work together to setup seeds for clean test data
+    )
   )
 )
 
-Client list of improvments (https://docs.google.com/spreadsheets/d/10HvERABGrj329rTFfYANyVYWvIKQmXuHr0d4YLNpO88/edit?gid=0#gid=0)
+Chess (
+  Opportunities for improvments (https://docs.google.com/spreadsheets/d/10HvERABGrj329rTFfYANyVYWvIKQmXuHr0d4YLNpO88/edit?gid=0#gid=0)
 
-reporting (hidden page for school term payments /admin/reports/school-payments)
-
-staging (https://tutable-test-2e7ce448b497.herokuapp.com/admin/dashboard)
-
-Client stress (
-  rostering / timetabling - might be their cross to bear, but we might be able to isolate some variables or give them a starting point still
+  Reporting (hidden page for school term payments /admin/reports/school-payments)
+  Stresses (
+    rostering / timetabling - might be their cross to bear, but we might be able to isolate some variables or give them a starting point still
+  )
 )
 
-User feedback (
-  Tutors: navigation is not intuitive - "I want a back button"
+Releases (
+  stand-by-for-production-issues(
+    fine-tune-tutal-owing
+  )
+  in-staging()
+  in-development(
+  )
+  scoping(
+    tutor-roll-november-upgrade
+  )
 )
 
 feature (
@@ -62,3 +75,5 @@ research (
   client questions ()
   free-trials (keep a spreadsheet)
 )
+
+jobs/concerns.txt might become an issue for the final push 
