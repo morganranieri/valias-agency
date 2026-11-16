@@ -1,0 +1,33 @@
+What Matters (
+  The Class
+  Tournament Players
+  Tutable
+  Staff (recruitment, training, discipline, support, forecasting)
+  Cashflow (Student:Coach, debt collection)
+  Awards
+  Schools offices
+  Answering the phone
+  Email administration
+)
+
+Monitor (
+  schools@chessideas.com.au
+  logistics@chessideas.com.au
+  phone
+)
+
+Insurance (
+  Public Liability Chubb SBP2292068, exp: 2027-10-31
+)
+
+Staff (
+  Bella out 2026
+)
+
+Billing (
+  School paid schools
+)
+
+Cash audits (
+  Monitor the variance between Tutable and Bank inflows.  Adjustments will exist due stripe initiated refunds. 
+)
