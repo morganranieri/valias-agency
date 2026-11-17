@@ -19,10 +19,9 @@ Testing (
 
 Chess (
   Opportunities for improvments (https://docs.google.com/spreadsheets/d/10HvERABGrj329rTFfYANyVYWvIKQmXuHr0d4YLNpO88/edit?gid=0#gid=0)
-
   Reporting (hidden page for school term payments /admin/reports/school-payments)
   Stresses (
-    rostering / timetabling - might be their cross to bear, but we might be able to isolate some variables or give them a starting point still
+    rostering / timetabling - workshop some ideas
   )
 )
 
@@ -42,7 +41,7 @@ feature (
   00 home-page
   01 tournaments
   02 ongoing-enrolment
-  03 adjustments-can-kick (freebie - reduce support requests)
+  03 pending-payment-followups
   04 email-marketing-best-practice (probably not gonna get paid for this)
   05 admin-email-groups
   06 free-trials

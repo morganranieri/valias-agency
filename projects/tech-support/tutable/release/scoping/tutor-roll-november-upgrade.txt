@@ -3,8 +3,40 @@ Budget: $3k
 
 Constraint: primary school student must have guardian.  These attendance records will not become associated with the student file. 
 
-As a Tutor, I want to note the attendance of an unknown student (name, grade, class). 
-As a School Officer, each temporary attendance becomes it's own line on the attendance record, or is placed on another report. 
-As an Admin, I can see the same data as the Tutor and School Officer. 
+x As a Tutor, I want to note the attendance of an unknown student (name, class). 
+x As a School Officer, each temporary attendance becomes it's own line on the attendance record, or is placed on another report. 
+x As an Admin, I can see the same data as the Tutor and School Officer. 
 
 As a Tutor, I want to see which students in my group have not paid. 
+
+Nice to have: As a Tutor, I want to be able to delete an orphaned attendance record. 
+
+Design (
+Tutor/ append "payment required" to attendance row 
+)
+
+Requirements (
+  Need to do
+    Attendance record has a note or a student
+  Not need to do
+    Have a student for an attendance record
+)
+
+Test (
+  Tutor for box hill presently marks unknown student
+  School officer for box hill can see unknown student attendance
+)
+
+
+
+
+
+Possible reactions - nice to have (
+  Admin gets unknown student followup (
+    Name, Grade, Class, Present Marks, School Campus, Program, Tutor,
+    B C, 1, 1c, 4
+    A B, 1, 1c, 1
+    C D, 2, 2d, 1
+  )
+  Filter (year, term)
+)

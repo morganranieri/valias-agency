@@ -1,0 +1,9 @@
+quote: 
+due: 
+payment approved: 
+
+Issue: Guardians are getting stuck in "Pending Payment" state and are confused 
+
+Scope (
+  Admin can view a list of enrolments which are pending payment 
+)

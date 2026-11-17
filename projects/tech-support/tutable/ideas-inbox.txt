@@ -3,3 +3,6 @@ Guardian can see student program attendance
 Email correspondence to be logged (operated via Tutable)
 Enable one to one email contact on bulk topics 
 Guardians index to be searched, not live filtered 
+Free trials 
+Source of truth for Tutor rostering/timetabling 
+Reminder emails 
