@@ -31,9 +31,9 @@ Releases (
   )
   in-staging()
   in-development(
+    tutor-roll-november-upgrade
   )
   scoping(
-    tutor-roll-november-upgrade
   )
 )
 

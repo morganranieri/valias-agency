@@ -12,23 +12,30 @@ Scope (
   in-development/fine-tune-total-owing.txt - $4.2k
 
   scoping/tutor-roll-november-upgrade.txt - $3k 
+  
+  scoping/officer-index-upgrade.txt - $2.1k
 
-  scoping/program-creation-upgrade.txt - 
+  scoping/program-drafting.txt - $3.7k
 
-  scoping/indexing-upgrade.txt - 
+  scoping/admin-index-upgrade.txt - 
 
-  scoping/prompt-tutor-to-save-roll.txt - 
+  scoping/program-mastering.txt -
 
+  scoping/prompt-tutor-to-save-roll.txt -  
+
+
+  Unscoped (
+    (support) As an admin, I want to see the local timezone in the registration report. 
+    (support conversation) As an admin, I want to store additional information relating to a school campus. (-- noted)
+    (support) As a guardian, I want to see "cancel" instead of "reset" next to a pending enrolment.  
+  )
+  
   (support - done) As a tutor, I want the roll to be aligned for long names and medical info. 
   (support - in review PR439) As a tutor, I don't want to use browser navigation buttons on mobile to move through attendance.
   (support - in review PR438) As a tutor, I want enough information on the dashboard to differentiate between programs with the same name and at the same school.
   (support - in review PR438) Change "Add to Standard" to "Add student to Standard"
-  (support conversation) As an admin, I want to store additional information relating to a school campus. (-- noted)
-  (support) As an admin, I want to fix the URL to run the financial report.
-  (support) As an admin, I want to see the local timezone in the registration report. 
-  (support) As an admin, when adding a program, I want to select from a list of grades. 
-  (support) As a school officer, I want the group names to be sorted in program/show. 
-  (support) As a guardian, I want to see "cancel" instead of "reset" next to a pending enrolment.  
+  (support - can't replicate ) As an admin, I want to fix the URL to run the financial report.
+  
 )
 
 Out of scope (

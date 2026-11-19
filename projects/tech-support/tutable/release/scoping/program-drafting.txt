@@ -1,0 +1,14 @@
+Budget: $3.7k
+Approved: no
+
+Drafting (
+  As an admin, I want to be able to draft a program with relaxed validation.
+  Usabiliity tweaks (
+    As an admin, when creating a program, I want to select the day of the week first and have the start and end dates softly validate again it.
+    As an admin, when adding a program, I want to select from a list of grades. 
+  )
+  As an admin, I want to be able to see draft programs within the programs interface (index, edit, create). 
+)
+
+Testing (
+)

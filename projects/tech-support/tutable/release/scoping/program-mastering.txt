@@ -1,0 +1,28 @@
+Budget: 
+Approved: no
+
+Mastering (
+  As an admin, I want to create draft master programs for school campuses (
+    model(
+      a campus has many draft master programs
+    )
+    output(
+      create a draft program with available data (
+        school campus,
+        day of the week, 
+        start and end time, 
+        location, 
+        program name, 
+        year levels, 
+        fee per session, 
+        capacity
+      )
+    )
+  )
+  Usability tweaks (As an admin, I want the program form to be ordered so that pre-filled data is grouped, where possible.) 
+)
+
+Design (
+  admin/dashboard add "Master Programs" 
+  admin/programs/new add "Add from a master program" to the top
+)

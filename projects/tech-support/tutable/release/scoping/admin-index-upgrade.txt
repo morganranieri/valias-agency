@@ -1,0 +1,19 @@
+Budget: 
+Approved: no
+
+As an admin, I want the programs index to be tidier.
+  Filtering by: School Campus, Year, Term
+  Show day of the week, start time, end time
+  Aligned data
+
+Search by student
+  As an admin, I want to be able to search by students to find and act as their guardian. 
+    Search fields:
+      Name
+      School campus
+    Display fields:
+      Name
+      School Campus
+      School Grade
+      Guardian email
+      Act as guardian button
