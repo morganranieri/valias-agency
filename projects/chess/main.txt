@@ -29,6 +29,17 @@ Billing (
   School paid schools
 )
 
+Bookings for next term ( 
+  Reach out to schools
+  Inbox (
+    Form: https://docs.google.com/spreadsheets/d/1oyoe_L8_Vyg9Yi1ywjPtv3qTH8JbNBMYo9rYnVnwn-A/edit?usp=sharing_eip&ts=6afe6ac7
+    Email inbox: 2027 Bookings
+  )
+  Staging destination: https://docs.google.com/spreadsheets/d/1c8pB-BSayQI2B_oEERhjdJus_0z6A1oRjuZkxnO1lg4/edit?usp=sharing_eip&ts=6afe6af0
+  Setup in Tutable
+  Email registration forms to schools
+)
+
 Cash audits (
   Monitor the variance between Tutable and Bank inflows.  Adjustments will exist due stripe initiated refunds. 
 )

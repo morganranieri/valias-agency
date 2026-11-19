@@ -26,7 +26,7 @@ Scope (
 
   Unscoped (
     (support) As an admin, I want to see the local timezone in the registration report. 
-    (support conversation) As an admin, I want to store additional information relating to a school campus. (-- noted)
+    (support conversation - consideration required) As an admin, I want to store additional information relating to a school campus. (-- noted)
     (support) As a guardian, I want to see "cancel" instead of "reset" next to a pending enrolment.  
   )
   

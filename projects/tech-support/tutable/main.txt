@@ -18,6 +18,7 @@ Testing (
 )
 
 Chess (
+  Tidy up Jan release work order and begin some planning for 2027
   Opportunities for improvments (https://docs.google.com/spreadsheets/d/10HvERABGrj329rTFfYANyVYWvIKQmXuHr0d4YLNpO88/edit?gid=0#gid=0)
   Reporting (hidden page for school term payments /admin/reports/school-payments)
   Stresses (
