@@ -1,0 +1,21 @@
+Tutable.  Working on tutor-roll-november-upgrade - whatever that is...? 
+
+Adding "payment required" to the roll for a tutor if a student was added as an attendee but the guardian has not finalised the payment. 
+
+Test, deploy, invoice. 
+
+Then, I think we have more work scoped.  Can I remember for the life of me?  Nope. 
+
+officer-index-upgrade is in my notes.  Whatever that means. 
+
+Focus. 
+
+Approved with a budget. 
+
+Check in with Liam to see if it sounds doable. 
+
+The idea is: 
+  tidy up an index. 
+  sort some things for the officer. 
+  try out a designs. 
+  see if we can clean up the support 

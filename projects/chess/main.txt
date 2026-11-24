@@ -11,8 +11,8 @@ What Matters (
 )
 
 Monitor (
-  schools@chessideas.com.au
-  logistics@chessideas.com.au
+  schools@chessideas.com.au - Chrome
+  logistics@chessideas.com.au - Safari
   phone
 )
 

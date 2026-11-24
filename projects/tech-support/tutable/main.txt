@@ -1,9 +1,39 @@
-issues: check 
-tutable/bugs/to-fix: check
+Chess (
+  Tidy up Jan release work order and suss the vibe for 2027
+  Opportunities for improvments (https://docs.google.com/spreadsheets/d/10HvERABGrj329rTFfYANyVYWvIKQmXuHr0d4YLNpO88/edit?gid=0#gid=0)
+  Reporting (hidden page for school term payments /admin/reports/school-payments)
+  Stresses (
+    rostering / timetabling - workshop some ideas
+  )
+)
+
+Operations (
+  scope/year-end-jobs
+)
+
+Maintenance & Support ( 
+  reorg support / strategy / process / 
+  sources (
+    GitHub
+    tutable/bugs/to-fix: check
+    whatever this list is (
+      styling-framework
+      refactoring-reports-controller
+      refactoring-payments-code
+      refactor-move-autocomplete-controller
+      keep-dashboard-clean
+    )
+    more things tagged as support within Jan release work order
+  )
+  resolve issues
+)
 
 Testing (
-  Staging (https://tutable-test-2e7ce448b497.herokuapp.com/admin/dashboard)
+  Staging (https://chess-ideas.staging.tutable.au)  
   Process (
+    Minimum-data (
+      Describe the minimum 
+    )
     Document Manual (
       Note IDs of test data
       Write tests for current
@@ -17,28 +47,18 @@ Testing (
   )
 )
 
-Chess (
-  Tidy up Jan release work order and begin some planning for 2027
-  Opportunities for improvments (https://docs.google.com/spreadsheets/d/10HvERABGrj329rTFfYANyVYWvIKQmXuHr0d4YLNpO88/edit?gid=0#gid=0)
-  Reporting (hidden page for school term payments /admin/reports/school-payments)
-  Stresses (
-    rostering / timetabling - workshop some ideas
-  )
-)
-
 Releases (
-  stand-by-for-production-issues(
-    fine-tune-tutal-owing
-  )
+  stand-by-for-production-issues()
   in-staging()
   in-development(
     tutor-roll-november-upgrade
   )
   scoping(
+    officer-index-upgrade
   )
 )
 
-feature (
+Free-range feature plans (
   00 home-page
   01 tournaments
   02 ongoing-enrolment
@@ -52,28 +72,12 @@ feature (
   10 program-class-location
   11 tutor-compliance-tickets
   12 school-bookings
+  13 followups
+  research (
+    tournaments
+    FAQs
+    timetabling
+    client questions ()
+    free-trials (keep a spreadsheet)
+  )
 )
-
-maintenance (
-  styling-framework
-  refactoring-reports-controller
-  refactoring-payments-code
-  refactor-move-autocomplete-controller
-  keep-dashboard-clean
-)
-
-operations (
-  direct-costs
-  year-end-jobs
-  support-requests
-)
-
-research (
-  tournaments
-  FAQs
-  timetabling
-  client questions ()
-  free-trials (keep a spreadsheet)
-)
-
-jobs/concerns.txt might become an issue for the final push 

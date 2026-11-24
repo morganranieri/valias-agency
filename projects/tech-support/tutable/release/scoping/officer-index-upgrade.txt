@@ -4,10 +4,6 @@ Approved: yes
 As a school officer, I want the program index to be tidier.
   Filtering by: Campus, Year, Term
   Show day of the week, start time, end time
-  Aligned data
+  Consistently lay out data, borders between 
 
-As a school officer, I want the group names to be sorted in program/show. 
-
-Design (consider moving from a table, to cards for the school index)
-
-Support (Consider some other support requests if the work is ahead of schedule)
+As a school officer, I want the group names to be alphabetised in program/show, with standard at the top. 
