@@ -15,3 +15,24 @@ Hosting situation (
   Can Darren give us Siteground server access? Awaiting. 
   Otherwise, can rebuild site for reasonable fee. (Investigate a content managed approach)
 )
+
+Sitemap:
+  Careers Page
+    Work with us!
+  Schools Page
+    How to start a Chess Program
+  Parent Page
+    Benefits of Chess
+    Get Chess into your school!
+    Register your child
+  Tournament Page
+    What
+    How
+    When
+    Register
+  Coach Login
+  Parent Login
+  School Login
+  FAQ
+
+Design: Michael? 

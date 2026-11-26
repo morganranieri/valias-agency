@@ -17,7 +17,7 @@ Scope (
 
   scoping/program-drafting.txt - $3.7k
 
-  scoping/admin-index-upgrade.txt - 
+  scoping/admin-index-upgrade.txt - freebie
 
   scoping/program-mastering.txt -
 

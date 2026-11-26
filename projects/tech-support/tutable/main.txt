@@ -1,6 +1,6 @@
 Chess (
   Tidy up Jan release work order and suss the vibe for 2027
-  Opportunities for improvments (https://docs.google.com/spreadsheets/d/10HvERABGrj329rTFfYANyVYWvIKQmXuHr0d4YLNpO88/edit?gid=0#gid=0)
+  Opportunities for improvements (https://docs.google.com/spreadsheets/d/10HvERABGrj329rTFfYANyVYWvIKQmXuHr0d4YLNpO88/edit?gid=0#gid=0)
   Reporting (hidden page for school term payments /admin/reports/school-payments)
   Stresses (
     rostering / timetabling - workshop some ideas
@@ -48,18 +48,22 @@ Testing (
 )
 
 Releases (
-  stand-by-for-production-issues()
-  in-staging()
-  in-development(
+  stand-by-for-production-issues(
     tutor-roll-november-upgrade
   )
+  in-staging()
+  in-development()
   scoping(
     officer-index-upgrade
+    program-drafting
   )
 )
 
+Ideas for future (
+  Homepage (notes in client-development/work-orders/ci-homepage)
+)
+
 Free-range feature plans (
-  00 home-page
   01 tournaments
   02 ongoing-enrolment
   03 pending-payment-followups
