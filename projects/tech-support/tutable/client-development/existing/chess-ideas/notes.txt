@@ -1,0 +1,1 @@
+Reporting (hidden page for school term payments /admin/reports/school-payments)

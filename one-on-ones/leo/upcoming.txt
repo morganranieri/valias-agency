@@ -1,2 +1,11 @@
-Officer-index-upgrade Filtering 
-program-drafting approved - review? 
+officer-index-upgrade:
+  filtering 
+
+upcoming work: 
+  year-end-jobs:
+    update
+    what happens to students with grades outside of the program scope? 
+    with regard to the school class wipe and reentry, do we need to charge for this? 
+
+  program-drafting approved:
+    review

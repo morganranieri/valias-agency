@@ -1,0 +1,7 @@
+Feedback from Kourosh at Chess Ideas 
+
+I'd like to see four additional columns in front of each name optional to use:
+  Points Today
+  Total Points (Cumulative); the system automatically tallies up points from the beginning of the term up to the current session
+  Points from last term  
+  Puzzle Book Leve

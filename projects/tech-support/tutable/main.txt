@@ -1,10 +1,7 @@
 Chess (
-  Tidy up Jan release work order and suss the vibe for 2027
+  Tidy notes from up Jan release work order
+  Suss the vibe for 2027
   Opportunities for improvements (https://docs.google.com/spreadsheets/d/10HvERABGrj329rTFfYANyVYWvIKQmXuHr0d4YLNpO88/edit?gid=0#gid=0)
-  Reporting (hidden page for school term payments /admin/reports/school-payments)
-  Stresses (
-    rostering / timetabling - workshop some ideas
-  )
 )
 
 Operations (
@@ -61,6 +58,7 @@ Releases (
 
 Ideas for future (
   Homepage (notes in client-development/work-orders/ci-homepage)
+  Feedback from the Tutor to the Parent 
 )
 
 Free-range feature plans (
@@ -79,9 +77,9 @@ Free-range feature plans (
   13 followups
   research (
     tournaments
-    FAQs
     timetabling
     client questions ()
     free-trials (keep a spreadsheet)
+    points 
   )
 )

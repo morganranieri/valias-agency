@@ -1,4 +1,4 @@
-Increment student.grade on or around December 20 every year
+Increment student.grade on or around December 1 every year
 
 Prep > Grade 1
 Grade 1 > Grade 2 
@@ -13,3 +13,9 @@ Year 9 > Year 10
 Year 10 > Year 11
 Year 11 > Year 12
 Year 12 > Grade 13 ( Friendly string "Graduated")
+
+School class becomes optional in the database.
+Wipe it. 
+If missing, ask parents to update it when enrolling. 
+If student.school_class is missing, give the tutor student.grade. 
+Chess Ideas does not need to retain last year's student class information.  
